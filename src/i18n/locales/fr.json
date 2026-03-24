@@ -1,7 +1,7 @@
 {
   "meta": {
-    "title": "Town View Point Gordes | Guide du Visiteur",
-    "description": "Guide complet du Town View Point Gordes : panorama exceptionnel sur le village perché, conseils de visite et photographie."
+    "title": "Town View Point Gordes | Point de vue sur Gordes",
+    "description": "Guide complet du Town View Point Gordes : panorama exceptionnel, conseils de visite et photographie du plus beau point de vue sur Gordes (Gordes Viewpoint)."
   },
   "header": {
     "home": "Accueil",
@@ -14,19 +14,19 @@
   "hero": {
     "siteType": "Point de vue panoramique",
     "title": "Town View Point Gordes",
-    "subtitle": "Guide du Visiteur",
+    "subtitle": "Guide du Visiteur - Point de vue sur Gordes",
     "rating": "4.7/5",
     "reviewCount": "3 198 avis",
     "hours": "Ouvert 24h/24",
     "discover": "Découvrir",
     "seePhotos": "Voir les photos",
     "address": "13 Rte de Cavaillon, 84220 Gordes, France",
-    "tags": "Panorama,Village perché,Luberon,Provence,Photographie,Point de vue"
+    "tags": "Panorama,Village perché,Luberon,Provence,Photographie,Point de vue,Point de vue sur Gordes,Town View Point,Gordes Viewpoint"
   },
   "overview": {
     "label": "Aperçu",
     "title": "Pourquoi ce point de vue est unique",
-    "description": "Situé sur la route de Cavaillon, le Town View Point offre la vue la plus emblématique sur Gordes — un village perché spectaculaire du Luberon. Cette perspective classique, immortalisée par d'innombrables photographes, révèle les maisons de pierre dorée cascadant le long de la falaise, couronnées par le château Renaissance.",
+    "description": "Situé sur la route de Cavaillon, le Town View Point (aussi connu sous le nom de Gordes Viewpoint) offre la vue la plus emblématique sur Gordes — un village perché spectaculaire du Luberon. Cette perspective classique du point de vue sur Gordes, immortalisée par d'innombrables photographes, révèle les maisons de pierre dorée cascadant le long de la falaise.",
     "highlight1_title": "Panorama iconique",
     "highlight1_icon": "🏔",
     "highlight1_desc": "La vue frontale la plus célèbre sur Gordes, offrant une perspective complète du village accroché à la falaise calcaire du Luberon.",
