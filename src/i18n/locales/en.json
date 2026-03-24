@@ -42,13 +42,32 @@
     "title": "Gordes in images",
     "credit": "Photos under Unsplash license",
     "photos": [
-      { "src": "https://images.unsplash.com/photo-1596627116790-af6f46dddbff?w=800&q=80", "alt": "Panoramic view of Gordes village" },
-      { "src": "https://images.unsplash.com/photo-1595326053710-cbfce1bdb155?w=800&q=80", "alt": "Golden stone houses of Gordes" },
-      { "src": "https://images.unsplash.com/photo-1602519011692-6bc23eeda174?w=800&q=80", "alt": "Château de Gordes atop the village" },
-      { "src": "https://images.unsplash.com/photo-1559128010-7c1ad6e1b6a5?w=800&q=80", "alt": "Provençal landscape of the Luberon" },
-      { "src": "https://images.unsplash.com/photo-1499002238440-d264edd596ec?w=800&q=80", "alt": "Lavender fields in Provence" },
-      { "src": "https://images.unsplash.com/photo-1568797629739-9a910aa tried?w=800&q=80", "alt": "Picturesque streets of Gordes" }
-    ]
+      {
+        "src": "https://images.unsplash.com/photo-1596627116790-af6f46dddbff?w=800&q=80",
+        "alt": "Panoramic view of Gordes village"
+      },
+      {
+        "src": "https://images.unsplash.com/photo-1595326053710-cbfce1bdb155?w=800&q=80",
+        "alt": "Golden stone houses of Gordes"
+      },
+      {
+        "src": "https://images.unsplash.com/photo-1602519011692-6bc23eeda174?w=800&q=80",
+        "alt": "Château de Gordes atop the village"
+      },
+      {
+        "src": "https://images.unsplash.com/photo-1559128010-7c1ad6e1b6a5?w=800&q=80",
+        "alt": "Provençal landscape of the Luberon"
+      },
+      {
+        "src": "https://images.unsplash.com/photo-1499002238440-d264edd596ec?w=800&q=80",
+        "alt": "Lavender fields in Provence"
+      },
+      {
+        "src": "https://images.unsplash.com/photo-1568797629739-9a910aa tried?w=800&q=80",
+        "alt": "Picturesque streets of Gordes"
+      }
+    ],
+    "openOriginal": "Open original"
   },
   "tips": {
     "label": "Tips",
@@ -73,14 +92,54 @@
     "declaration": "Ratings and reviews from Google Maps (last updated: 2026). We only show a selection of verified highly-rated reviews. To see all complete and latest reviews, click the link below.",
     "moreLink": "See more reviews on Google Maps",
     "items": [
-      { "name": "Jean-Marc P.", "role": "Local guide", "date": "1 month ago", "text": "The most beautiful viewpoint of Gordes, without a doubt. At sunrise, the golden stones light up progressively — a magical spectacle. Easy parking and free access." },
-      { "name": "Claire D.", "role": "Photographer", "date": "2 months ago", "text": "This IS the postcard photo of Gordes. Come early morning to avoid backlighting and get the best light. In winter, the morning mist adds a mystical atmosphere." },
-      { "name": "Thomas W.", "role": "Traveler", "date": "3 weeks ago", "text": "A must-stop on the road from Cavaillon. The view of the hilltop village is breathtaking. Quick but unforgettable — now I understand why Gordes is so famous." },
-      { "name": "Marie L.", "role": "Tourist", "date": "2025-11", "text": "We stopped by chance and what a discovery! The panoramic view of Gordes is exceptional. A perfect spot for family photos and souvenirs." },
-      { "name": "Pierre R.", "role": "Local resident", "date": "2025-09", "text": "In autumn, when golden leaves contrast with the white stone of the village and the blue Provençal sky, it's a living painting. My favorite spot in the Luberon." },
-      { "name": "Emma S.", "role": "Independent traveler", "date": "2025-10", "text": "Quick stop on the D15 road — absolutely worth it. The view of Gordes clinging to the cliff is stunning. Free parking, easy access. Don't miss it if you're in Luberon." },
-      { "name": "Lucas M.", "role": "Architecture enthusiast", "date": "2025-08", "text": "The layout of the village from here is fascinating — you can clearly see how the houses step down the limestone cliff. Provençal architecture in all its splendor." },
-      { "name": "Sophie Chen", "role": "Backpacker", "date": "2025-07", "text": "From the viewpoint, the entire stone village hangs on the cliff, golden sunlight on the walls — absolutely beautiful. Free parking, no walking needed, very convenient photo spot!" }
+      {
+        "name": "Jean-Marc P.",
+        "role": "Local guide",
+        "date": "1 month ago",
+        "text": "The most beautiful viewpoint of Gordes, without a doubt. At sunrise, the golden stones light up progressively — a magical spectacle. Easy parking and free access."
+      },
+      {
+        "name": "Claire D.",
+        "role": "Photographer",
+        "date": "2 months ago",
+        "text": "This IS the postcard photo of Gordes. Come early morning to avoid backlighting and get the best light. In winter, the morning mist adds a mystical atmosphere."
+      },
+      {
+        "name": "Thomas W.",
+        "role": "Traveler",
+        "date": "3 weeks ago",
+        "text": "A must-stop on the road from Cavaillon. The view of the hilltop village is breathtaking. Quick but unforgettable — now I understand why Gordes is so famous."
+      },
+      {
+        "name": "Marie L.",
+        "role": "Tourist",
+        "date": "2025-11",
+        "text": "We stopped by chance and what a discovery! The panoramic view of Gordes is exceptional. A perfect spot for family photos and souvenirs."
+      },
+      {
+        "name": "Pierre R.",
+        "role": "Local resident",
+        "date": "2025-09",
+        "text": "In autumn, when golden leaves contrast with the white stone of the village and the blue Provençal sky, it's a living painting. My favorite spot in the Luberon."
+      },
+      {
+        "name": "Emma S.",
+        "role": "Independent traveler",
+        "date": "2025-10",
+        "text": "Quick stop on the D15 road — absolutely worth it. The view of Gordes clinging to the cliff is stunning. Free parking, easy access. Don't miss it if you're in Luberon."
+      },
+      {
+        "name": "Lucas M.",
+        "role": "Architecture enthusiast",
+        "date": "2025-08",
+        "text": "The layout of the village from here is fascinating — you can clearly see how the houses step down the limestone cliff. Provençal architecture in all its splendor."
+      },
+      {
+        "name": "Sophie Chen",
+        "role": "Backpacker",
+        "date": "2025-07",
+        "text": "From the viewpoint, the entire stone village hangs on the cliff, golden sunlight on the walls — absolutely beautiful. Free parking, no walking needed, very convenient photo spot!"
+      }
     ]
   },
   "map": {
@@ -116,34 +175,41 @@
   },
   "privacy": {
     "title": "Privacy Policy",
-    "data_title": "Data Collection",
-    "data_text": "This site is a static guide and does not collect any personal data directly. We do not use registration forms, user accounts, or behavioral tracking.",
-    "cookies_title": "Cookies",
-    "cookies_text": "We only use a localStorage cookie to remember your theme (light/dark) and language preferences. No third-party tracking cookies are used.",
-    "thirdparty_title": "Third-party Services",
-    "thirdparty_text": "This site embeds Google Maps (iframe) and Unsplash images. These services may collect data according to their own privacy policies.",
-    "contact_title": "Contact",
-    "contact_text": "For any privacy-related questions:"
+    "lastUpdate": "Last updated: March 2026",
+    "section1_title": "1. Information Collection",
+    "section1_text": "We are committed to protecting your privacy. This site serves primarily as an informational platform and generally does not actively collect personally identifiable information from users. However, through server logs and analytics tools, we may collect non-personally identifiable information such as browser type, access times, and page view records.",
+    "section2_title": "2. Use of Cookies",
+    "section2_text": "To provide a better user experience and understand how the site is used, we may use cookies. These cookies are used to remember user preferences and analyze site traffic. You can adjust cookie settings in your browser.",
+    "section3_title": "3. Third-Party Links",
+    "section3_text": "This site may contain links to third-party sites (e.g., Google Maps). We are not responsible for the privacy practices of these external sites. We encourage you to read the privacy statements of each site that collects personal information when you leave our site.",
+    "section4_title": "4. Contact Us",
+    "section4_text": "If you have any questions or concerns regarding this privacy policy, please contact us at:"
   },
   "terms": {
     "title": "Terms of Service",
-    "use_title": "Site Usage",
-    "use_text": "This site is an informational tourist guide. Information is provided for reference only and may change. Always verify current hours and conditions before your visit.",
-    "ip_title": "Intellectual Property",
-    "ip_text": "Texts are protected by copyright. Photographs are from Unsplash and used under their respective licenses.",
-    "liability_title": "Limitation of Liability",
-    "liability_text": "We do not guarantee the accuracy, completeness, or timeliness of the information. Use of this site is at your own risk.",
-    "contact_title": "Contact"
+    "lastUpdate": "Last updated: March 2026",
+    "section1_title": "1. Acceptance of Terms",
+    "section1_text": "By accessing and using this website, you agree to be bound by these terms of service. If you do not agree to any part of these terms, please do not use our site.",
+    "section2_title": "2. Use of Content",
+    "section2_text": "The information provided on this website is for general informational purposes only. While we strive to keep the information accurate and up-to-date, we make no representations or warranties of any kind, express or implied, about the completeness, accuracy, reliability, or suitability of the information.",
+    "section3_title": "3. Intellectual Property",
+    "section3_text": "Unless otherwise indicated, all content on this site (including text, images, logos) is protected by copyright. No reproduction, distribution, or commercial use is permitted without explicit authorization. Photo credits may include royalty-free resources from platforms like Unsplash or contributors on Google Maps.",
+    "section4_title": "4. Limitation of Liability",
+    "section4_text": "To the fullest extent permitted by law, this site and its owners shall not be liable for any direct, indirect, incidental, or consequential damages arising out of the use or inability to use this site. When visiting natural sites, please always prioritize safety."
   },
   "cookieSettings": {
     "title": "Cookie Settings",
-    "intro": "We use cookies to improve your experience. You can choose to accept or reject certain types.",
+    "lastUpdate": "Last updated: March 2026",
+    "intro": "We use cookies to enhance your browsing experience. You can choose to accept or decline certain types of cookies. Please note that disabling certain cookies may affect the functionality of the website.",
     "necessary_title": "Strictly Necessary Cookies",
-    "necessary_text": "Required for basic site functionality (language and theme preferences). Cannot be disabled.",
+    "necessary_status": "Always Active",
+    "necessary_text": "These cookies are necessary for the website to function and cannot be switched off in our systems. They are usually only set in response to actions made by you which amount to a request for services, such as setting your privacy preferences or language.",
     "analytics_title": "Analytics Cookies",
-    "analytics_text": "Allow us to measure visits and traffic sources to improve site performance.",
+    "analytics_status": "Accept Analytics Cookies",
+    "analytics_text": "These cookies allow us to count visits and traffic sources so we can measure and improve the performance of our site. They help us to know which pages are the most popular and see how visitors move around the site.",
     "marketing_title": "Marketing Cookies",
-    "marketing_text": "May be used by advertising partners to build a profile of your interests."
+    "marketing_status": "Accept Marketing Cookies",
+    "marketing_text": "These cookies may be set through our site by our advertising partners. They may be used by those companies to build a profile of your interests and show you relevant adverts on other sites."
   },
   "theme": {
     "light": "Light mode",

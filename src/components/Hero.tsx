@@ -10,7 +10,7 @@ export default function Hero() {
     <section
       className="relative min-h-[90vh] flex items-end"
       style={{
-        backgroundImage: 'url(https://images.unsplash.com/photo-1596627116790-af6f46dddbff?w=1600&q=80)',
+        backgroundImage: 'url("/gallery/images (33).jpg")',
         backgroundSize: 'cover',
         backgroundPosition: 'center',
       }}

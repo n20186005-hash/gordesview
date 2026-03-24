@@ -42,13 +42,32 @@
     "title": "Gordes en images",
     "credit": "Photos sous licence Unsplash",
     "photos": [
-      { "src": "https://images.unsplash.com/photo-1596627116790-af6f46dddbff?w=800&q=80", "alt": "Vue panoramique du village de Gordes" },
-      { "src": "https://images.unsplash.com/photo-1595326053710-cbfce1bdb155?w=800&q=80", "alt": "Maisons de pierre dorée de Gordes" },
-      { "src": "https://images.unsplash.com/photo-1602519011692-6bc23eeda174?w=800&q=80", "alt": "Château de Gordes au sommet du village" },
-      { "src": "https://images.unsplash.com/photo-1559128010-7c1ad6e1b6a5?w=800&q=80", "alt": "Paysage provençal du Luberon" },
-      { "src": "https://images.unsplash.com/photo-1499002238440-d264edd596ec?w=800&q=80", "alt": "Champs de lavande en Provence" },
-      { "src": "https://images.unsplash.com/photo-1568797629739-9a910aa tried?w=800&q=80", "alt": "Ruelles pittoresques de Gordes" }
-    ]
+      {
+        "src": "https://images.unsplash.com/photo-1596627116790-af6f46dddbff?w=800&q=80",
+        "alt": "Vue panoramique du village de Gordes"
+      },
+      {
+        "src": "https://images.unsplash.com/photo-1595326053710-cbfce1bdb155?w=800&q=80",
+        "alt": "Maisons de pierre dorée de Gordes"
+      },
+      {
+        "src": "https://images.unsplash.com/photo-1602519011692-6bc23eeda174?w=800&q=80",
+        "alt": "Château de Gordes au sommet du village"
+      },
+      {
+        "src": "https://images.unsplash.com/photo-1559128010-7c1ad6e1b6a5?w=800&q=80",
+        "alt": "Paysage provençal du Luberon"
+      },
+      {
+        "src": "https://images.unsplash.com/photo-1499002238440-d264edd596ec?w=800&q=80",
+        "alt": "Champs de lavande en Provence"
+      },
+      {
+        "src": "https://images.unsplash.com/photo-1568797629739-9a910aa tried?w=800&q=80",
+        "alt": "Ruelles pittoresques de Gordes"
+      }
+    ],
+    "openOriginal": "Ouvrir l'original"
   },
   "tips": {
     "label": "Conseils",
@@ -73,14 +92,54 @@
     "declaration": "Évaluations et avis provenant de Google Maps (dernière mise à jour : 2026). Nous ne montrons qu'une sélection d'avis hautement notés vérifiés. Pour voir tous les avis complets et les plus récents, cliquez sur le lien ci-dessous.",
     "moreLink": "Voir plus d'avis sur Google Maps",
     "items": [
-      { "name": "Jean-Marc P.", "role": "Guide local", "date": "Il y a 1 mois", "text": "Le plus beau point de vue sur Gordes, sans aucun doute. Au lever du soleil, les pierres dorées s'illuminent progressivement — un spectacle magique. Parking facile et accès libre." },
-      { "name": "Claire D.", "role": "Photographe", "date": "Il y a 2 mois", "text": "C'est LA photo carte postale de Gordes. Venez tôt le matin pour éviter le contre-jour et avoir la meilleure lumière. En hiver, la brume matinale ajoute une atmosphère mystique." },
-      { "name": "Thomas W.", "role": "Voyageur", "date": "Il y a 3 semaines", "text": "Arrêt obligatoire sur la route de Cavaillon. La vue sur le village perché est à couper le souffle. Rapide mais inoubliable — on comprend pourquoi Gordes est si célèbre." },
-      { "name": "Marie L.", "role": "Touriste", "date": "2025-11", "text": "Nous nous sommes arrêtés par hasard et quelle découverte ! La vue panoramique sur Gordes est exceptionnelle. Un endroit parfait pour les photos souvenirs en famille." },
-      { "name": "Pierre R.", "role": "Résident local", "date": "2025-09", "text": "En automne, quand les feuilles dorées contrastent avec la pierre blanche du village et le ciel bleu provençal, c'est un tableau vivant. Mon spot préféré du Luberon." },
-      { "name": "Emma S.", "role": "Voyageur indépendant", "date": "2025-10", "text": "Quick stop on the D15 road — absolutely worth it. The view of Gordes clinging to the cliff is stunning. Free parking, easy access. Don't miss it if you're in Luberon." },
-      { "name": "Lucas M.", "role": "Passionné d'architecture", "date": "2025-08", "text": "La disposition du village vue d'ici est fascinante — on voit clairement comment les maisons s'étagent sur la falaise calcaire. L'architecture provençale dans toute sa splendeur." },
-      { "name": "Sophie Chen", "role": "Routard", "date": "2025-07", "text": "從觀景台看過去，整個石頭村莊掛在懸崖上，金色的陽光照在石牆上美極了。免費停車，不用走路，非常方便的打卡點！" }
+      {
+        "name": "Jean-Marc P.",
+        "role": "Guide local",
+        "date": "Il y a 1 mois",
+        "text": "Le plus beau point de vue sur Gordes, sans aucun doute. Au lever du soleil, les pierres dorées s'illuminent progressivement — un spectacle magique. Parking facile et accès libre."
+      },
+      {
+        "name": "Claire D.",
+        "role": "Photographe",
+        "date": "Il y a 2 mois",
+        "text": "C'est LA photo carte postale de Gordes. Venez tôt le matin pour éviter le contre-jour et avoir la meilleure lumière. En hiver, la brume matinale ajoute une atmosphère mystique."
+      },
+      {
+        "name": "Thomas W.",
+        "role": "Voyageur",
+        "date": "Il y a 3 semaines",
+        "text": "Arrêt obligatoire sur la route de Cavaillon. La vue sur le village perché est à couper le souffle. Rapide mais inoubliable — on comprend pourquoi Gordes est si célèbre."
+      },
+      {
+        "name": "Marie L.",
+        "role": "Touriste",
+        "date": "2025-11",
+        "text": "Nous nous sommes arrêtés par hasard et quelle découverte ! La vue panoramique sur Gordes est exceptionnelle. Un endroit parfait pour les photos souvenirs en famille."
+      },
+      {
+        "name": "Pierre R.",
+        "role": "Résident local",
+        "date": "2025-09",
+        "text": "En automne, quand les feuilles dorées contrastent avec la pierre blanche du village et le ciel bleu provençal, c'est un tableau vivant. Mon spot préféré du Luberon."
+      },
+      {
+        "name": "Emma S.",
+        "role": "Voyageur indépendant",
+        "date": "2025-10",
+        "text": "Quick stop on the D15 road — absolutely worth it. The view of Gordes clinging to the cliff is stunning. Free parking, easy access. Don't miss it if you're in Luberon."
+      },
+      {
+        "name": "Lucas M.",
+        "role": "Passionné d'architecture",
+        "date": "2025-08",
+        "text": "La disposition du village vue d'ici est fascinante — on voit clairement comment les maisons s'étagent sur la falaise calcaire. L'architecture provençale dans toute sa splendeur."
+      },
+      {
+        "name": "Sophie Chen",
+        "role": "Routard",
+        "date": "2025-07",
+        "text": "從觀景台看過去，整個石頭村莊掛在懸崖上，金色的陽光照在石牆上美極了。免費停車，不用走路，非常方便的打卡點！"
+      }
     ]
   },
   "map": {
@@ -116,34 +175,41 @@
   },
   "privacy": {
     "title": "Politique de confidentialité",
-    "data_title": "Collecte de données",
-    "data_text": "Ce site est un guide statique et ne collecte aucune donnée personnelle directement. Nous n'utilisons pas de formulaires d'inscription, de comptes utilisateur ou de suivi comportemental.",
-    "cookies_title": "Cookies",
-    "cookies_text": "Nous utilisons uniquement un cookie localStorage pour mémoriser votre préférence de thème (clair/sombre) et de langue. Aucun cookie de suivi tiers n'est utilisé.",
-    "thirdparty_title": "Services tiers",
-    "thirdparty_text": "Ce site intègre Google Maps (iframe) et des images Unsplash. Ces services peuvent collecter des données selon leurs propres politiques de confidentialité.",
-    "contact_title": "Contact",
-    "contact_text": "Pour toute question relative à la confidentialité :"
+    "lastUpdate": "Dernière mise à jour : Mars 2026",
+    "section1_title": "1. Collecte d'informations",
+    "section1_text": "Nous nous engageons à protéger votre vie privée. Ce site sert principalement de plateforme d'information et ne collecte généralement pas activement d'informations d'identification personnelle des utilisateurs. Cependant, par le biais des journaux de serveur et des outils d'analyse, nous pouvons collecter des informations non personnellement identifiables telles que le type de navigateur, les temps d'accès et les enregistrements de pages vues.",
+    "section2_title": "2. Utilisation des cookies",
+    "section2_text": "Pour offrir une meilleure expérience utilisateur et comprendre comment le site est utilisé, nous pouvons utiliser des cookies. Ces cookies sont utilisés pour se souvenir des préférences des utilisateurs et analyser le trafic du site. Vous pouvez ajuster les paramètres des cookies dans votre navigateur.",
+    "section3_title": "3. Liens tiers",
+    "section3_text": "Ce site peut contenir des liens vers des sites tiers (par exemple, Google Maps). Nous ne sommes pas responsables des pratiques de confidentialité de ces sites externes. Nous vous encourageons à lire les déclarations de confidentialité de chaque site qui collecte des informations personnelles lorsque vous quittez notre site.",
+    "section4_title": "4. Nous contacter",
+    "section4_text": "Si vous avez des questions ou des préoccupations concernant cette politique de confidentialité, veuillez nous contacter à :"
   },
   "terms": {
     "title": "Conditions d'utilisation",
-    "use_title": "Utilisation du site",
-    "use_text": "Ce site est un guide touristique informatif. Les informations sont fournies à titre indicatif et peuvent évoluer. Vérifiez toujours les horaires et conditions actuels avant votre visite.",
-    "ip_title": "Propriété intellectuelle",
-    "ip_text": "Les textes sont protégés par le droit d'auteur. Les photographies proviennent d'Unsplash et sont utilisées sous leur licence respective.",
-    "liability_title": "Limitation de responsabilité",
-    "liability_text": "Nous ne garantissons pas l'exactitude, l'exhaustivité ou l'actualité des informations. L'utilisation de ce site se fait à vos propres risques.",
-    "contact_title": "Contact"
+    "lastUpdate": "Dernière mise à jour : Mars 2026",
+    "section1_title": "1. Acceptation des conditions",
+    "section1_text": "En accédant et en utilisant ce site Web, vous acceptez d'être lié par ces conditions d'utilisation. Si vous n'acceptez pas une partie quelconque de ces conditions, veuillez ne pas utiliser notre site.",
+    "section2_title": "2. Utilisation du contenu",
+    "section2_text": "Les informations fournies sur ce site Web sont à des fins d'information générale uniquement. Bien que nous nous efforcions de maintenir les informations exactes et à jour, nous ne faisons aucune représentation ou garantie d'aucune sorte, expresse ou implicite, quant à l'exhaustivité, l'exactitude, la fiabilité ou l'adéquation des informations.",
+    "section3_title": "3. Propriété intellectuelle",
+    "section3_text": "Sauf indication contraire, tout le contenu de ce site (y compris les textes, images, logos) est protégé par le droit d'auteur. Aucune reproduction, distribution ou utilisation commerciale n'est autorisée sans autorisation explicite. Les crédits photos peuvent inclure des ressources libres de droits provenant de plateformes telles que Unsplash ou de contributeurs sur Google Maps.",
+    "section4_title": "4. Limitation de responsabilité",
+    "section4_text": "Dans toute la mesure permise par la loi, ce site et ses propriétaires ne seront pas responsables des dommages directs, indirects, accessoires ou consécutifs découlant de l'utilisation ou de l'incapacité d'utiliser ce site. Lors de la visite de sites naturels, veuillez toujours donner la priorité à la sécurité."
   },
   "cookieSettings": {
     "title": "Paramètres des cookies",
-    "intro": "Nous utilisons des cookies pour améliorer votre expérience. Vous pouvez choisir d'accepter ou de refuser certains types.",
+    "lastUpdate": "Dernière mise à jour : Mars 2026",
+    "intro": "Nous utilisons des cookies pour améliorer votre expérience de navigation. Vous pouvez choisir d'accepter ou de refuser certains types de cookies. Veuillez noter que la désactivation de certains cookies peut affecter la fonctionnalité du site Web.",
     "necessary_title": "Cookies strictement nécessaires",
-    "necessary_text": "Nécessaires au bon fonctionnement du site (préférences de langue et thème). Ne peuvent pas être désactivés.",
+    "necessary_status": "Toujours actifs",
+    "necessary_text": "Ces cookies sont nécessaires au fonctionnement du site Web et ne peuvent pas être désactivés dans nos systèmes. Ils ne sont généralement définis qu'en réponse à des actions effectuées par vous qui équivalent à une demande de services, telles que la définition de vos préférences de confidentialité ou de votre langue.",
     "analytics_title": "Cookies d'analyse",
-    "analytics_text": "Permettent de mesurer les visites et les sources de trafic pour améliorer les performances du site.",
+    "analytics_status": "Accepter les cookies d'analyse",
+    "analytics_text": "Ces cookies nous permettent de compter les visites et les sources de trafic afin que nous puissions mesurer et améliorer les performances de notre site. Ils nous aident à savoir quelles pages sont les plus populaires et comment les visiteurs se déplacent sur le site.",
     "marketing_title": "Cookies marketing",
-    "marketing_text": "Peuvent être utilisés par nos partenaires publicitaires pour établir un profil de vos intérêts."
+    "marketing_status": "Accepter les cookies marketing",
+    "marketing_text": "Ces cookies peuvent être mis en place au sein de notre site Web par nos partenaires publicitaires. Ils peuvent être utilisés par ces sociétés pour établir un profil de vos intérêts et vous proposer des publicités pertinentes sur d'autres sites Web."
   },
   "theme": {
     "light": "Mode clair",

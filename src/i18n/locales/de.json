@@ -42,13 +42,32 @@
     "title": "Gordes in Bildern",
     "credit": "Fotos unter Unsplash-Lizenz",
     "photos": [
-      { "src": "https://images.unsplash.com/photo-1596627116790-af6f46dddbff?w=800&q=80", "alt": "Panoramablick auf das Dorf Gordes" },
-      { "src": "https://images.unsplash.com/photo-1595326053710-cbfce1bdb155?w=800&q=80", "alt": "Goldene Steinhäuser von Gordes" },
-      { "src": "https://images.unsplash.com/photo-1602519011692-6bc23eeda174?w=800&q=80", "alt": "Château de Gordes auf dem Dorfgipfel" },
-      { "src": "https://images.unsplash.com/photo-1559128010-7c1ad6e1b6a5?w=800&q=80", "alt": "Provenzalische Landschaft des Luberon" },
-      { "src": "https://images.unsplash.com/photo-1499002238440-d264edd596ec?w=800&q=80", "alt": "Lavendelfelder in der Provence" },
-      { "src": "https://images.unsplash.com/photo-1568797629739-9a910aa tried?w=800&q=80", "alt": "Malerische Gassen von Gordes" }
-    ]
+      {
+        "src": "https://images.unsplash.com/photo-1596627116790-af6f46dddbff?w=800&q=80",
+        "alt": "Panoramablick auf das Dorf Gordes"
+      },
+      {
+        "src": "https://images.unsplash.com/photo-1595326053710-cbfce1bdb155?w=800&q=80",
+        "alt": "Goldene Steinhäuser von Gordes"
+      },
+      {
+        "src": "https://images.unsplash.com/photo-1602519011692-6bc23eeda174?w=800&q=80",
+        "alt": "Château de Gordes auf dem Dorfgipfel"
+      },
+      {
+        "src": "https://images.unsplash.com/photo-1559128010-7c1ad6e1b6a5?w=800&q=80",
+        "alt": "Provenzalische Landschaft des Luberon"
+      },
+      {
+        "src": "https://images.unsplash.com/photo-1499002238440-d264edd596ec?w=800&q=80",
+        "alt": "Lavendelfelder in der Provence"
+      },
+      {
+        "src": "https://images.unsplash.com/photo-1568797629739-9a910aa tried?w=800&q=80",
+        "alt": "Malerische Gassen von Gordes"
+      }
+    ],
+    "openOriginal": "Original öffnen"
   },
   "tips": {
     "label": "Tipps",
@@ -73,14 +92,54 @@
     "declaration": "Bewertungen und Rezensionen von Google Maps (letztes Update: 2026). Wir zeigen nur eine Auswahl verifizierter Top-Bewertungen. Alle vollständigen und aktuellen Bewertungen finden Sie über den Link unten.",
     "moreLink": "Mehr Bewertungen auf Google Maps ansehen",
     "items": [
-      { "name": "Jean-Marc P.", "role": "Lokaler Guide", "date": "Vor 1 Monat", "text": "Der schönste Aussichtspunkt auf Gordes, ohne Zweifel. Bei Sonnenaufgang leuchten die goldenen Steine nach und nach auf — ein magisches Schauspiel. Einfaches Parken und freier Zugang." },
-      { "name": "Claire D.", "role": "Fotografin", "date": "Vor 2 Monaten", "text": "DAS Postkartenfoto von Gordes. Kommen Sie früh morgens, um Gegenlicht zu vermeiden. Im Winter fügt der Morgennebel eine mystische Atmosphäre hinzu." },
-      { "name": "Thomas W.", "role": "Reisender", "date": "Vor 3 Wochen", "text": "Pflichtstation auf der Straße von Cavaillon. Der Blick auf das Bergdorf ist atemberaubend. Kurz aber unvergesslich — jetzt verstehe ich, warum Gordes so berühmt ist." },
-      { "name": "Marie L.", "role": "Touristin", "date": "2025-11", "text": "Wir hielten zufällig an und was für eine Entdeckung! Der Panoramablick auf Gordes ist außergewöhnlich. Ein perfekter Ort für Familienfotos." },
-      { "name": "Pierre R.", "role": "Einheimischer", "date": "2025-09", "text": "Im Herbst, wenn goldene Blätter mit dem weißen Stein des Dorfes und dem blauen provenzalischen Himmel kontrastieren, ist es wie ein lebendes Gemälde." },
-      { "name": "Emma S.", "role": "Unabhängige Reisende", "date": "2025-10", "text": "Kurzer Halt an der D15 — absolut lohnenswert. Der Blick auf Gordes, das an der Klippe klebt, ist atemberaubend. Kostenloser Parkplatz, einfacher Zugang." },
-      { "name": "Lucas M.", "role": "Architektur-Liebhaber", "date": "2025-08", "text": "Das Dorflayout von hier ist faszinierend — man sieht deutlich, wie die Häuser die Kalksteinklippe hinabsteigen. Provenzalische Architektur in ihrer ganzen Pracht." },
-      { "name": "Sophie Chen", "role": "Rucksacktouristin", "date": "2025-07", "text": "Vom Aussichtspunkt aus hängt das gesamte Steindorf an der Klippe, goldenes Sonnenlicht auf den Wänden — wunderschön. Kostenloser Parkplatz, kein Fußweg nötig!" }
+      {
+        "name": "Jean-Marc P.",
+        "role": "Lokaler Guide",
+        "date": "Vor 1 Monat",
+        "text": "Der schönste Aussichtspunkt auf Gordes, ohne Zweifel. Bei Sonnenaufgang leuchten die goldenen Steine nach und nach auf — ein magisches Schauspiel. Einfaches Parken und freier Zugang."
+      },
+      {
+        "name": "Claire D.",
+        "role": "Fotografin",
+        "date": "Vor 2 Monaten",
+        "text": "DAS Postkartenfoto von Gordes. Kommen Sie früh morgens, um Gegenlicht zu vermeiden. Im Winter fügt der Morgennebel eine mystische Atmosphäre hinzu."
+      },
+      {
+        "name": "Thomas W.",
+        "role": "Reisender",
+        "date": "Vor 3 Wochen",
+        "text": "Pflichtstation auf der Straße von Cavaillon. Der Blick auf das Bergdorf ist atemberaubend. Kurz aber unvergesslich — jetzt verstehe ich, warum Gordes so berühmt ist."
+      },
+      {
+        "name": "Marie L.",
+        "role": "Touristin",
+        "date": "2025-11",
+        "text": "Wir hielten zufällig an und was für eine Entdeckung! Der Panoramablick auf Gordes ist außergewöhnlich. Ein perfekter Ort für Familienfotos."
+      },
+      {
+        "name": "Pierre R.",
+        "role": "Einheimischer",
+        "date": "2025-09",
+        "text": "Im Herbst, wenn goldene Blätter mit dem weißen Stein des Dorfes und dem blauen provenzalischen Himmel kontrastieren, ist es wie ein lebendes Gemälde."
+      },
+      {
+        "name": "Emma S.",
+        "role": "Unabhängige Reisende",
+        "date": "2025-10",
+        "text": "Kurzer Halt an der D15 — absolut lohnenswert. Der Blick auf Gordes, das an der Klippe klebt, ist atemberaubend. Kostenloser Parkplatz, einfacher Zugang."
+      },
+      {
+        "name": "Lucas M.",
+        "role": "Architektur-Liebhaber",
+        "date": "2025-08",
+        "text": "Das Dorflayout von hier ist faszinierend — man sieht deutlich, wie die Häuser die Kalksteinklippe hinabsteigen. Provenzalische Architektur in ihrer ganzen Pracht."
+      },
+      {
+        "name": "Sophie Chen",
+        "role": "Rucksacktouristin",
+        "date": "2025-07",
+        "text": "Vom Aussichtspunkt aus hängt das gesamte Steindorf an der Klippe, goldenes Sonnenlicht auf den Wänden — wunderschön. Kostenloser Parkplatz, kein Fußweg nötig!"
+      }
     ]
   },
   "map": {
@@ -116,34 +175,41 @@
   },
   "privacy": {
     "title": "Datenschutzrichtlinie",
-    "data_title": "Datenerfassung",
-    "data_text": "Diese Seite ist ein statischer Reiseführer und erfasst keine persönlichen Daten direkt. Wir verwenden keine Registrierungsformulare, Benutzerkonten oder Verhaltenstracking.",
-    "cookies_title": "Cookies",
-    "cookies_text": "Wir verwenden nur ein localStorage-Cookie, um Ihre Theme- (hell/dunkel) und Sprachpräferenzen zu speichern. Keine Drittanbieter-Tracking-Cookies.",
-    "thirdparty_title": "Drittanbieter-Dienste",
-    "thirdparty_text": "Diese Seite integriert Google Maps (iframe) und Unsplash-Bilder. Diese Dienste können Daten gemäß ihren eigenen Datenschutzrichtlinien erheben.",
-    "contact_title": "Kontakt",
-    "contact_text": "Bei datenschutzbezogenen Fragen:"
+    "lastUpdate": "Zuletzt aktualisiert: März 2026",
+    "section1_title": "1. Informationserfassung",
+    "section1_text": "Wir verpflichten uns, Ihre Privatsphäre zu schützen. Diese Seite dient in erster Linie als Informationsplattform und sammelt im Allgemeinen nicht aktiv personenbezogene Daten von Benutzern. Durch Serverprotokolle und Analysetools können wir jedoch nicht personenbezogene Daten wie Browsertyp, Zugriffszeiten und Seitenaufrufaufzeichnungen erfassen.",
+    "section2_title": "2. Verwendung von Cookies",
+    "section2_text": "Um eine bessere Benutzererfahrung zu bieten und zu verstehen, wie die Website genutzt wird, können wir Cookies verwenden. Diese Cookies werden verwendet, um Benutzereinstellungen zu speichern und den Website-Verkehr zu analysieren. Sie können die Cookie-Einstellungen in Ihrem Browser anpassen.",
+    "section3_title": "3. Links von Drittanbietern",
+    "section3_text": "Diese Website kann Links zu Websites von Drittanbietern (z. B. Google Maps) enthalten. Wir sind nicht verantwortlich für die Datenschutzpraktiken dieser externen Websites. Wir empfehlen Ihnen, die Datenschutzerklärungen jeder Website zu lesen, die personenbezogene Daten sammelt, wenn Sie unsere Website verlassen.",
+    "section4_title": "4. Kontaktiere uns",
+    "section4_text": "Wenn Sie Fragen oder Bedenken bezüglich dieser Datenschutzrichtlinie haben, kontaktieren Sie uns bitte unter:"
   },
   "terms": {
     "title": "Nutzungsbedingungen",
-    "use_title": "Nutzung der Website",
-    "use_text": "Diese Seite ist ein informativer Reiseführer. Informationen dienen nur als Referenz und können sich ändern. Überprüfen Sie immer aktuelle Zeiten und Bedingungen vor Ihrem Besuch.",
-    "ip_title": "Geistiges Eigentum",
-    "ip_text": "Texte sind urheberrechtlich geschützt. Fotos stammen von Unsplash und werden unter deren jeweiliger Lizenz verwendet.",
-    "liability_title": "Haftungsbeschränkung",
-    "liability_text": "Wir garantieren nicht die Genauigkeit, Vollständigkeit oder Aktualität der Informationen. Die Nutzung erfolgt auf eigene Gefahr.",
-    "contact_title": "Kontakt"
+    "lastUpdate": "Zuletzt aktualisiert: März 2026",
+    "section1_title": "1. Annahme der Bedingungen",
+    "section1_text": "Durch den Zugriff auf diese Website und deren Nutzung erklären Sie sich mit diesen Nutzungsbedingungen einverstanden. Wenn Sie mit einem Teil dieser Bedingungen nicht einverstanden sind, nutzen Sie unsere Website bitte nicht.",
+    "section2_title": "2. Nutzung von Inhalten",
+    "section2_text": "Die auf dieser Website bereitgestellten Informationen dienen nur allgemeinen Informationszwecken. Obwohl wir uns bemühen, die Informationen genau und aktuell zu halten, geben wir keine Zusicherungen oder Gewährleistungen jeglicher Art, weder ausdrücklich noch stillschweigend, über die Vollständigkeit, Genauigkeit, Zuverlässigkeit oder Eignung der Informationen.",
+    "section3_title": "3. Geistiges Eigentum",
+    "section3_text": "Sofern nicht anders angegeben, sind alle Inhalte dieser Website (einschließlich Texte, Bilder, Logos) urheberrechtlich geschützt. Eine Vervielfältigung, Verbreitung oder kommerzielle Nutzung ist ohne ausdrückliche Genehmigung nicht gestattet. Bildnachweise können lizenzfreie Ressourcen von Plattformen wie Unsplash oder Mitwirkenden auf Google Maps umfassen.",
+    "section4_title": "4. Haftungsbeschränkung",
+    "section4_text": "Soweit gesetzlich zulässig, haften diese Website und ihre Eigentümer nicht für direkte, indirekte, zufällige oder Folgeschäden, die sich aus der Nutzung oder der Unmöglichkeit der Nutzung dieser Website ergeben. Bitte geben Sie beim Besuch von Naturstätten immer der Sicherheit Vorrang."
   },
   "cookieSettings": {
     "title": "Cookie-Einstellungen",
-    "intro": "Wir verwenden Cookies zur Verbesserung Ihrer Erfahrung. Sie können bestimmte Typen akzeptieren oder ablehnen.",
-    "necessary_title": "Unbedingt erforderliche Cookies",
-    "necessary_text": "Für die grundlegende Funktionalität erforderlich (Sprach- und Theme-Präferenzen). Können nicht deaktiviert werden.",
+    "lastUpdate": "Zuletzt aktualisiert: März 2026",
+    "intro": "Wir verwenden Cookies, um Ihr Surferlebnis zu verbessern. Sie können wählen, ob Sie bestimmte Arten von Cookies akzeptieren oder ablehnen möchten. Bitte beachten Sie, dass die Deaktivierung bestimmter Cookies die Funktionalität der Website beeinträchtigen kann.",
+    "necessary_title": "Unbedingt notwendige Cookies",
+    "necessary_status": "Immer aktiv",
+    "necessary_text": "Diese Cookies sind für das Funktionieren der Website notwendig und können in unseren Systemen nicht ausgeschaltet werden. Sie werden in der Regel nur als Reaktion auf von Ihnen getätigte Aktionen gesetzt, die auf eine Anfrage nach Diensten hinauslaufen, wie z. B. das Festlegen Ihrer Datenschutzeinstellungen oder Ihrer Sprache.",
     "analytics_title": "Analyse-Cookies",
-    "analytics_text": "Ermöglichen die Messung von Besuchen und Trafficquellen zur Verbesserung der Website-Leistung.",
+    "analytics_status": "Analyse-Cookies akzeptieren",
+    "analytics_text": "Diese Cookies ermöglichen es uns, Besuche und Verkehrsquellen zu zählen, damit wir die Leistung unserer Website messen und verbessern können. Sie helfen uns zu wissen, welche Seiten am beliebtesten sind und wie sich Besucher auf der Website bewegen.",
     "marketing_title": "Marketing-Cookies",
-    "marketing_text": "Können von Werbepartnern verwendet werden, um ein Profil Ihrer Interessen zu erstellen."
+    "marketing_status": "Marketing-Cookies akzeptieren",
+    "marketing_text": "Diese Cookies können über unsere Website von unseren Werbepartnern gesetzt werden. Sie können von diesen Unternehmen verwendet werden, um ein Profil Ihrer Interessen zu erstellen und Ihnen relevante Anzeigen auf anderen Websites zu zeigen."
   },
   "theme": {
     "light": "Hellmodus",

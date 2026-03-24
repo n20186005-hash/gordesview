@@ -42,13 +42,32 @@
     "title": "Gordes 影像集",
     "credit": "照片使用 Unsplash 授權",
     "photos": [
-      { "src": "https://images.unsplash.com/photo-1596627116790-af6f46dddbff?w=800&q=80", "alt": "Gordes 村莊全景" },
-      { "src": "https://images.unsplash.com/photo-1595326053710-cbfce1bdb155?w=800&q=80", "alt": "Gordes 金色石屋" },
-      { "src": "https://images.unsplash.com/photo-1602519011692-6bc23eeda174?w=800&q=80", "alt": "村頂的 Gordes 城堡" },
-      { "src": "https://images.unsplash.com/photo-1559128010-7c1ad6e1b6a5?w=800&q=80", "alt": "呂貝宏普羅旺斯風光" },
-      { "src": "https://images.unsplash.com/photo-1499002238440-d264edd596ec?w=800&q=80", "alt": "普羅旺斯薰衣草田" },
-      { "src": "https://images.unsplash.com/photo-1568797629739-9a910aa tried?w=800&q=80", "alt": "Gordes 風情小巷" }
-    ]
+      {
+        "src": "https://images.unsplash.com/photo-1596627116790-af6f46dddbff?w=800&q=80",
+        "alt": "Gordes 村莊全景"
+      },
+      {
+        "src": "https://images.unsplash.com/photo-1595326053710-cbfce1bdb155?w=800&q=80",
+        "alt": "Gordes 金色石屋"
+      },
+      {
+        "src": "https://images.unsplash.com/photo-1602519011692-6bc23eeda174?w=800&q=80",
+        "alt": "村頂的 Gordes 城堡"
+      },
+      {
+        "src": "https://images.unsplash.com/photo-1559128010-7c1ad6e1b6a5?w=800&q=80",
+        "alt": "呂貝宏普羅旺斯風光"
+      },
+      {
+        "src": "https://images.unsplash.com/photo-1499002238440-d264edd596ec?w=800&q=80",
+        "alt": "普羅旺斯薰衣草田"
+      },
+      {
+        "src": "https://images.unsplash.com/photo-1568797629739-9a910aa tried?w=800&q=80",
+        "alt": "Gordes 風情小巷"
+      }
+    ],
+    "openOriginal": "在新視窗開啟"
   },
   "tips": {
     "label": "建議",
@@ -73,14 +92,54 @@
     "declaration": "評分和評價來自 Google 地圖（最後更新：2026年）。我們僅展示經過驗證的精選高分評價。如需查看所有完整和最新評價，請點擊下方連結。",
     "moreLink": "在 Google 地圖上查看更多評價",
     "items": [
-      { "name": "Jean-Marc P.", "role": "當地嚮導", "date": "1 個月前", "text": "毫無疑問，這是觀賞 Gordes 最美的觀景點。日出時分，金色石牆逐漸被點亮——如夢似幻。停車方便，免費入場。" },
-      { "name": "Claire D.", "role": "攝影師", "date": "2 個月前", "text": "這就是 Gordes 的明信片角度。清晨來可避免逆光，獲得最佳光線。冬天的晨霧增添了神秘氛圍。" },
-      { "name": "Thomas W.", "role": "旅行者", "date": "3 週前", "text": "卡瓦永公路上的必停之處。山頂村莊的景色令人屏息。雖然停留短暫，卻讓人終生難忘——終於明白 Gordes 為何如此出名。" },
-      { "name": "Marie L.", "role": "遊客", "date": "2025-11", "text": "我們偶然停下來，真是意外的驚喜！Gordes 的全景令人讚嘆不已。拍全家福紀念照的完美地點。" },
-      { "name": "Pierre R.", "role": "當地居民", "date": "2025-09", "text": "秋天，金色落葉與白色石村和蔚藍的普羅旺斯天空形成對比，宛如一幅活生生的油畫。我在呂貝宏最愛的地方。" },
-      { "name": "Emma S.", "role": "獨立旅行者", "date": "2025-10", "text": "在D15公路上的快速停靠——絕對值得。Gordes 攀附在懸崖上的景象令人驚嘆。免費停車，輕鬆到達。" },
-      { "name": "Lucas M.", "role": "建築愛好者", "date": "2025-08", "text": "從這裡看村莊的佈局非常迷人——可以清晰看到房屋如何沿石灰岩懸崖層層而下。普羅旺斯建築的完美展現。" },
-      { "name": "Sophie Chen", "role": "背包客", "date": "2025-07", "text": "從觀景台看過去，整個石頭村莊掛在懸崖上，金色的陽光照在石牆上美極了。免費停車，不用走路，非常方便的打卡點！" }
+      {
+        "name": "Jean-Marc P.",
+        "role": "當地嚮導",
+        "date": "1 個月前",
+        "text": "毫無疑問，這是觀賞 Gordes 最美的觀景點。日出時分，金色石牆逐漸被點亮——如夢似幻。停車方便，免費入場。"
+      },
+      {
+        "name": "Claire D.",
+        "role": "攝影師",
+        "date": "2 個月前",
+        "text": "這就是 Gordes 的明信片角度。清晨來可避免逆光，獲得最佳光線。冬天的晨霧增添了神秘氛圍。"
+      },
+      {
+        "name": "Thomas W.",
+        "role": "旅行者",
+        "date": "3 週前",
+        "text": "卡瓦永公路上的必停之處。山頂村莊的景色令人屏息。雖然停留短暫，卻讓人終生難忘——終於明白 Gordes 為何如此出名。"
+      },
+      {
+        "name": "Marie L.",
+        "role": "遊客",
+        "date": "2025-11",
+        "text": "我們偶然停下來，真是意外的驚喜！Gordes 的全景令人讚嘆不已。拍全家福紀念照的完美地點。"
+      },
+      {
+        "name": "Pierre R.",
+        "role": "當地居民",
+        "date": "2025-09",
+        "text": "秋天，金色落葉與白色石村和蔚藍的普羅旺斯天空形成對比，宛如一幅活生生的油畫。我在呂貝宏最愛的地方。"
+      },
+      {
+        "name": "Emma S.",
+        "role": "獨立旅行者",
+        "date": "2025-10",
+        "text": "在D15公路上的快速停靠——絕對值得。Gordes 攀附在懸崖上的景象令人驚嘆。免費停車，輕鬆到達。"
+      },
+      {
+        "name": "Lucas M.",
+        "role": "建築愛好者",
+        "date": "2025-08",
+        "text": "從這裡看村莊的佈局非常迷人——可以清晰看到房屋如何沿石灰岩懸崖層層而下。普羅旺斯建築的完美展現。"
+      },
+      {
+        "name": "Sophie Chen",
+        "role": "背包客",
+        "date": "2025-07",
+        "text": "從觀景台看過去，整個石頭村莊掛在懸崖上，金色的陽光照在石牆上美極了。免費停車，不用走路，非常方便的打卡點！"
+      }
     ]
   },
   "map": {
@@ -115,35 +174,42 @@
     "cookies": "Cookie 設定"
   },
   "privacy": {
-    "title": "隱私權政策",
-    "data_title": "資料收集",
-    "data_text": "本網站為靜態指南，不直接收集任何個人資料。我們不使用註冊表單、使用者帳號或行為追蹤。",
-    "cookies_title": "Cookies",
-    "cookies_text": "我們僅使用 localStorage cookie 來記住您的主題（明亮/深色）和語言偏好。不使用任何第三方追蹤 cookie。",
-    "thirdparty_title": "第三方服務",
-    "thirdparty_text": "本網站嵌入 Google 地圖（iframe）和 Unsplash 圖片。這些服務可能根據其自身的隱私政策收集資料。",
-    "contact_title": "聯繫",
-    "contact_text": "如有任何隱私相關問題："
+    "title": "隐私政策",
+    "lastUpdate": "最后更新：2026年3月",
+    "section1_title": "1. 信息收集",
+    "section1_text": "我们致力于保护您的隐私。本网站主要作为信息平台，通常不会主动收集用户的个人身份信息。然而，通过服务器日志和分析工具，我们可能会收集非个人身份信息，如浏览器类型、访问时间以及页面浏览记录。",
+    "section2_title": "2. Cookie 的使用",
+    "section2_text": "为了提供更好的用户体验并了解网站的使用情况，我们可能会使用 Cookie。这些 Cookie 用于记住用户的偏好并分析网站流量。您可以在浏览器中调整 Cookie 设置。",
+    "section3_title": "3. 第三方链接",
+    "section3_text": "本网站可能包含指向第三方网站的链接（例如 Google Maps）。我们不对这些外部网站的隐私做法负责。我们鼓励您在离开本网站时阅读每个收集个人信息的网站的隐私声明。",
+    "section4_title": "4. 联系我们",
+    "section4_text": "如果您对此隐私政策有任何问题或疑虑，请联系我们："
   },
   "terms": {
-    "title": "使用條款",
-    "use_title": "網站使用",
-    "use_text": "本網站為資訊性旅遊指南。資訊僅供參考，可能會有變動。造訪前請務必確認最新時間和條件。",
-    "ip_title": "智慧財產權",
-    "ip_text": "文字受版權保護。照片來自 Unsplash，依其各自授權條款使用。",
-    "liability_title": "責任限制",
-    "liability_text": "我們不保證資訊的準確性、完整性或時效性。使用本網站的風險由您自行承擔。",
-    "contact_title": "聯繫"
+    "title": "使用条款",
+    "lastUpdate": "最后更新：2026年3月",
+    "section1_title": "1. 接受条款",
+    "section1_text": "访问和使用本网站，即表示您同意受这些使用条款的约束。如果您不同意这些条款的任何部分，请不要使用我们的网站。",
+    "section2_title": "2. 内容使用",
+    "section2_text": "本网站提供的信息仅供一般参考之用。虽然我们努力保持信息的准确性和最新性，但我们不对信息的完整性、准确性、可靠性或适用性做出任何形式的明示或暗示的陈述或保证。",
+    "section3_title": "3. 知识产权",
+    "section3_text": "除非另有说明，本网站的所有内容（包括文本、图像、徽标）均受版权保护。未经明确授权，不得进行任何复制、分发或商业使用。照片来源可能包括 Unsplash 等平台的免版税资源或 Google Maps 上的贡献者。",
+    "section4_title": "4. 责任限制",
+    "section4_text": "在法律允许的最大范围内，本网站及其所有者不对因使用或无法使用本网站而引起的任何直接、间接、偶然或后果性损害负责。在游览自然景点时，请始终将安全放在首位。"
   },
   "cookieSettings": {
-    "title": "Cookie 設定",
-    "intro": "我們使用 Cookie 來改善您的體驗。您可以選擇接受或拒絕特定類型。",
-    "necessary_title": "必要 Cookie",
-    "necessary_text": "網站基本功能所必需（語言和主題偏好）。無法停用。",
+    "title": "Cookie 设置",
+    "lastUpdate": "最后更新：2026年3月",
+    "intro": "我们使用 Cookie 来增强您的浏览体验。您可以选择接受或拒绝某些类型的 Cookie。请注意，禁用某些 Cookie 可能会影响网站的功能。",
+    "necessary_title": "绝对必要的 Cookie",
+    "necessary_status": "始终开启",
+    "necessary_text": "这些 Cookie 是网站运行所必需的，无法在我们的系统中关闭。它们通常仅在您执行相当于请求服务的操作时设置，例如设置您的隐私偏好或语言。",
     "analytics_title": "分析 Cookie",
-    "analytics_text": "用於衡量訪問量和流量來源，以改善網站效能。",
-    "marketing_title": "行銷 Cookie",
-    "marketing_text": "可能被廣告合作夥伴用於建立您的興趣檔案。"
+    "analytics_status": "接受分析 Cookie",
+    "analytics_text": "这些 Cookie 允许我们计算访问量和流量来源，以便我们能够衡量和改进网站的性能。它们帮助我们了解哪些页面最受欢迎，以及访问者在网站上的活动情况。",
+    "marketing_title": "营销 Cookie",
+    "marketing_status": "接受营销 Cookie",
+    "marketing_text": "这些 Cookie 可能由我们的广告合作伙伴通过我们的网站设置。它们可能被这些公司用于建立您的兴趣档案，并在其他网站上向您展示相关的广告。"
   },
   "theme": {
     "light": "日間模式",
