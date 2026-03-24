@@ -1,0 +1,152 @@
+{
+  "meta": {
+    "title": "Town View Point Gordes | 遊客指南",
+    "description": "Town View Point Gordes 完整指南：俯瞰山頂石村的絕佳全景、造訪建議與攝影技巧。"
+  },
+  "header": {
+    "home": "首頁",
+    "overview": "概覽",
+    "photos": "照片",
+    "reviews": "評價",
+    "tips": "建議",
+    "map": "地圖"
+  },
+  "hero": {
+    "siteType": "全景觀景台",
+    "title": "Town View Point Gordes",
+    "subtitle": "遊客指南",
+    "rating": "4.7/5",
+    "reviewCount": "3,198 則評價",
+    "hours": "全天候開放",
+    "discover": "探索",
+    "seePhotos": "查看照片",
+    "address": "13 Rte de Cavaillon, 84220 Gordes, France",
+    "tags": "全景,山頂村莊,呂貝宏,普羅旺斯,攝影,觀景點"
+  },
+  "overview": {
+    "label": "概覽",
+    "title": "為什麼這個觀景點如此獨特",
+    "description": "位於卡瓦永公路旁，Town View Point 提供了 Gordes 最具標誌性的景觀——一座壯觀的呂貝宏山頂石村。這個經典視角被無數攝影師永久記錄，展現了金色石屋沿懸崖層疊而下、頂部矗立著文藝復興城堡的壯麗畫面。",
+    "highlight1_title": "標誌性全景",
+    "highlight1_icon": "🏔",
+    "highlight1_desc": "最著名的 Gordes 正面景觀，完整呈現村莊攀附在呂貝宏石灰岩懸崖上的壯觀畫面。",
+    "highlight2_title": "全天候免費開放",
+    "highlight2_icon": "☀️",
+    "highlight2_desc": "觀景台全天候開放，旁邊設有停車場。日出和日落時分，金色光線照在石牆上最為動人。",
+    "highlight3_title": "呂貝宏的心臟",
+    "highlight3_icon": "🌿",
+    "highlight3_desc": "通往呂貝宏最美村莊的門戶：魯西隆、梅內爾布、博尼厄，以及周圍的薰衣草花田。"
+  },
+  "gallery": {
+    "label": "照片",
+    "title": "Gordes 影像集",
+    "credit": "照片使用 Unsplash 授權",
+    "photos": [
+      { "src": "https://images.unsplash.com/photo-1596627116790-af6f46dddbff?w=800&q=80", "alt": "Gordes 村莊全景" },
+      { "src": "https://images.unsplash.com/photo-1595326053710-cbfce1bdb155?w=800&q=80", "alt": "Gordes 金色石屋" },
+      { "src": "https://images.unsplash.com/photo-1602519011692-6bc23eeda174?w=800&q=80", "alt": "村頂的 Gordes 城堡" },
+      { "src": "https://images.unsplash.com/photo-1559128010-7c1ad6e1b6a5?w=800&q=80", "alt": "呂貝宏普羅旺斯風光" },
+      { "src": "https://images.unsplash.com/photo-1499002238440-d264edd596ec?w=800&q=80", "alt": "普羅旺斯薰衣草田" },
+      { "src": "https://images.unsplash.com/photo-1568797629739-9a910aa tried?w=800&q=80", "alt": "Gordes 風情小巷" }
+    ]
+  },
+  "tips": {
+    "label": "建議",
+    "title": "如何舒適地遊覽",
+    "intro": "Town View Point 是一個短暫但難忘的停靠點。搭配 Gordes 村莊遊覽，可安排半日行程。",
+    "step1_title": "清晨抵達",
+    "step1_desc": "金色晨光照亮村莊正面，人少光線佳，最適合攝影——夏季建議九點前抵達。",
+    "step2_title": "停在旁邊的停車場",
+    "step2_desc": "觀景台旁設有小型免費停車場。旺季（七、八月）車位很快滿位，請儘早抵達。",
+    "step3_title": "繼續前往村莊",
+    "step3_desc": "欣賞完景色後，驅車上山探索小巷、城堡和藝術畫廊。建議預留一至兩小時漫步。",
+    "safety_title": "安全提示",
+    "safety_desc": "路邊可能車流較多，請留在停車區和觀景平台範圍內。注意看管兒童，遠離車道。",
+    "terrain_title": "地形",
+    "terrain_desc": "觀景台地勢平坦、無障礙。村莊本身非常陡峭，鋪有鵝卵石路面——請穿舒適的鞋子。"
+  },
+  "reviews": {
+    "label": "評價",
+    "title": "真實遊客評價",
+    "rating": "4.7",
+    "count": "3,198 則評價",
+    "declaration": "評分和評價來自 Google 地圖（最後更新：2026年）。我們僅展示經過驗證的精選高分評價。如需查看所有完整和最新評價，請點擊下方連結。",
+    "moreLink": "在 Google 地圖上查看更多評價",
+    "items": [
+      { "name": "Jean-Marc P.", "role": "當地嚮導", "date": "1 個月前", "text": "毫無疑問，這是觀賞 Gordes 最美的觀景點。日出時分，金色石牆逐漸被點亮——如夢似幻。停車方便，免費入場。" },
+      { "name": "Claire D.", "role": "攝影師", "date": "2 個月前", "text": "這就是 Gordes 的明信片角度。清晨來可避免逆光，獲得最佳光線。冬天的晨霧增添了神秘氛圍。" },
+      { "name": "Thomas W.", "role": "旅行者", "date": "3 週前", "text": "卡瓦永公路上的必停之處。山頂村莊的景色令人屏息。雖然停留短暫，卻讓人終生難忘——終於明白 Gordes 為何如此出名。" },
+      { "name": "Marie L.", "role": "遊客", "date": "2025-11", "text": "我們偶然停下來，真是意外的驚喜！Gordes 的全景令人讚嘆不已。拍全家福紀念照的完美地點。" },
+      { "name": "Pierre R.", "role": "當地居民", "date": "2025-09", "text": "秋天，金色落葉與白色石村和蔚藍的普羅旺斯天空形成對比，宛如一幅活生生的油畫。我在呂貝宏最愛的地方。" },
+      { "name": "Emma S.", "role": "獨立旅行者", "date": "2025-10", "text": "在D15公路上的快速停靠——絕對值得。Gordes 攀附在懸崖上的景象令人驚嘆。免費停車，輕鬆到達。" },
+      { "name": "Lucas M.", "role": "建築愛好者", "date": "2025-08", "text": "從這裡看村莊的佈局非常迷人——可以清晰看到房屋如何沿石灰岩懸崖層層而下。普羅旺斯建築的完美展現。" },
+      { "name": "Sophie Chen", "role": "背包客", "date": "2025-07", "text": "從觀景台看過去，整個石頭村莊掛在懸崖上，金色的陽光照在石牆上美極了。免費停車，不用走路，非常方便的打卡點！" }
+    ]
+  },
+  "map": {
+    "label": "地圖",
+    "title": "地圖",
+    "openMaps": "在 Google 地圖上規劃路線",
+    "hours_label": "開放時間",
+    "hours_value": "全天候開放",
+    "hours_note": "觀景台全天候開放。旁邊設有免費停車場。",
+    "light_label": "最佳光線",
+    "light_value": "清晨與日落",
+    "light_note": "晨光照亮村莊正面；日落時分帶來壯觀的金色色調。",
+    "rule_label": "基本規則",
+    "rule_value": "尊重景點",
+    "rule_note": "請勿留下垃圾。留在規劃區域內。注意道路上的車輛。",
+    "fullDetails": "在 Google 地圖上查看完整資訊（評分、時間、Plus Code...）"
+  },
+  "sources": {
+    "label": "資料與引用",
+    "title": "資料與引用",
+    "intro": "為了確保資訊可靠性，我們僅引用可公開存取的來源。",
+    "google_title": "Google 地圖（基本資訊）",
+    "google_desc": "評分、開放時間、簡介等（可能隨時間變化）",
+    "unsplash_title": "Unsplash（攝影作品）",
+    "unsplash_desc": "照片使用 Unsplash 授權。個別圖片版權標注於說明文字中。"
+  },
+  "footer": {
+    "support": "如需本網站的技術支援，請聯繫：",
+    "rights": "© 2026 Town View Point Gordes · 版權所有。",
+    "privacy": "隱私權政策",
+    "terms": "使用條款",
+    "cookies": "Cookie 設定"
+  },
+  "privacy": {
+    "title": "隱私權政策",
+    "data_title": "資料收集",
+    "data_text": "本網站為靜態指南，不直接收集任何個人資料。我們不使用註冊表單、使用者帳號或行為追蹤。",
+    "cookies_title": "Cookies",
+    "cookies_text": "我們僅使用 localStorage cookie 來記住您的主題（明亮/深色）和語言偏好。不使用任何第三方追蹤 cookie。",
+    "thirdparty_title": "第三方服務",
+    "thirdparty_text": "本網站嵌入 Google 地圖（iframe）和 Unsplash 圖片。這些服務可能根據其自身的隱私政策收集資料。",
+    "contact_title": "聯繫",
+    "contact_text": "如有任何隱私相關問題："
+  },
+  "terms": {
+    "title": "使用條款",
+    "use_title": "網站使用",
+    "use_text": "本網站為資訊性旅遊指南。資訊僅供參考，可能會有變動。造訪前請務必確認最新時間和條件。",
+    "ip_title": "智慧財產權",
+    "ip_text": "文字受版權保護。照片來自 Unsplash，依其各自授權條款使用。",
+    "liability_title": "責任限制",
+    "liability_text": "我們不保證資訊的準確性、完整性或時效性。使用本網站的風險由您自行承擔。",
+    "contact_title": "聯繫"
+  },
+  "cookieSettings": {
+    "title": "Cookie 設定",
+    "intro": "我們使用 Cookie 來改善您的體驗。您可以選擇接受或拒絕特定類型。",
+    "necessary_title": "必要 Cookie",
+    "necessary_text": "網站基本功能所必需（語言和主題偏好）。無法停用。",
+    "analytics_title": "分析 Cookie",
+    "analytics_text": "用於衡量訪問量和流量來源，以改善網站效能。",
+    "marketing_title": "行銷 Cookie",
+    "marketing_text": "可能被廣告合作夥伴用於建立您的興趣檔案。"
+  },
+  "theme": {
+    "light": "日間模式",
+    "dark": "夜間模式"
+  }
+}

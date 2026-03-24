@@ -1,0 +1,152 @@
+{
+  "meta": {
+    "title": "Town View Point Gordes | Visitor Guide",
+    "description": "Complete guide to Town View Point Gordes: exceptional panorama over the hilltop village, visit tips and photography advice."
+  },
+  "header": {
+    "home": "Home",
+    "overview": "Overview",
+    "photos": "Photos",
+    "reviews": "Reviews",
+    "tips": "Tips",
+    "map": "Map"
+  },
+  "hero": {
+    "siteType": "Panoramic viewpoint",
+    "title": "Town View Point Gordes",
+    "subtitle": "Visitor Guide",
+    "rating": "4.7/5",
+    "reviewCount": "3,198 reviews",
+    "hours": "Open 24/7",
+    "discover": "Discover",
+    "seePhotos": "See photos",
+    "address": "13 Rte de Cavaillon, 84220 Gordes, France",
+    "tags": "Panorama,Hilltop village,Luberon,Provence,Photography,Viewpoint"
+  },
+  "overview": {
+    "label": "Overview",
+    "title": "Why this viewpoint is unique",
+    "description": "Located on the road from Cavaillon, the Town View Point offers the most iconic view of Gordes — a spectacular hilltop village in the Luberon. This classic perspective, immortalized by countless photographers, reveals golden stone houses cascading down the cliff, crowned by the Renaissance castle.",
+    "highlight1_title": "Iconic panorama",
+    "highlight1_icon": "🏔",
+    "highlight1_desc": "The most famous frontal view of Gordes, offering a complete perspective of the village clinging to the limestone cliff of the Luberon.",
+    "highlight2_title": "Free access 24/7",
+    "highlight2_icon": "☀️",
+    "highlight2_desc": "Viewpoint accessible at all times with adjacent parking. Ideal at sunrise and sunset for golden light on the stone.",
+    "highlight3_title": "Heart of the Luberon",
+    "highlight3_icon": "🌿",
+    "highlight3_desc": "Gateway to the most beautiful villages of the Luberon: Roussillon, Ménerbes, Bonnieux and the surrounding lavender fields."
+  },
+  "gallery": {
+    "label": "Photos",
+    "title": "Gordes in images",
+    "credit": "Photos under Unsplash license",
+    "photos": [
+      { "src": "https://images.unsplash.com/photo-1596627116790-af6f46dddbff?w=800&q=80", "alt": "Panoramic view of Gordes village" },
+      { "src": "https://images.unsplash.com/photo-1595326053710-cbfce1bdb155?w=800&q=80", "alt": "Golden stone houses of Gordes" },
+      { "src": "https://images.unsplash.com/photo-1602519011692-6bc23eeda174?w=800&q=80", "alt": "Château de Gordes atop the village" },
+      { "src": "https://images.unsplash.com/photo-1559128010-7c1ad6e1b6a5?w=800&q=80", "alt": "Provençal landscape of the Luberon" },
+      { "src": "https://images.unsplash.com/photo-1499002238440-d264edd596ec?w=800&q=80", "alt": "Lavender fields in Provence" },
+      { "src": "https://images.unsplash.com/photo-1568797629739-9a910aa tried?w=800&q=80", "alt": "Picturesque streets of Gordes" }
+    ]
+  },
+  "tips": {
+    "label": "Tips",
+    "title": "How to visit comfortably",
+    "intro": "The Town View Point is a quick but unforgettable stop. Combine it with a visit to Gordes village for a complete half-day.",
+    "step1_title": "Arrive early in the morning",
+    "step1_desc": "Golden morning light illuminates the village facade. Fewer crowds and best light for photography — arrive before 9am in summer.",
+    "step2_title": "Park at the adjacent lot",
+    "step2_desc": "A small free parking lot is right next to the viewpoint. In peak season (July-August), it fills up fast — arrive early.",
+    "step3_title": "Continue to the village",
+    "step3_desc": "After admiring the view, drive up to the village to explore the alleys, the castle and art galleries. Allow 1-2 hours to wander.",
+    "safety_title": "Safety",
+    "safety_desc": "The roadside can be busy. Stay within the parking area and on the viewpoint platform. Watch children near the road.",
+    "terrain_title": "Terrain",
+    "terrain_desc": "Flat and accessible terrain at the viewpoint. The village itself is very steep with cobbled streets — wear comfortable shoes."
+  },
+  "reviews": {
+    "label": "Reviews",
+    "title": "Real Visitor Reviews",
+    "rating": "4.7",
+    "count": "3,198 reviews",
+    "declaration": "Ratings and reviews from Google Maps (last updated: 2026). We only show a selection of verified highly-rated reviews. To see all complete and latest reviews, click the link below.",
+    "moreLink": "See more reviews on Google Maps",
+    "items": [
+      { "name": "Jean-Marc P.", "role": "Local guide", "date": "1 month ago", "text": "The most beautiful viewpoint of Gordes, without a doubt. At sunrise, the golden stones light up progressively — a magical spectacle. Easy parking and free access." },
+      { "name": "Claire D.", "role": "Photographer", "date": "2 months ago", "text": "This IS the postcard photo of Gordes. Come early morning to avoid backlighting and get the best light. In winter, the morning mist adds a mystical atmosphere." },
+      { "name": "Thomas W.", "role": "Traveler", "date": "3 weeks ago", "text": "A must-stop on the road from Cavaillon. The view of the hilltop village is breathtaking. Quick but unforgettable — now I understand why Gordes is so famous." },
+      { "name": "Marie L.", "role": "Tourist", "date": "2025-11", "text": "We stopped by chance and what a discovery! The panoramic view of Gordes is exceptional. A perfect spot for family photos and souvenirs." },
+      { "name": "Pierre R.", "role": "Local resident", "date": "2025-09", "text": "In autumn, when golden leaves contrast with the white stone of the village and the blue Provençal sky, it's a living painting. My favorite spot in the Luberon." },
+      { "name": "Emma S.", "role": "Independent traveler", "date": "2025-10", "text": "Quick stop on the D15 road — absolutely worth it. The view of Gordes clinging to the cliff is stunning. Free parking, easy access. Don't miss it if you're in Luberon." },
+      { "name": "Lucas M.", "role": "Architecture enthusiast", "date": "2025-08", "text": "The layout of the village from here is fascinating — you can clearly see how the houses step down the limestone cliff. Provençal architecture in all its splendor." },
+      { "name": "Sophie Chen", "role": "Backpacker", "date": "2025-07", "text": "From the viewpoint, the entire stone village hangs on the cliff, golden sunlight on the walls — absolutely beautiful. Free parking, no walking needed, very convenient photo spot!" }
+    ]
+  },
+  "map": {
+    "label": "Map",
+    "title": "Map",
+    "openMaps": "Plan your route on Google Maps",
+    "hours_label": "Hours",
+    "hours_value": "Open 24/7",
+    "hours_note": "Viewpoint accessible at all times. Free adjacent parking.",
+    "light_label": "Best light",
+    "light_value": "Morning & sunset",
+    "light_note": "Morning light illuminates the village facade; sunset offers spectacular golden tones.",
+    "rule_label": "Basic rule",
+    "rule_value": "Respect the site",
+    "rule_note": "Leave no litter. Stay on designated areas. Watch for traffic on the road.",
+    "fullDetails": "See full details on Google Maps (ratings, hours, Plus Code...)"
+  },
+  "sources": {
+    "label": "Data & References",
+    "title": "Data & References",
+    "intro": "To ensure reliability, we only cite publicly accessible sources.",
+    "google_title": "Google Maps (Basic information)",
+    "google_desc": "Rating, opening hours, introduction, etc. (subject to change over time)",
+    "unsplash_title": "Unsplash (Photographs)",
+    "unsplash_desc": "Photos used under Unsplash license. Individual credits in captions."
+  },
+  "footer": {
+    "support": "For technical support regarding this website, please contact:",
+    "rights": "© 2026 Town View Point Gordes · All rights reserved.",
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Service",
+    "cookies": "Cookie Settings"
+  },
+  "privacy": {
+    "title": "Privacy Policy",
+    "data_title": "Data Collection",
+    "data_text": "This site is a static guide and does not collect any personal data directly. We do not use registration forms, user accounts, or behavioral tracking.",
+    "cookies_title": "Cookies",
+    "cookies_text": "We only use a localStorage cookie to remember your theme (light/dark) and language preferences. No third-party tracking cookies are used.",
+    "thirdparty_title": "Third-party Services",
+    "thirdparty_text": "This site embeds Google Maps (iframe) and Unsplash images. These services may collect data according to their own privacy policies.",
+    "contact_title": "Contact",
+    "contact_text": "For any privacy-related questions:"
+  },
+  "terms": {
+    "title": "Terms of Service",
+    "use_title": "Site Usage",
+    "use_text": "This site is an informational tourist guide. Information is provided for reference only and may change. Always verify current hours and conditions before your visit.",
+    "ip_title": "Intellectual Property",
+    "ip_text": "Texts are protected by copyright. Photographs are from Unsplash and used under their respective licenses.",
+    "liability_title": "Limitation of Liability",
+    "liability_text": "We do not guarantee the accuracy, completeness, or timeliness of the information. Use of this site is at your own risk.",
+    "contact_title": "Contact"
+  },
+  "cookieSettings": {
+    "title": "Cookie Settings",
+    "intro": "We use cookies to improve your experience. You can choose to accept or reject certain types.",
+    "necessary_title": "Strictly Necessary Cookies",
+    "necessary_text": "Required for basic site functionality (language and theme preferences). Cannot be disabled.",
+    "analytics_title": "Analytics Cookies",
+    "analytics_text": "Allow us to measure visits and traffic sources to improve site performance.",
+    "marketing_title": "Marketing Cookies",
+    "marketing_text": "May be used by advertising partners to build a profile of your interests."
+  },
+  "theme": {
+    "light": "Light mode",
+    "dark": "Dark mode"
+  }
+}

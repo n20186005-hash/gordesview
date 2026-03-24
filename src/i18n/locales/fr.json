@@ -1,0 +1,152 @@
+{
+  "meta": {
+    "title": "Town View Point Gordes | Guide du Visiteur",
+    "description": "Guide complet du Town View Point Gordes : panorama exceptionnel sur le village perché, conseils de visite et photographie."
+  },
+  "header": {
+    "home": "Accueil",
+    "overview": "Aperçu",
+    "photos": "Photos",
+    "reviews": "Avis",
+    "tips": "Conseils",
+    "map": "Carte"
+  },
+  "hero": {
+    "siteType": "Point de vue panoramique",
+    "title": "Town View Point Gordes",
+    "subtitle": "Guide du Visiteur",
+    "rating": "4.7/5",
+    "reviewCount": "3 198 avis",
+    "hours": "Ouvert 24h/24",
+    "discover": "Découvrir",
+    "seePhotos": "Voir les photos",
+    "address": "13 Rte de Cavaillon, 84220 Gordes, France",
+    "tags": "Panorama,Village perché,Luberon,Provence,Photographie,Point de vue"
+  },
+  "overview": {
+    "label": "Aperçu",
+    "title": "Pourquoi ce point de vue est unique",
+    "description": "Situé sur la route de Cavaillon, le Town View Point offre la vue la plus emblématique sur Gordes — un village perché spectaculaire du Luberon. Cette perspective classique, immortalisée par d'innombrables photographes, révèle les maisons de pierre dorée cascadant le long de la falaise, couronnées par le château Renaissance.",
+    "highlight1_title": "Panorama iconique",
+    "highlight1_icon": "🏔",
+    "highlight1_desc": "La vue frontale la plus célèbre sur Gordes, offrant une perspective complète du village accroché à la falaise calcaire du Luberon.",
+    "highlight2_title": "Accès libre 24h/24",
+    "highlight2_icon": "☀️",
+    "highlight2_desc": "Point de vue accessible en permanence avec un parking adjacent. Idéal au lever et au coucher du soleil pour la lumière dorée sur la pierre.",
+    "highlight3_title": "Cœur du Luberon",
+    "highlight3_icon": "🌿",
+    "highlight3_desc": "Porte d'entrée vers les plus beaux villages du Luberon : Roussillon, Ménerbes, Bonnieux et les champs de lavande environnants."
+  },
+  "gallery": {
+    "label": "Photos",
+    "title": "Gordes en images",
+    "credit": "Photos sous licence Unsplash",
+    "photos": [
+      { "src": "https://images.unsplash.com/photo-1596627116790-af6f46dddbff?w=800&q=80", "alt": "Vue panoramique du village de Gordes" },
+      { "src": "https://images.unsplash.com/photo-1595326053710-cbfce1bdb155?w=800&q=80", "alt": "Maisons de pierre dorée de Gordes" },
+      { "src": "https://images.unsplash.com/photo-1602519011692-6bc23eeda174?w=800&q=80", "alt": "Château de Gordes au sommet du village" },
+      { "src": "https://images.unsplash.com/photo-1559128010-7c1ad6e1b6a5?w=800&q=80", "alt": "Paysage provençal du Luberon" },
+      { "src": "https://images.unsplash.com/photo-1499002238440-d264edd596ec?w=800&q=80", "alt": "Champs de lavande en Provence" },
+      { "src": "https://images.unsplash.com/photo-1568797629739-9a910aa tried?w=800&q=80", "alt": "Ruelles pittoresques de Gordes" }
+    ]
+  },
+  "tips": {
+    "label": "Conseils",
+    "title": "Comment visiter confortablement",
+    "intro": "Le Town View Point est un arrêt rapide mais inoubliable. Combinez-le avec une visite du village de Gordes pour une demi-journée complète.",
+    "step1_title": "Arrivez tôt le matin",
+    "step1_desc": "La lumière dorée du matin illumine la façade du village. Moins de monde et meilleure lumière pour la photographie — arrivez avant 9h en été.",
+    "step2_title": "Stationnez au parking adjacent",
+    "step2_desc": "Un petit parking gratuit se trouve juste à côté du point de vue. En haute saison (juillet-août), il se remplit vite — arrivez tôt.",
+    "step3_title": "Continuez vers le village",
+    "step3_desc": "Après avoir admiré la vue, montez au village pour explorer les ruelles, le château et les galeries d'art. Comptez 1-2h pour flâner.",
+    "safety_title": "Sécurité",
+    "safety_desc": "Le bord de la route peut être fréquenté. Restez dans la zone de stationnement et sur le belvédère. Surveillez les enfants près de la route.",
+    "terrain_title": "Terrain",
+    "terrain_desc": "Terrain plat et accessible au point de vue. Le village lui-même est très pentu avec des rues pavées — prévoyez des chaussures confortables."
+  },
+  "reviews": {
+    "label": "Avis",
+    "title": "Avis de vrais visiteurs",
+    "rating": "4.7",
+    "count": "3 198 avis",
+    "declaration": "Évaluations et avis provenant de Google Maps (dernière mise à jour : 2026). Nous ne montrons qu'une sélection d'avis hautement notés vérifiés. Pour voir tous les avis complets et les plus récents, cliquez sur le lien ci-dessous.",
+    "moreLink": "Voir plus d'avis sur Google Maps",
+    "items": [
+      { "name": "Jean-Marc P.", "role": "Guide local", "date": "Il y a 1 mois", "text": "Le plus beau point de vue sur Gordes, sans aucun doute. Au lever du soleil, les pierres dorées s'illuminent progressivement — un spectacle magique. Parking facile et accès libre." },
+      { "name": "Claire D.", "role": "Photographe", "date": "Il y a 2 mois", "text": "C'est LA photo carte postale de Gordes. Venez tôt le matin pour éviter le contre-jour et avoir la meilleure lumière. En hiver, la brume matinale ajoute une atmosphère mystique." },
+      { "name": "Thomas W.", "role": "Voyageur", "date": "Il y a 3 semaines", "text": "Arrêt obligatoire sur la route de Cavaillon. La vue sur le village perché est à couper le souffle. Rapide mais inoubliable — on comprend pourquoi Gordes est si célèbre." },
+      { "name": "Marie L.", "role": "Touriste", "date": "2025-11", "text": "Nous nous sommes arrêtés par hasard et quelle découverte ! La vue panoramique sur Gordes est exceptionnelle. Un endroit parfait pour les photos souvenirs en famille." },
+      { "name": "Pierre R.", "role": "Résident local", "date": "2025-09", "text": "En automne, quand les feuilles dorées contrastent avec la pierre blanche du village et le ciel bleu provençal, c'est un tableau vivant. Mon spot préféré du Luberon." },
+      { "name": "Emma S.", "role": "Voyageur indépendant", "date": "2025-10", "text": "Quick stop on the D15 road — absolutely worth it. The view of Gordes clinging to the cliff is stunning. Free parking, easy access. Don't miss it if you're in Luberon." },
+      { "name": "Lucas M.", "role": "Passionné d'architecture", "date": "2025-08", "text": "La disposition du village vue d'ici est fascinante — on voit clairement comment les maisons s'étagent sur la falaise calcaire. L'architecture provençale dans toute sa splendeur." },
+      { "name": "Sophie Chen", "role": "Routard", "date": "2025-07", "text": "從觀景台看過去，整個石頭村莊掛在懸崖上，金色的陽光照在石牆上美極了。免費停車，不用走路，非常方便的打卡點！" }
+    ]
+  },
+  "map": {
+    "label": "Carte",
+    "title": "Carte",
+    "openMaps": "Planifier l'itinéraire dans Google Maps",
+    "hours_label": "Horaires",
+    "hours_value": "Ouvert 24h/24",
+    "hours_note": "Point de vue accessible en permanence. Parking gratuit adjacent.",
+    "light_label": "Meilleure lumière",
+    "light_value": "Matin & coucher de soleil",
+    "light_note": "La lumière du matin illumine la façade du village ; le coucher de soleil offre des tons dorés spectaculaires.",
+    "rule_label": "Règle de base",
+    "rule_value": "Respectez le site",
+    "rule_note": "Ne laissez aucun déchet. Restez sur les zones aménagées. Attention à la circulation sur la route.",
+    "fullDetails": "Voir les détails complets sur Google Maps (évaluations, horaires, Plus Code...)"
+  },
+  "sources": {
+    "label": "Données et citations",
+    "title": "Données et citations",
+    "intro": "Pour garantir la fiabilité des informations, nous ne citons que des sources publiquement accessibles.",
+    "google_title": "Google Maps (Informations de base)",
+    "google_desc": "Note, heures d'ouverture, introduction, etc. (susceptibles de changer avec le temps)",
+    "unsplash_title": "Unsplash (Photographies)",
+    "unsplash_desc": "Photos utilisées sous licence Unsplash. Crédits individuels dans les légendes."
+  },
+  "footer": {
+    "support": "Pour toute assistance technique concernant ce site, veuillez contacter :",
+    "rights": "© 2026 Town View Point Gordes · Tous droits réservés.",
+    "privacy": "Politique de confidentialité",
+    "terms": "Conditions d'utilisation",
+    "cookies": "Paramètres des cookies"
+  },
+  "privacy": {
+    "title": "Politique de confidentialité",
+    "data_title": "Collecte de données",
+    "data_text": "Ce site est un guide statique et ne collecte aucune donnée personnelle directement. Nous n'utilisons pas de formulaires d'inscription, de comptes utilisateur ou de suivi comportemental.",
+    "cookies_title": "Cookies",
+    "cookies_text": "Nous utilisons uniquement un cookie localStorage pour mémoriser votre préférence de thème (clair/sombre) et de langue. Aucun cookie de suivi tiers n'est utilisé.",
+    "thirdparty_title": "Services tiers",
+    "thirdparty_text": "Ce site intègre Google Maps (iframe) et des images Unsplash. Ces services peuvent collecter des données selon leurs propres politiques de confidentialité.",
+    "contact_title": "Contact",
+    "contact_text": "Pour toute question relative à la confidentialité :"
+  },
+  "terms": {
+    "title": "Conditions d'utilisation",
+    "use_title": "Utilisation du site",
+    "use_text": "Ce site est un guide touristique informatif. Les informations sont fournies à titre indicatif et peuvent évoluer. Vérifiez toujours les horaires et conditions actuels avant votre visite.",
+    "ip_title": "Propriété intellectuelle",
+    "ip_text": "Les textes sont protégés par le droit d'auteur. Les photographies proviennent d'Unsplash et sont utilisées sous leur licence respective.",
+    "liability_title": "Limitation de responsabilité",
+    "liability_text": "Nous ne garantissons pas l'exactitude, l'exhaustivité ou l'actualité des informations. L'utilisation de ce site se fait à vos propres risques.",
+    "contact_title": "Contact"
+  },
+  "cookieSettings": {
+    "title": "Paramètres des cookies",
+    "intro": "Nous utilisons des cookies pour améliorer votre expérience. Vous pouvez choisir d'accepter ou de refuser certains types.",
+    "necessary_title": "Cookies strictement nécessaires",
+    "necessary_text": "Nécessaires au bon fonctionnement du site (préférences de langue et thème). Ne peuvent pas être désactivés.",
+    "analytics_title": "Cookies d'analyse",
+    "analytics_text": "Permettent de mesurer les visites et les sources de trafic pour améliorer les performances du site.",
+    "marketing_title": "Cookies marketing",
+    "marketing_text": "Peuvent être utilisés par nos partenaires publicitaires pour établir un profil de vos intérêts."
+  },
+  "theme": {
+    "light": "Mode clair",
+    "dark": "Mode sombre"
+  }
+}

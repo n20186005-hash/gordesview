@@ -1,0 +1,152 @@
+{
+  "meta": {
+    "title": "Town View Point Gordes | Besucherführer",
+    "description": "Kompletter Reiseführer zum Town View Point Gordes: außergewöhnliches Panorama auf das Bergdorf, Besuchstipps und Fotografie."
+  },
+  "header": {
+    "home": "Startseite",
+    "overview": "Überblick",
+    "photos": "Fotos",
+    "reviews": "Bewertungen",
+    "tips": "Tipps",
+    "map": "Karte"
+  },
+  "hero": {
+    "siteType": "Panorama-Aussichtspunkt",
+    "title": "Town View Point Gordes",
+    "subtitle": "Besucherführer",
+    "rating": "4,7/5",
+    "reviewCount": "3.198 Bewertungen",
+    "hours": "24/7 geöffnet",
+    "discover": "Entdecken",
+    "seePhotos": "Fotos ansehen",
+    "address": "13 Rte de Cavaillon, 84220 Gordes, Frankreich",
+    "tags": "Panorama,Bergdorf,Luberon,Provence,Fotografie,Aussichtspunkt"
+  },
+  "overview": {
+    "label": "Überblick",
+    "title": "Warum dieser Aussichtspunkt einzigartig ist",
+    "description": "An der Straße von Cavaillon gelegen, bietet der Town View Point den ikonischsten Blick auf Gordes — ein spektakuläres Bergdorf im Luberon. Diese klassische Perspektive, von unzähligen Fotografen verewigt, zeigt goldene Steinhäuser, die den Felsen hinabkaskadieren, gekrönt vom Renaissance-Schloss.",
+    "highlight1_title": "Ikonisches Panorama",
+    "highlight1_icon": "🏔",
+    "highlight1_desc": "Der berühmteste Frontalblick auf Gordes mit einer vollständigen Perspektive des Dorfes an der Kalksteinklippe des Luberon.",
+    "highlight2_title": "Freier Zugang 24/7",
+    "highlight2_icon": "☀️",
+    "highlight2_desc": "Jederzeit zugänglicher Aussichtspunkt mit Parkplatz. Ideal bei Sonnenaufgang und Sonnenuntergang für goldenes Licht auf dem Stein.",
+    "highlight3_title": "Herz des Luberon",
+    "highlight3_icon": "🌿",
+    "highlight3_desc": "Tor zu den schönsten Dörfern des Luberon: Roussillon, Ménerbes, Bonnieux und die umliegenden Lavendelfelder."
+  },
+  "gallery": {
+    "label": "Fotos",
+    "title": "Gordes in Bildern",
+    "credit": "Fotos unter Unsplash-Lizenz",
+    "photos": [
+      { "src": "https://images.unsplash.com/photo-1596627116790-af6f46dddbff?w=800&q=80", "alt": "Panoramablick auf das Dorf Gordes" },
+      { "src": "https://images.unsplash.com/photo-1595326053710-cbfce1bdb155?w=800&q=80", "alt": "Goldene Steinhäuser von Gordes" },
+      { "src": "https://images.unsplash.com/photo-1602519011692-6bc23eeda174?w=800&q=80", "alt": "Château de Gordes auf dem Dorfgipfel" },
+      { "src": "https://images.unsplash.com/photo-1559128010-7c1ad6e1b6a5?w=800&q=80", "alt": "Provenzalische Landschaft des Luberon" },
+      { "src": "https://images.unsplash.com/photo-1499002238440-d264edd596ec?w=800&q=80", "alt": "Lavendelfelder in der Provence" },
+      { "src": "https://images.unsplash.com/photo-1568797629739-9a910aa tried?w=800&q=80", "alt": "Malerische Gassen von Gordes" }
+    ]
+  },
+  "tips": {
+    "label": "Tipps",
+    "title": "Komfortabel besuchen",
+    "intro": "Der Town View Point ist ein kurzer, aber unvergesslicher Halt. Kombinieren Sie ihn mit einem Besuch des Dorfes Gordes für einen halben Tag.",
+    "step1_title": "Kommen Sie früh morgens",
+    "step1_desc": "Goldenes Morgenlicht beleuchtet die Dorffassade. Weniger Besucher und bestes Licht zum Fotografieren — kommen Sie im Sommer vor 9 Uhr.",
+    "step2_title": "Parken Sie am angrenzenden Parkplatz",
+    "step2_desc": "Ein kleiner kostenloser Parkplatz befindet sich direkt neben dem Aussichtspunkt. In der Hauptsaison (Juli-August) füllt er sich schnell.",
+    "step3_title": "Weiter zum Dorf",
+    "step3_desc": "Nach der Aussicht fahren Sie hinauf zum Dorf — erkunden Sie die Gassen, das Schloss und Kunstgalerien. Planen Sie 1-2 Stunden ein.",
+    "safety_title": "Sicherheit",
+    "safety_desc": "Der Straßenrand kann belebt sein. Bleiben Sie im Parkbereich und auf der Aussichtsplattform. Achten Sie auf Kinder in Straßennähe.",
+    "terrain_title": "Gelände",
+    "terrain_desc": "Flaches und zugängliches Gelände am Aussichtspunkt. Das Dorf selbst ist sehr steil mit Kopfsteinpflaster — tragen Sie bequeme Schuhe."
+  },
+  "reviews": {
+    "label": "Bewertungen",
+    "title": "Echte Besucherbewertungen",
+    "rating": "4,7",
+    "count": "3.198 Bewertungen",
+    "declaration": "Bewertungen und Rezensionen von Google Maps (letztes Update: 2026). Wir zeigen nur eine Auswahl verifizierter Top-Bewertungen. Alle vollständigen und aktuellen Bewertungen finden Sie über den Link unten.",
+    "moreLink": "Mehr Bewertungen auf Google Maps ansehen",
+    "items": [
+      { "name": "Jean-Marc P.", "role": "Lokaler Guide", "date": "Vor 1 Monat", "text": "Der schönste Aussichtspunkt auf Gordes, ohne Zweifel. Bei Sonnenaufgang leuchten die goldenen Steine nach und nach auf — ein magisches Schauspiel. Einfaches Parken und freier Zugang." },
+      { "name": "Claire D.", "role": "Fotografin", "date": "Vor 2 Monaten", "text": "DAS Postkartenfoto von Gordes. Kommen Sie früh morgens, um Gegenlicht zu vermeiden. Im Winter fügt der Morgennebel eine mystische Atmosphäre hinzu." },
+      { "name": "Thomas W.", "role": "Reisender", "date": "Vor 3 Wochen", "text": "Pflichtstation auf der Straße von Cavaillon. Der Blick auf das Bergdorf ist atemberaubend. Kurz aber unvergesslich — jetzt verstehe ich, warum Gordes so berühmt ist." },
+      { "name": "Marie L.", "role": "Touristin", "date": "2025-11", "text": "Wir hielten zufällig an und was für eine Entdeckung! Der Panoramablick auf Gordes ist außergewöhnlich. Ein perfekter Ort für Familienfotos." },
+      { "name": "Pierre R.", "role": "Einheimischer", "date": "2025-09", "text": "Im Herbst, wenn goldene Blätter mit dem weißen Stein des Dorfes und dem blauen provenzalischen Himmel kontrastieren, ist es wie ein lebendes Gemälde." },
+      { "name": "Emma S.", "role": "Unabhängige Reisende", "date": "2025-10", "text": "Kurzer Halt an der D15 — absolut lohnenswert. Der Blick auf Gordes, das an der Klippe klebt, ist atemberaubend. Kostenloser Parkplatz, einfacher Zugang." },
+      { "name": "Lucas M.", "role": "Architektur-Liebhaber", "date": "2025-08", "text": "Das Dorflayout von hier ist faszinierend — man sieht deutlich, wie die Häuser die Kalksteinklippe hinabsteigen. Provenzalische Architektur in ihrer ganzen Pracht." },
+      { "name": "Sophie Chen", "role": "Rucksacktouristin", "date": "2025-07", "text": "Vom Aussichtspunkt aus hängt das gesamte Steindorf an der Klippe, goldenes Sonnenlicht auf den Wänden — wunderschön. Kostenloser Parkplatz, kein Fußweg nötig!" }
+    ]
+  },
+  "map": {
+    "label": "Karte",
+    "title": "Karte",
+    "openMaps": "Route in Google Maps planen",
+    "hours_label": "Öffnungszeiten",
+    "hours_value": "24/7 geöffnet",
+    "hours_note": "Aussichtspunkt jederzeit zugänglich. Kostenloser Parkplatz nebenan.",
+    "light_label": "Bestes Licht",
+    "light_value": "Morgen & Sonnenuntergang",
+    "light_note": "Morgenlicht beleuchtet die Dorffassade; Sonnenuntergang bietet spektakuläre Goldtöne.",
+    "rule_label": "Grundregel",
+    "rule_value": "Respektieren Sie den Ort",
+    "rule_note": "Keinen Müll hinterlassen. Auf ausgewiesenen Flächen bleiben. Auf den Straßenverkehr achten.",
+    "fullDetails": "Alle Details auf Google Maps ansehen (Bewertungen, Zeiten, Plus Code...)"
+  },
+  "sources": {
+    "label": "Daten & Quellen",
+    "title": "Daten & Quellen",
+    "intro": "Um die Zuverlässigkeit zu gewährleisten, zitieren wir nur öffentlich zugängliche Quellen.",
+    "google_title": "Google Maps (Basisinformationen)",
+    "google_desc": "Bewertung, Öffnungszeiten, Einführung usw. (können sich ändern)",
+    "unsplash_title": "Unsplash (Fotografien)",
+    "unsplash_desc": "Fotos unter Unsplash-Lizenz verwendet. Einzelne Credits in den Bildunterschriften."
+  },
+  "footer": {
+    "support": "Für technische Unterstützung zu dieser Website kontaktieren Sie bitte:",
+    "rights": "© 2026 Town View Point Gordes · Alle Rechte vorbehalten.",
+    "privacy": "Datenschutzrichtlinie",
+    "terms": "Nutzungsbedingungen",
+    "cookies": "Cookie-Einstellungen"
+  },
+  "privacy": {
+    "title": "Datenschutzrichtlinie",
+    "data_title": "Datenerfassung",
+    "data_text": "Diese Seite ist ein statischer Reiseführer und erfasst keine persönlichen Daten direkt. Wir verwenden keine Registrierungsformulare, Benutzerkonten oder Verhaltenstracking.",
+    "cookies_title": "Cookies",
+    "cookies_text": "Wir verwenden nur ein localStorage-Cookie, um Ihre Theme- (hell/dunkel) und Sprachpräferenzen zu speichern. Keine Drittanbieter-Tracking-Cookies.",
+    "thirdparty_title": "Drittanbieter-Dienste",
+    "thirdparty_text": "Diese Seite integriert Google Maps (iframe) und Unsplash-Bilder. Diese Dienste können Daten gemäß ihren eigenen Datenschutzrichtlinien erheben.",
+    "contact_title": "Kontakt",
+    "contact_text": "Bei datenschutzbezogenen Fragen:"
+  },
+  "terms": {
+    "title": "Nutzungsbedingungen",
+    "use_title": "Nutzung der Website",
+    "use_text": "Diese Seite ist ein informativer Reiseführer. Informationen dienen nur als Referenz und können sich ändern. Überprüfen Sie immer aktuelle Zeiten und Bedingungen vor Ihrem Besuch.",
+    "ip_title": "Geistiges Eigentum",
+    "ip_text": "Texte sind urheberrechtlich geschützt. Fotos stammen von Unsplash und werden unter deren jeweiliger Lizenz verwendet.",
+    "liability_title": "Haftungsbeschränkung",
+    "liability_text": "Wir garantieren nicht die Genauigkeit, Vollständigkeit oder Aktualität der Informationen. Die Nutzung erfolgt auf eigene Gefahr.",
+    "contact_title": "Kontakt"
+  },
+  "cookieSettings": {
+    "title": "Cookie-Einstellungen",
+    "intro": "Wir verwenden Cookies zur Verbesserung Ihrer Erfahrung. Sie können bestimmte Typen akzeptieren oder ablehnen.",
+    "necessary_title": "Unbedingt erforderliche Cookies",
+    "necessary_text": "Für die grundlegende Funktionalität erforderlich (Sprach- und Theme-Präferenzen). Können nicht deaktiviert werden.",
+    "analytics_title": "Analyse-Cookies",
+    "analytics_text": "Ermöglichen die Messung von Besuchen und Trafficquellen zur Verbesserung der Website-Leistung.",
+    "marketing_title": "Marketing-Cookies",
+    "marketing_text": "Können von Werbepartnern verwendet werden, um ein Profil Ihrer Interessen zu erstellen."
+  },
+  "theme": {
+    "light": "Hellmodus",
+    "dark": "Dunkelmodus"
+  }
+}
