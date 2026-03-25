@@ -68,7 +68,8 @@
         "alt": "Gordes 風情小巷"
       }
     ],
-    "openOriginal": "在新視窗開啟"
+    "openOriginal": "在新視窗開啟",
+    "moreLink": "在 Google 地圖上查看更多影像"
   },
   "tips": {
     "label": "建議",
@@ -174,7 +175,7 @@
     "privacy": "隱私權政策",
     "terms": "使用條款",
     "cookies": "Cookie 設定",
-    "disclaimer": "本網站是一個獨立的第三方旅遊資訊指南，旨在為遊客提供客觀的歷史背景與遊覽建議，與【景點名】的官方管理機構無關。如需購買官方門票，請訪問官方渠道。",
+    "disclaimer": "本網站是一個獨立的第三方旅遊資訊指南，旨在為遊客提供客觀的歷史背景與遊覽建議，與Town View Point Gordes的官方管理機構無關。如需購買官方門票，請訪問官方渠道。",
     "about": "關於"
   },
   "privacy": {

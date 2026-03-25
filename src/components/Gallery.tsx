@@ -43,7 +43,7 @@ export default function Gallery() {
         <p className="section-label">{t('label')}</p>
         <h2 className="section-title">{t('title')}</h2>
         
-        <div className="relative mt-8 group">
+        <div className="relative mt-8 group mb-10">
           {/* Left Arrow */}
           <button 
             onClick={() => scroll('left')}
@@ -94,6 +94,21 @@ export default function Gallery() {
             </svg>
           </button>
         </div>
+
+        {/* More link */}
+        <a
+          href="https://maps.app.goo.gl/3Kg2AkzMAuiFHouk7"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="btn-primary inline-flex"
+        >
+          {t('moreLink')}
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="ml-2">
+            <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6" />
+            <polyline points="15 3 21 3 21 9" />
+            <line x1="10" y1="14" x2="21" y2="3" />
+          </svg>
+        </a>
       </div>
       
       <style dangerouslySetInnerHTML={{__html: `

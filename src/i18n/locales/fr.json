@@ -68,7 +68,8 @@
         "alt": "Ruelles pittoresques de Gordes"
       }
     ],
-    "openOriginal": "Ouvrir l'original"
+    "openOriginal": "Ouvrir l'original",
+    "moreLink": "Voir plus d'images sur Google Maps"
   },
   "tips": {
     "label": "Conseils",
@@ -174,7 +175,7 @@
     "privacy": "Politique de confidentialité",
     "terms": "Conditions d'utilisation",
     "cookies": "Paramètres des cookies",
-    "disclaimer": "Ce site web est un guide d'information touristique tiers indépendant, visant à fournir aux visiteurs un contexte historique objectif et des suggestions de voyage, et n'est pas affilié à l'organisme de gestion officiel de [Nom de l'attraction]. Pour l'achat de billets officiels, veuillez visiter les canaux officiels.",
+    "disclaimer": "Ce site web est un guide d'information touristique tiers indépendant, visant à fournir aux visiteurs un contexte historique objectif et des suggestions de voyage, et n'est pas affilié à l'organisme de gestion officiel de Town View Point Gordes. Pour l'achat de billets officiels, veuillez visiter les canaux officiels.",
     "about": "À Propos"
   },
   "privacy": {
