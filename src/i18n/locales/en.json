@@ -9,7 +9,8 @@
     "photos": "Photos",
     "reviews": "Reviews",
     "tips": "Tips",
-    "map": "Map"
+    "map": "Map",
+    "about": "About"
   },
   "hero": {
     "siteType": "Panoramic viewpoint",
@@ -171,7 +172,9 @@
     "rights": "© 2026 Town View Point Gordes · All rights reserved.",
     "privacy": "Privacy Policy",
     "terms": "Terms of Service",
-    "cookies": "Cookie Settings"
+    "cookies": "Cookie Settings",
+    "disclaimer": "This website is an independent third-party travel information guide, aiming to provide visitors with objective historical background and travel suggestions, and is not affiliated with the official management agency of [Attraction Name]. For official ticket purchases, please visit official channels.",
+    "about": "About"
   },
   "privacy": {
     "title": "Privacy Policy",
@@ -214,5 +217,9 @@
   "theme": {
     "light": "Light mode",
     "dark": "Dark mode"
+  },
+  "about": {
+    "title": "About Us",
+    "link": "About"
   }
 }

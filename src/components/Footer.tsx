@@ -21,6 +21,9 @@ export default function Footer() {
           <a href={`${prefix}/cookie-settings`} style={{ color: 'var(--text-muted)' }} className="hover:underline">
             {t('cookies')}
           </a>
+          <a href={`${prefix}/about`} style={{ color: 'var(--text-muted)' }} className="hover:underline">
+            {t('about')}
+          </a>
         </div>
 
         {/* Support */}
@@ -31,8 +34,13 @@ export default function Footer() {
           </a>
         </p>
 
+        {/* Disclaimer */}
+        <p className="text-xs mt-8 leading-relaxed" style={{ color: 'var(--text-muted)' }}>
+          {t('disclaimer')}
+        </p>
+
         {/* Copyright */}
-        <p className="text-sm" style={{ color: 'var(--text-muted)' }}>
+        <p className="text-sm mt-2" style={{ color: 'var(--text-muted)' }}>
           {t('rights')}
         </p>
       </div>

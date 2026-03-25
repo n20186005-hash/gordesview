@@ -9,7 +9,8 @@
     "photos": "照片",
     "reviews": "評價",
     "tips": "建議",
-    "map": "地圖"
+    "map": "地圖",
+    "about": "關於"
   },
   "hero": {
     "siteType": "全景觀景台",
@@ -171,7 +172,9 @@
     "rights": "© 2026 Town View Point Gordes · 版權所有。",
     "privacy": "隱私權政策",
     "terms": "使用條款",
-    "cookies": "Cookie 設定"
+    "cookies": "Cookie 設定",
+    "disclaimer": "本網站是一個獨立的第三方旅遊資訊指南，旨在為遊客提供客觀的歷史背景與遊覽建議，與【景點名】的官方管理機構無關。如需購買官方門票，請訪問官方渠道。",
+    "about": "關於"
   },
   "privacy": {
     "title": "隐私政策",
@@ -214,5 +217,9 @@
   "theme": {
     "light": "日間模式",
     "dark": "夜間模式"
+  },
+  "about": {
+    "title": "關於我們",
+    "link": "關於"
   }
 }

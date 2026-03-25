@@ -9,7 +9,7 @@ export default function Header() {
   const t = useTranslations('header');
   const [mobileOpen, setMobileOpen] = useState(false);
 
-  const navItems = [
+  const navItems: { key: keyof IntlMessages['header']; href: string }[] = [
     { key: 'overview', href: '#overview' },
     { key: 'photos', href: '#photos' },
     { key: 'tips', href: '#tips' },
@@ -37,6 +37,13 @@ export default function Header() {
               {t(item.key)}
             </a>
           ))}
+          <a
+            href="/about"
+            className="text-sm font-medium transition-colors hover:opacity-70"
+            style={{ color: 'var(--text-secondary)' }}
+          >
+            {t('about')}
+          </a>
         </nav>
 
         {/* Controls */}
@@ -82,6 +89,14 @@ export default function Header() {
               {t(item.key)}
             </a>
           ))}
+          <a
+            href="/about"
+            onClick={() => setMobileOpen(false)}
+            className="py-2 text-sm font-medium"
+            style={{ color: 'var(--text-secondary)' }}
+          >
+            {t('about')}
+          </a>
         </nav>
       )}
     </header>

@@ -9,7 +9,8 @@
     "photos": "Photos",
     "reviews": "Avis",
     "tips": "Conseils",
-    "map": "Carte"
+    "map": "Carte",
+    "about": "À Propos"
   },
   "hero": {
     "siteType": "Point de vue panoramique",
@@ -171,7 +172,9 @@
     "rights": "© 2026 Town View Point Gordes · Tous droits réservés.",
     "privacy": "Politique de confidentialité",
     "terms": "Conditions d'utilisation",
-    "cookies": "Paramètres des cookies"
+    "cookies": "Paramètres des cookies",
+    "disclaimer": "Ce site web est un guide d'information touristique tiers indépendant, visant à fournir aux visiteurs un contexte historique objectif et des suggestions de voyage, et n'est pas affilié à l'organisme de gestion officiel de [Nom de l'attraction]. Pour l'achat de billets officiels, veuillez visiter les canaux officiels.",
+    "about": "À Propos"
   },
   "privacy": {
     "title": "Politique de confidentialité",
@@ -214,5 +217,9 @@
   "theme": {
     "light": "Mode clair",
     "dark": "Mode sombre"
+  },
+  "about": {
+    "title": "À Propos",
+    "link": "À Propos"
   }
 }
