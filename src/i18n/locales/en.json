@@ -165,7 +165,8 @@
     "google_title": "Google Maps (Basic information)",
     "google_desc": "Rating, opening hours, introduction, etc. (subject to change over time)",
     "unsplash_title": "Unsplash (Photographs)",
-    "unsplash_desc": "Photos used under Unsplash license. Individual credits in captions."
+    "unsplash_desc": "Photos used under Unsplash license. Individual credits in captions.",
+    "disclaimer": "Information extracted from public resources (Tourist Office/Local Tourist Board and Wikipedia), combined with basic information from Google Maps."
   },
   "footer": {
     "support": "For technical support regarding this website, please contact:",

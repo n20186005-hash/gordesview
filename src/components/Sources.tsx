@@ -8,8 +8,11 @@ export default function Sources() {
       <div className="max-w-6xl mx-auto px-4">
         <p className="section-label">{t('label')}</p>
         <h2 className="section-title">{t('title')}</h2>
-        <p className="text-sm mb-8" style={{ color: 'var(--text-muted)' }}>
+        <p className="text-sm mb-4" style={{ color: 'var(--text-muted)' }}>
           {t('intro')}
+        </p>
+        <p className="text-sm mb-8" style={{ color: 'var(--text-muted)' }}>
+          {t('disclaimer')}
         </p>
 
         <div className="grid md:grid-cols-2 gap-6 max-w-2xl">

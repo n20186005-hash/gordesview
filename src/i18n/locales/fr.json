@@ -165,7 +165,8 @@
     "google_title": "Google Maps (Informations de base)",
     "google_desc": "Note, heures d'ouverture, introduction, etc. (susceptibles de changer avec le temps)",
     "unsplash_title": "Unsplash (Photographies)",
-    "unsplash_desc": "Photos utilisées sous licence Unsplash. Crédits individuels dans les légendes."
+    "unsplash_desc": "Photos utilisées sous licence Unsplash. Crédits individuels dans les légendes.",
+    "disclaimer": "Informations extraites de ressources publiques (Office de Tourisme/Office de Tourisme local et Wikipédia), combinées aux informations de base de Google Maps."
   },
   "footer": {
     "support": "Pour toute assistance technique concernant ce site, veuillez contacter :",

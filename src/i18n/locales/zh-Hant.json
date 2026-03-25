@@ -165,7 +165,8 @@
     "google_title": "Google 地圖（基本資訊）",
     "google_desc": "評分、開放時間、簡介等（可能隨時間變化）",
     "unsplash_title": "Unsplash（攝影作品）",
-    "unsplash_desc": "照片使用 Unsplash 授權。個別圖片版權標注於說明文字中。"
+    "unsplash_desc": "照片使用 Unsplash 授權。個別圖片版權標注於說明文字中。",
+    "disclaimer": "信息提取自公共资源（旅游局/当地旅游局和维基百科），并结合了谷歌地图的基本信息。"
   },
   "footer": {
     "support": "如需本網站的技術支援，請聯繫：",
