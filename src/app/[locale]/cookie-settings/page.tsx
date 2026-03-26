@@ -1,7 +1,19 @@
-import { unstable_setRequestLocale } from 'next-intl/server';
+import { getTranslations, unstable_setRequestLocale } from 'next-intl/server';
 import { useTranslations } from 'next-intl';
+import type { Metadata } from 'next';
+import { getSEOMetadata } from '@/lib/seo';
 
 type Props = { params: { locale: string } };
+
+export async function generateMetadata({ params }: Props): Promise<Metadata> {
+  const { locale } = params;
+  const t = await getTranslations({ locale, namespace: 'cookieSettings' });
+  
+  return {
+    title: t('title'),
+    ...getSEOMetadata(locale, '/cookie-settings'),
+  };
+}
 
 export default function CookieSettings({ params: { locale } }: Props) {
   unstable_setRequestLocale(locale);

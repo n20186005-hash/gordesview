@@ -19,20 +19,10 @@ export function generateStaticParams() {
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { locale } = params;
   const t = await getTranslations({ locale, namespace: 'meta' });
-  const baseUrl = 'https://gordesview.com';
 
   return {
     title: t('title'),
     description: t('description'),
-    alternates: {
-      canonical: locale === 'fr' ? baseUrl : `${baseUrl}/${locale}`,
-      languages: {
-        fr: baseUrl,
-        en: `${baseUrl}/en`,
-        de: `${baseUrl}/de`,
-        'zh-Hant': `${baseUrl}/zh-Hant`,
-      },
-    },
   };
 }
 
@@ -48,13 +38,6 @@ export default async function LocaleLayout({ children, params }: Props) {
 
   return (
     <html lang={locale} suppressHydrationWarning>
-      <head>
-        <link rel="alternate" hrefLang="fr" href="https://gordesview.com" />
-        <link rel="alternate" hrefLang="en" href="https://gordesview.com/en" />
-        <link rel="alternate" hrefLang="de" href="https://gordesview.com/de" />
-        <link rel="alternate" hrefLang="zh-Hant" href="https://gordesview.com/zh-Hant" />
-        <link rel="alternate" hrefLang="x-default" href="https://gordesview.com" />
-      </head>
       <body>
         <NextIntlClientProvider locale={locale} messages={messages}>
           <ThemeProvider>

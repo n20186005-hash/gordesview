@@ -6,10 +6,17 @@ import Tips from '@/components/Tips';
 import Reviews from '@/components/Reviews';
 import MapEmbed from '@/components/MapEmbed';
 import Sources from '@/components/Sources';
+import { getSEOMetadata } from '@/lib/seo';
+import type { Metadata } from 'next';
 
 type Props = { params: { locale: string } };
 
-export default function HomePage({ params: { locale } }: Props) {
+export async function generateMetadata({ params }: Props): Promise<Metadata> {
+  const { locale } = params;
+  return getSEOMetadata(locale, '');
+}
+
+export default function Home({ params: { locale } }: Props) {
   unstable_setRequestLocale(locale);
   return (
     <>

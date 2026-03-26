@@ -1,6 +1,7 @@
 import { getTranslations, unstable_setRequestLocale } from 'next-intl/server';
 import { useTranslations } from 'next-intl';
 import type { Metadata } from 'next';
+import { getSEOMetadata } from '@/lib/seo';
 
 type Props = { params: { locale: string } };
 
@@ -10,6 +11,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   
   return {
     title: t('title'),
+    ...getSEOMetadata(locale, '/about'),
   };
 }
 
