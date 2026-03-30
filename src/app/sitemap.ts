@@ -2,7 +2,6 @@ import { MetadataRoute } from 'next';
 
 const baseUrl = 'https://www.gordesview.com';
 const locales = ['fr', 'en', 'de', 'zh-Hant'];
-const defaultLocale = 'fr';
 
 const staticPages = [
   '',
@@ -12,16 +11,21 @@ const staticPages = [
   '/terms-of-service',
 ];
 
+const formatPath = (path: string) => {
+  if (path === '' || path === '/') return '';
+  return path.endsWith('/') ? path : `${path}/`;
+};
+
 export default function sitemap(): MetadataRoute.Sitemap {
   const sitemapEntries: MetadataRoute.Sitemap = [];
 
   staticPages.forEach((page) => {
-    // 默认语言的 URL
-    const defaultUrl = `${baseUrl}${page}`;
+    // 默认（无语言前缀）的 URL，用作 x-default
+    const defaultUrl = `${baseUrl}${formatPath(page)}`;
     
     // 构建所有语言的 alternateRefs
     const alternateRefs = locales.map((locale) => {
-      const localePath = locale === defaultLocale ? page : `/${locale}${page}`;
+      const localePath = formatPath(`/${locale}${page}`);
       return {
         href: `${baseUrl}${localePath}`,
         hreflang: locale,
@@ -30,13 +34,13 @@ export default function sitemap(): MetadataRoute.Sitemap {
 
     // 添加 x-default
     alternateRefs.push({
-      href: defaultUrl,
+      href: defaultUrl || `${baseUrl}/`,
       hreflang: 'x-default',
     });
 
     // 为每个语言生成一个 entry
     locales.forEach((locale) => {
-      const localePath = locale === defaultLocale ? page : `/${locale}${page}`;
+      const localePath = formatPath(`/${locale}${page}`);
       sitemapEntries.push({
         url: `${baseUrl}${localePath}`,
         lastModified: new Date(),
