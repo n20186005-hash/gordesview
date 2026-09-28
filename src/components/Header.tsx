@@ -9,13 +9,13 @@ export default function Header() {
   const t = useTranslations('header');
   const [mobileOpen, setMobileOpen] = useState(false);
 
-  const navItems: { key: string; href: string }[] = [
+  const navItems = [
     { key: 'overview', href: '#overview' },
     { key: 'photos', href: '#photos' },
     { key: 'tips', href: '#tips' },
     { key: 'reviews', href: '#reviews' },
     { key: 'map', href: '#map' },
-  ];
+  ] as const;
 
   return (
     <header className="header-blur fixed top-0 left-0 right-0 z-50">
