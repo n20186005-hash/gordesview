@@ -1,5 +1,4 @@
 import { getTranslations, setRequestLocale } from 'next-intl/server';
-import { useTranslations } from 'next-intl';
 import type { Metadata } from 'next';
 import { getSEOMetadata } from '@/lib/seo';
 
@@ -18,7 +17,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 export default async function TermsOfService({ params }: Props) {
   const { locale } = await params;
   setRequestLocale(locale);
-  const t = useTranslations('terms');
+  const t = await getTranslations('terms');
 
   return (
     <div className="pt-24 pb-20">
