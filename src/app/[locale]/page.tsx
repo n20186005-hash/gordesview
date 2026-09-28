@@ -1,4 +1,4 @@
-import { unstable_setRequestLocale } from 'next-intl/server';
+import { setRequestLocale } from 'next-intl/server';
 import Hero from '@/components/Hero';
 import Overview from '@/components/Overview';
 import Gallery from '@/components/Gallery';
@@ -9,15 +9,16 @@ import Sources from '@/components/Sources';
 import { getSEOMetadata } from '@/lib/seo';
 import type { Metadata } from 'next';
 
-type Props = { params: { locale: string } };
+type Props = { params: Promise<{ locale: string }> };
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
-  const { locale } = params;
+  const { locale } = await params;
   return getSEOMetadata(locale, '');
 }
 
-export default function Home({ params: { locale } }: Props) {
-  unstable_setRequestLocale(locale);
+export default async function Home({ params }: Props) {
+  const { locale } = await params;
+  setRequestLocale(locale);
   return (
     <>
       <Hero />

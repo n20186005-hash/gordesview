@@ -9,7 +9,7 @@ export default function Header() {
   const t = useTranslations('header');
   const [mobileOpen, setMobileOpen] = useState(false);
 
-  const navItems: { key: keyof IntlMessages['header']; href: string }[] = [
+  const navItems: { key: string; href: string }[] = [
     { key: 'overview', href: '#overview' },
     { key: 'photos', href: '#photos' },
     { key: 'tips', href: '#tips' },

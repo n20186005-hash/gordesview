@@ -1,12 +1,12 @@
-import { getTranslations, unstable_setRequestLocale } from 'next-intl/server';
+import { getTranslations, setRequestLocale } from 'next-intl/server';
 import { useTranslations } from 'next-intl';
 import type { Metadata } from 'next';
 import { getSEOMetadata } from '@/lib/seo';
 
-type Props = { params: { locale: string } };
+type Props = { params: Promise<{ locale: string }> };
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
-  const { locale } = params;
+  const { locale } = await params;
   const t = await getTranslations({ locale, namespace: 'privacy' });
   
   return {
@@ -15,8 +15,9 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   };
 }
 
-export default function PrivacyPolicy({ params: { locale } }: Props) {
-  unstable_setRequestLocale(locale);
+export default async function PrivacyPolicy({ params }: Props) {
+  const { locale } = await params;
+  setRequestLocale(locale);
   const t = useTranslations('privacy');
 
   return (
