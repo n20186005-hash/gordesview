@@ -1,4 +1,5 @@
 import { MetadataRoute } from 'next';
+import { PARKING_GUIDE_PATHS } from '@/lib/site-data';
 
 const baseUrl = 'https://www.gordesview.com';
 const locales = ['fr', 'en', 'de', 'zh-Hant'];
@@ -15,6 +16,13 @@ const formatPath = (path: string) => {
   if (path === '' || path === '/') return '';
   return path.endsWith('/') ? path : `${path}/`;
 };
+
+const localizedGuideGroups = [
+  {
+    paths: PARKING_GUIDE_PATHS,
+    priority: 0.9,
+  },
+];
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const sitemapEntries: MetadataRoute.Sitemap = [];
@@ -51,6 +59,27 @@ export default function sitemap(): MetadataRoute.Sitemap {
             acc[curr.hreflang] = curr.href;
             return acc;
           }, {} as Record<string, string>),
+        },
+      });
+    });
+  });
+
+  localizedGuideGroups.forEach((group) => {
+    const alternates = Object.entries(group.paths).reduce((acc, [locale, path]) => {
+      acc[locale] = `${baseUrl}${formatPath(path)}`;
+      return acc;
+    }, {} as Record<string, string>);
+
+    alternates['x-default'] = `${baseUrl}${formatPath(group.paths.fr)}`;
+
+    Object.values(group.paths).forEach((path) => {
+      sitemapEntries.push({
+        url: `${baseUrl}${formatPath(path)}`,
+        lastModified: new Date(),
+        changeFrequency: 'monthly',
+        priority: group.priority,
+        alternates: {
+          languages: alternates,
         },
       });
     });

@@ -1,10 +1,10 @@
 import { useTranslations } from 'next-intl';
+import { GOOGLE_MAPS_LINK } from '@/lib/site-data';
 
 export default function Hero() {
   const t = useTranslations('hero');
 
   const tags = t('tags').split(',');
-  const MAPS_LINK = 'https://maps.app.goo.gl/umLVuP6GABSLL3dN9';
 
   return (
     <section
@@ -25,7 +25,7 @@ export default function Hero() {
           <span className="text-white/80 text-sm font-medium">{t('siteType')}</span>
           <span className="text-white/60">·</span>
           <a
-            href={MAPS_LINK}
+            href={GOOGLE_MAPS_LINK}
             target="_blank"
             rel="noopener noreferrer"
             className="text-white text-sm font-medium hover:text-white/80"

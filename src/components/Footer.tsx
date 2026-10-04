@@ -5,7 +5,7 @@ export default function Footer() {
   const t = useTranslations('footer');
   const locale = useLocale();
 
-  const prefix = locale === 'fr' ? '' : `/${locale}`;
+  const prefix = `/${locale}`;
 
   return (
     <footer className="py-12" style={{ borderTop: '1px solid var(--border-color)' }}>

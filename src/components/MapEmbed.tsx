@@ -1,6 +1,5 @@
 import { useTranslations } from 'next-intl';
-
-const MAPS_LINK = 'https://maps.app.goo.gl/umLVuP6GABSLL3dN9';
+import { GOOGLE_MAPS_LINK } from '@/lib/site-data';
 const EMBED_SRC = 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d854.5861010030521!2d5.197331002098652!3d43.90816896620646!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12ca0dda4d71fdf7%3A0x386a52a5fb62468f!2sTown%20View%20Point%20Gordes!5e0!3m2!1sen!2sus!4v1774320436204!5m2!1sen!2sus';
 
 export default function MapEmbed() {
@@ -34,7 +33,7 @@ export default function MapEmbed() {
 
         {/* Open Maps CTA */}
         <a
-          href={MAPS_LINK}
+          href={GOOGLE_MAPS_LINK}
           target="_blank"
           rel="noopener noreferrer"
           className="btn-primary inline-flex mb-10"
@@ -68,7 +67,7 @@ export default function MapEmbed() {
 
         {/* Full details link */}
         <a
-          href={MAPS_LINK}
+          href={GOOGLE_MAPS_LINK}
           target="_blank"
           rel="noopener noreferrer"
           className="text-sm mt-6 inline-block"

@@ -1,6 +1,5 @@
 import { useTranslations } from 'next-intl';
-
-const MAPS_LINK = 'https://maps.app.goo.gl/umLVuP6GABSLL3dN9';
+import { GOOGLE_MAPS_LINK } from '@/lib/site-data';
 
 export default function Reviews() {
   const t = useTranslations('reviews');
@@ -24,7 +23,7 @@ export default function Reviews() {
 
         {/* Rating summary */}
         <div className="flex items-center gap-4 mb-6">
-          <a href={MAPS_LINK} target="_blank" rel="noopener noreferrer"
+          <a href={GOOGLE_MAPS_LINK} target="_blank" rel="noopener noreferrer"
             className="text-4xl font-bold" style={{ color: 'var(--text-primary)' }}>
             {t('rating')}
           </a>
@@ -62,7 +61,7 @@ export default function Reviews() {
 
         {/* More link */}
         <a
-          href={MAPS_LINK}
+          href={GOOGLE_MAPS_LINK}
           target="_blank"
           rel="noopener noreferrer"
           className="btn-primary inline-flex"

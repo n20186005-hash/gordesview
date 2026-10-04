@@ -1,27 +1,30 @@
 'use client';
 
-import { useTranslations } from 'next-intl';
+import { useLocale, useTranslations } from 'next-intl';
 import LanguageToggle from './LanguageToggle';
 import ThemeToggle from './ThemeToggle';
 import { useState } from 'react';
 
 export default function Header() {
   const t = useTranslations('header');
+  const locale = useLocale();
   const [mobileOpen, setMobileOpen] = useState(false);
+  const homeHref = `/${locale}`;
+  const aboutHref = `/${locale}/about`;
 
   const navItems = [
-    { key: 'overview', href: '#overview' },
-    { key: 'photos', href: '#photos' },
-    { key: 'tips', href: '#tips' },
-    { key: 'reviews', href: '#reviews' },
-    { key: 'map', href: '#map' },
+    { key: 'overview', href: `${homeHref}#overview` },
+    { key: 'photos', href: `${homeHref}#photos` },
+    { key: 'tips', href: `${homeHref}#tips` },
+    { key: 'reviews', href: `${homeHref}#reviews` },
+    { key: 'map', href: `${homeHref}#map` },
   ] as const;
 
   return (
     <header className="header-blur fixed top-0 left-0 right-0 z-50">
       <div className="max-w-6xl mx-auto px-4 h-16 flex items-center justify-between">
         {/* Logo */}
-        <a href="#" className="font-serif font-semibold text-lg" style={{ color: 'var(--text-primary)' }}>
+        <a href={homeHref} className="font-serif font-semibold text-lg" style={{ color: 'var(--text-primary)' }}>
           Gordes<span style={{ color: 'var(--accent)' }}>View</span>
         </a>
 
@@ -38,7 +41,7 @@ export default function Header() {
             </a>
           ))}
           <a
-            href="/about"
+            href={aboutHref}
             className="text-sm font-medium transition-colors hover:opacity-70"
             style={{ color: 'var(--text-secondary)' }}
           >
@@ -90,7 +93,7 @@ export default function Header() {
             </a>
           ))}
           <a
-            href="/about"
+            href={aboutHref}
             onClick={() => setMobileOpen(false)}
             className="py-2 text-sm font-medium"
             style={{ color: 'var(--text-secondary)' }}

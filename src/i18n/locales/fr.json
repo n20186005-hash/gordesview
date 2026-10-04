@@ -1,7 +1,7 @@
 {
   "meta": {
-    "title": "Town View Point Gordes | Point de vue sur Gordes",
-    "description": "Guide complet du Town View Point Gordes : panorama exceptionnel, conseils de visite et photographie du plus beau point de vue sur Gordes (Gordes Viewpoint)."
+    "title": "Point de vue Gordes : Belvédère, Parking & Vue Panoramique",
+    "description": "Découvrez le point de vue sur Gordes, le célèbre belvédère de Gordes avec parking, vue panoramique, conseils photo et informations pratiques pour visiter le plus beau panorama du village."
   },
   "header": {
     "home": "Accueil",
@@ -14,10 +14,10 @@
   },
   "hero": {
     "siteType": "Point de vue panoramique",
-    "title": "Town View Point Gordes",
-    "subtitle": "Guide du Visiteur - Point de vue sur Gordes",
+    "title": "Point de vue sur Gordes - Le célèbre belvédère de Gordes",
+    "subtitle": "Parking, vue panoramique et conseils photo",
     "rating": "4.7/5",
-    "reviewCount": "3 198 avis",
+    "reviewCount": "3 510 avis",
     "hours": "Ouvert 24h/24",
     "discover": "Découvrir",
     "seePhotos": "Voir les photos",
@@ -27,7 +27,7 @@
   "overview": {
     "label": "Aperçu",
     "title": "Pourquoi ce point de vue est unique",
-    "description": "Situé sur la route de Cavaillon, le Town View Point (aussi connu sous le nom de Gordes Viewpoint) offre la vue la plus emblématique sur Gordes — un village perché spectaculaire du Luberon. Cette perspective classique du point de vue sur Gordes, immortalisée par d'innombrables photographes, révèle les maisons de pierre dorée cascadant le long de la falaise.",
+    "description": "Situé sur la route de Cavaillon, le Town View Point Gordes est le point de vue sur Gordes le plus recherché pour admirer le célèbre belvédère de Gordes. Depuis ce point de vue sur la ville de Gordes, vous profitez d'une vue panoramique sur Gordes, d'un accès rapide au parking du point de vue Gordes et de l'angle photo le plus connu du village perché.",
     "highlight1_title": "Panorama iconique",
     "highlight1_icon": "🏔",
     "highlight1_desc": "La vue frontale la plus célèbre sur Gordes, offrant une perspective complète du village accroché à la falaise calcaire du Luberon.",
@@ -90,8 +90,8 @@
     "label": "Avis",
     "title": "Avis de vrais visiteurs",
     "rating": "4.7",
-    "count": "3 198 avis",
-    "declaration": "Évaluations et avis provenant de Google Maps (dernière mise à jour : 2026). Nous ne montrons qu'une sélection d'avis hautement notés vérifiés. Pour voir tous les avis complets et les plus récents, cliquez sur le lien ci-dessous.",
+    "count": "3 510 avis",
+    "declaration": "Évaluations et avis basés sur les dernières données Google Maps disponibles. Nous montrons une sélection d'avis hautement notés ; pour consulter le nombre d'avis le plus récent et l'ensemble des retours, ouvrez Google Maps.",
     "moreLink": "Voir plus d'avis sur Google Maps",
     "items": [
       {

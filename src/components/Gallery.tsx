@@ -2,6 +2,7 @@
 
 import { useTranslations } from 'next-intl';
 import { useRef, useState, useEffect } from 'react';
+import { GOOGLE_MAPS_LINK } from '@/lib/site-data';
 
 export default function Gallery() {
   const t = useTranslations('gallery');
@@ -97,7 +98,7 @@ export default function Gallery() {
 
         {/* More link */}
         <a
-          href="https://maps.app.goo.gl/3Kg2AkzMAuiFHouk7"
+          href={GOOGLE_MAPS_LINK}
           target="_blank"
           rel="noopener noreferrer"
           className="btn-primary inline-flex"

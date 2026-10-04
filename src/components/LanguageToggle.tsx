@@ -3,6 +3,7 @@
 import { useLocale } from 'next-intl';
 import { useRouter, usePathname } from 'next/navigation';
 import { useState, useRef, useEffect } from 'react';
+import { PARKING_GUIDE_PATHS } from '@/lib/site-data';
 
 const locales = [
   { code: 'fr', label: 'Français' },
@@ -20,6 +21,14 @@ export default function LanguageToggle() {
 
   const current = locales.find((l) => l.code === locale) || locales[0];
 
+  const normalizePath = (path: string) => {
+    if (path !== '/' && path.endsWith('/')) {
+      return path.slice(0, -1);
+    }
+
+    return path;
+  };
+
   useEffect(() => {
     const handleClick = (e: MouseEvent) => {
       if (ref.current && !ref.current.contains(e.target as Node)) {
@@ -32,6 +41,16 @@ export default function LanguageToggle() {
 
   const switchLocale = (code: string) => {
     setOpen(false);
+    const normalizedPath = normalizePath(pathname);
+
+    for (const [sourceLocale, localizedPath] of Object.entries(PARKING_GUIDE_PATHS)) {
+      if (normalizePath(localizedPath) === normalizedPath) {
+        const targetPath = PARKING_GUIDE_PATHS[code as keyof typeof PARKING_GUIDE_PATHS];
+        router.push(targetPath || `/${code}`);
+        return;
+      }
+    }
+
     // Remove current locale prefix from pathname
     let path = pathname;
     for (const l of locales) {
@@ -40,7 +59,7 @@ export default function LanguageToggle() {
         break;
       }
     }
-    const newPath = code === 'fr' ? path : `/${code}${path === '/' ? '' : path}`;
+    const newPath = `/${code}${path === '/' ? '' : path}`;
     router.push(newPath);
   };
 
