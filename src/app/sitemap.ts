@@ -29,7 +29,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
 
   staticPages.forEach((page) => {
     // 默认（无语言前缀）的 URL，用作 x-default
-    const defaultUrl = `${baseUrl}${formatPath(page)}`;
+    const defaultUrl = `${baseUrl}${formatPath(`/fr${page}`)}`;
     
     // 构建所有语言的 alternateRefs
     const alternateRefs = locales.map((locale) => {
