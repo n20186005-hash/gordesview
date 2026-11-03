@@ -41,33 +41,7 @@
   "gallery": {
     "label": "照片",
     "title": "Gordes 影像集",
-    "credit": "照片使用 Unsplash 授權",
-    "photos": [
-      {
-        "src": "https://images.unsplash.com/photo-1596627116790-af6f46dddbff?w=800&q=80",
-        "alt": "Gordes 村莊全景"
-      },
-      {
-        "src": "https://images.unsplash.com/photo-1595326053710-cbfce1bdb155?w=800&q=80",
-        "alt": "Gordes 金色石屋"
-      },
-      {
-        "src": "https://images.unsplash.com/photo-1602519011692-6bc23eeda174?w=800&q=80",
-        "alt": "村頂的 Gordes 城堡"
-      },
-      {
-        "src": "https://images.unsplash.com/photo-1559128010-7c1ad6e1b6a5?w=800&q=80",
-        "alt": "呂貝宏普羅旺斯風光"
-      },
-      {
-        "src": "https://images.unsplash.com/photo-1499002238440-d264edd596ec?w=800&q=80",
-        "alt": "普羅旺斯薰衣草田"
-      },
-      {
-        "src": "https://images.unsplash.com/photo-1568797629739-9a910aa tried?w=800&q=80",
-        "alt": "Gordes 風情小巷"
-      }
-    ],
+    "credit": "圖庫圖片僅供參考。",
     "openOriginal": "在新視窗開啟",
     "moreLink": "在 Google 地圖上查看更多影像"
   },
@@ -115,8 +89,8 @@
     "intro": "為了確保資訊可靠性，我們僅引用可公開存取的來源。",
     "google_title": "Google 地圖（基本資訊）",
     "google_desc": "評分、開放時間、簡介等（可能隨時間變化）",
-    "unsplash_title": "Unsplash（攝影作品）",
-    "unsplash_desc": "照片使用 Unsplash 授權。個別圖片版權標注於說明文字中。",
+    "unsplash_title": "呂貝隆區域自然公園",
+    "unsplash_desc": "自然公園介紹全景和 D15 附近的小型停車區。",
     "disclaimer": "信息提取自公共资源（旅游局/当地旅游局和维基百科），并结合了谷歌地图的基本信息。"
   },
   "footer": {

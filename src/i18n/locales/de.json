@@ -41,33 +41,7 @@
   "gallery": {
     "label": "Fotos",
     "title": "Gordes in Bildern",
-    "credit": "Fotos unter Unsplash-Lizenz",
-    "photos": [
-      {
-        "src": "https://images.unsplash.com/photo-1596627116790-af6f46dddbff?w=800&q=80",
-        "alt": "Panoramablick auf das Dorf Gordes"
-      },
-      {
-        "src": "https://images.unsplash.com/photo-1595326053710-cbfce1bdb155?w=800&q=80",
-        "alt": "Goldene Steinhäuser von Gordes"
-      },
-      {
-        "src": "https://images.unsplash.com/photo-1602519011692-6bc23eeda174?w=800&q=80",
-        "alt": "Château de Gordes auf dem Dorfgipfel"
-      },
-      {
-        "src": "https://images.unsplash.com/photo-1559128010-7c1ad6e1b6a5?w=800&q=80",
-        "alt": "Provenzalische Landschaft des Luberon"
-      },
-      {
-        "src": "https://images.unsplash.com/photo-1499002238440-d264edd596ec?w=800&q=80",
-        "alt": "Lavendelfelder in der Provence"
-      },
-      {
-        "src": "https://images.unsplash.com/photo-1568797629739-9a910aa tried?w=800&q=80",
-        "alt": "Malerische Gassen von Gordes"
-      }
-    ],
+    "credit": "Die Galeriebilder dienen der Illustration.",
     "openOriginal": "Original öffnen",
     "moreLink": "Weitere Bilder auf Google Maps ansehen"
   },
@@ -115,8 +89,8 @@
     "intro": "Um die Zuverlässigkeit zu gewährleisten, zitieren wir nur öffentlich zugängliche Quellen.",
     "google_title": "Google Maps (Basisinformationen)",
     "google_desc": "Bewertung, Öffnungszeiten, Einführung usw. (können sich ändern)",
-    "unsplash_title": "Unsplash (Fotografien)",
-    "unsplash_desc": "Fotos unter Unsplash-Lizenz verwendet. Einzelne Credits in den Bildunterschriften.",
+    "unsplash_title": "Regionaler Naturpark Luberon",
+    "unsplash_desc": "Der Park beschreibt das Panorama und den kleinen Parkplatz an der D15.",
     "disclaimer": "Die Informationen stammen aus öffentlichen Quellen (Tourismusbüro/örtliches Fremdenverkehrsamt und Wikipedia) und werden mit grundlegenden Informationen aus Google Maps kombiniert."
   },
   "footer": {

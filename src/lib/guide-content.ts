@@ -36,7 +36,7 @@ export const homeIntentContent: Record<AppLocale, HomeIntentContent> = {
   en: {
     label: 'Photo & Parking',
     title: 'Where is the famous Gordes photo taken?',
-    intro: 'The classic postcard photo of Gordes is taken from Town View Point Gordes on the roadside belvedere along Route de Cavaillon. This is also the easiest panoramic stop for visitors who want the best photo spot, quick parking and a wide open view of the village.',
+    intro: 'The classic postcard photo of Gordes is taken from Town View Point Gordes on the roadside belvedere along Route de Cavaillon. It offers a wide view of the village near a small roadside parking area.',
     photoQuestion: 'Where is the famous Gordes photo taken?',
     photoAnswer: 'It is taken from the signed roadside lookout known as Town View Point Gordes. From here you get the full frontal panorama of the village, with the stone houses stacked above the valley exactly like the best-known Gordes photos online.',
     photoPoints: [
@@ -45,13 +45,13 @@ export const homeIntentContent: Record<AppLocale, HomeIntentContent> = {
       'Stay inside the parking and belvedere area when taking photos because the roadside can be busy.'
     ],
     parkingTitle: 'Need parking first?',
-    parkingText: 'We created a dedicated parking guide covering the viewpoint parking area, how early it fills up, what to expect in summer and how it differs from Gordes village parking.',
+    parkingText: 'Our parking guide explains the viewpoint parking area and how it differs from village parking.',
     parkingCta: 'Read the Gordes Viewpoint Parking Guide'
   },
   fr: {
     label: 'Photo et parking',
     title: 'Où prendre la célèbre photo de Gordes ?',
-    intro: 'La photo carte postale la plus connue de Gordes se prend depuis le Town View Point Gordes, le belvédère routier situé sur la route de Cavaillon. C’est le point de vue Gordes le plus pratique pour profiter d’une vue panoramique, faire des photos et se garer rapidement.',
+    intro: 'La photo carte postale la plus connue de Gordes se prend depuis le Town View Point Gordes, le belvédère routier situé sur la route de Cavaillon. Ce belvédère offre une vue panoramique près d’un petit parking routier.',
     photoQuestion: 'Où prendre la célèbre photo de Gordes ?',
     photoAnswer: 'La photo emblématique se prend depuis le belvédère signalé comme Town View Point Gordes. Depuis ce point de vue sur Gordes, on voit toute la façade du village perché avec les maisons en pierre dorée empilées au-dessus de la vallée.',
     photoPoints: [
@@ -60,13 +60,13 @@ export const homeIntentContent: Record<AppLocale, HomeIntentContent> = {
       'Restez dans la zone de stationnement et sur le belvédère pour prendre vos photos, car la route peut être passante.'
     ],
     parkingTitle: 'Vous cherchez où vous garer ?',
-    parkingText: 'Notre guide parking explique où se trouve le parking du point de vue Gordes, quand il se remplit en haute saison et la différence avec les parkings du village de Gordes.',
+    parkingText: 'Notre guide présente le parking du point de vue et les différences avec le stationnement dans le village.',
     parkingCta: 'Lire le guide parking du point de vue Gordes'
   },
   de: {
     label: 'Foto und Parken',
     title: 'Wo entsteht das bekannte Foto von Gordes?',
-    intro: 'Das bekannte Postkartenfoto von Gordes entsteht am Town View Point Gordes, dem Aussichtspunkt an der Route de Cavaillon. Hier finden Besucher den einfachsten Fotospot mit Panoramablick, kurzem Halt und direktem Parkplatz.',
+    intro: 'Das bekannte Postkartenfoto von Gordes entsteht am Town View Point Gordes, dem Aussichtspunkt an der Route de Cavaillon. Der Aussichtspunkt liegt nahe einem kleinen Parkplatz und bietet einen Panoramablick.',
     photoQuestion: 'Wo entsteht das bekannte Foto von Gordes?',
     photoAnswer: 'Es wird am ausgeschilderten Aussichtspunkt Town View Point Gordes aufgenommen. Von hier sieht man das Dorf frontal und vollständig, genau aus der Perspektive, die auf den meisten bekannten Gordes-Fotos zu sehen ist.',
     photoPoints: [
@@ -75,13 +75,13 @@ export const homeIntentContent: Record<AppLocale, HomeIntentContent> = {
       'Bitte fuer Fotos im Parkplatz- und Aussichtspunktbereich bleiben, weil die Strasse stark befahren sein kann.'
     ],
     parkingTitle: 'Erst parken?',
-    parkingText: 'Unser Parkplatz-Guide erklaert, wo man am Aussichtspunkt parkt, wie schnell der Platz im Sommer voll ist und worin der Unterschied zum Parken im Dorf Gordes liegt.',
+    parkingText: 'Unser Parkplatz-Guide erklärt den Parkplatz am Aussichtspunkt und den Unterschied zu den Dorfparkplätzen.',
     parkingCta: 'Zum Parkplatz-Guide fuer Gordes'
   },
   'zh-Hant': {
     label: '拍照與停車',
     title: 'Gordes 最有名的照片在哪裡拍？',
-    intro: '大家最熟悉的 Gordes 明信片視角，就是在 Town View Point Gordes 這個路邊觀景台拍到的。這裡同時也是最方便的停車點之一，能快速拍到完整村景與全景視角。',
+    intro: '大家最熟悉的 Gordes 明信片視角，就是在 Town View Point Gordes 這個路邊觀景台拍到的。這裡靠近小型停車區，可以欣賞村莊全景。',
     photoQuestion: 'Gordes 最有名的照片在哪裡拍？',
     photoAnswer: '經典照片通常就是在標示為 Town View Point Gordes 的路邊觀景點拍攝。站在這裡可以正面看到整個山城輪廓，和網路上最常見的 Gordes 全景照片角度幾乎一致。',
     photoPoints: [
@@ -90,7 +90,7 @@ export const homeIntentContent: Record<AppLocale, HomeIntentContent> = {
       '拍照時請留在停車區與觀景台範圍內，路邊車流有時會比較多。'
     ],
     parkingTitle: '想先確認停車？',
-    parkingText: '英文、法文與德文版都已新增停車指南，整理了觀景台停車位置、旺季停滿時間，以及與 Gordes 村內停車場的差異。',
+    parkingText: '英文、法文與德文停車指南介紹觀景台停車區及村內停車場的差異。',
     parkingCta: '查看觀景台停車資訊'
   }
 };

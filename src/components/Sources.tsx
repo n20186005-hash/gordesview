@@ -26,7 +26,7 @@ export default function Sources() {
           </div>
           <div className="card">
             <h4 className="font-serif font-semibold mb-2" style={{ color: 'var(--text-primary)' }}>
-              {t('unsplash_title')}
+              <a href="https://www.parcduluberon.fr/en/geosite-en/gordes-en/">{t('unsplash_title')}</a>
             </h4>
             <p className="text-sm" style={{ color: 'var(--text-secondary)' }}>
               {t('unsplash_desc')}

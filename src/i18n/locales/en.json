@@ -41,33 +41,7 @@
   "gallery": {
     "label": "Photos",
     "title": "Gordes in images",
-    "credit": "Photos under Unsplash license",
-    "photos": [
-      {
-        "src": "https://images.unsplash.com/photo-1596627116790-af6f46dddbff?w=800&q=80",
-        "alt": "Panoramic view of Gordes village"
-      },
-      {
-        "src": "https://images.unsplash.com/photo-1595326053710-cbfce1bdb155?w=800&q=80",
-        "alt": "Golden stone houses of Gordes"
-      },
-      {
-        "src": "https://images.unsplash.com/photo-1602519011692-6bc23eeda174?w=800&q=80",
-        "alt": "Château de Gordes atop the village"
-      },
-      {
-        "src": "https://images.unsplash.com/photo-1559128010-7c1ad6e1b6a5?w=800&q=80",
-        "alt": "Provençal landscape of the Luberon"
-      },
-      {
-        "src": "https://images.unsplash.com/photo-1499002238440-d264edd596ec?w=800&q=80",
-        "alt": "Lavender fields in Provence"
-      },
-      {
-        "src": "https://images.unsplash.com/photo-1568797629739-9a910aa tried?w=800&q=80",
-        "alt": "Picturesque streets of Gordes"
-      }
-    ],
+    "credit": "The gallery images are illustrative.",
     "openOriginal": "Open original",
     "moreLink": "View more images on Google Maps"
   },
@@ -115,8 +89,8 @@
     "intro": "To ensure reliability, we only cite publicly accessible sources.",
     "google_title": "Google Maps (Basic information)",
     "google_desc": "Rating, opening hours, introduction, etc. (subject to change over time)",
-    "unsplash_title": "Unsplash (Photographs)",
-    "unsplash_desc": "Photos used under Unsplash license. Individual credits in captions.",
+    "unsplash_title": "Luberon Regional Natural Park",
+    "unsplash_desc": "The park describes the panorama and small parking area near the D15.",
     "disclaimer": "Information extracted from public resources (Tourist Office/Local Tourist Board and Wikipedia), combined with basic information from Google Maps."
   },
   "footer": {

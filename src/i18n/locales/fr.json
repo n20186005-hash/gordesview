@@ -41,33 +41,7 @@
   "gallery": {
     "label": "Photos",
     "title": "Gordes en images",
-    "credit": "Photos sous licence Unsplash",
-    "photos": [
-      {
-        "src": "https://images.unsplash.com/photo-1596627116790-af6f46dddbff?w=800&q=80",
-        "alt": "Vue panoramique du village de Gordes"
-      },
-      {
-        "src": "https://images.unsplash.com/photo-1595326053710-cbfce1bdb155?w=800&q=80",
-        "alt": "Maisons de pierre dorée de Gordes"
-      },
-      {
-        "src": "https://images.unsplash.com/photo-1602519011692-6bc23eeda174?w=800&q=80",
-        "alt": "Château de Gordes au sommet du village"
-      },
-      {
-        "src": "https://images.unsplash.com/photo-1559128010-7c1ad6e1b6a5?w=800&q=80",
-        "alt": "Paysage provençal du Luberon"
-      },
-      {
-        "src": "https://images.unsplash.com/photo-1499002238440-d264edd596ec?w=800&q=80",
-        "alt": "Champs de lavande en Provence"
-      },
-      {
-        "src": "https://images.unsplash.com/photo-1568797629739-9a910aa tried?w=800&q=80",
-        "alt": "Ruelles pittoresques de Gordes"
-      }
-    ],
+    "credit": "Les images de la galerie sont présentées à titre illustratif.",
     "openOriginal": "Ouvrir l'original",
     "moreLink": "Voir plus d'images sur Google Maps"
   },
@@ -115,8 +89,8 @@
     "intro": "Pour garantir la fiabilité des informations, nous ne citons que des sources publiquement accessibles.",
     "google_title": "Google Maps (Informations de base)",
     "google_desc": "Note, heures d'ouverture, introduction, etc. (susceptibles de changer avec le temps)",
-    "unsplash_title": "Unsplash (Photographies)",
-    "unsplash_desc": "Photos utilisées sous licence Unsplash. Crédits individuels dans les légendes.",
+    "unsplash_title": "Parc naturel régional du Luberon",
+    "unsplash_desc": "Le parc décrit le panorama et le petit parking près de la D15.",
     "disclaimer": "Informations extraites de ressources publiques (Office de Tourisme/Office de Tourisme local et Wikipédia), combinées aux informations de base de Google Maps."
   },
   "footer": {

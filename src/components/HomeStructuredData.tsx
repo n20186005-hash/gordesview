@@ -35,8 +35,8 @@ export default function HomeStructuredData({ locale, description }: Props) {
       },
       geo: {
         '@type': 'GeoCoordinates',
-        latitude: 43.90816896620646,
-        longitude: 5.197331002098652,
+        latitude: 43.9080307,
+        longitude: 5.1978341,
       },
       sameAs: [GOOGLE_MAPS_LINK],
     },
