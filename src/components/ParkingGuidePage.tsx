@@ -96,6 +96,7 @@ export default function ParkingGuidePage({ locale, path }: Props) {
           ))}
         </div>
 
+        <p className="mt-10 text-sm"><a href="https://www.parcduluberon.fr/en/geosite-en/gordes-en/">Parc naturel régional du Luberon — Panorama of Gordes</a> · 02/11/2026</p>
         <div className="flex flex-wrap gap-3 mt-12">
           <a href={GOOGLE_MAPS_LINK} target="_blank" rel="noopener noreferrer" className="btn-primary">
             {content.mapCta}
