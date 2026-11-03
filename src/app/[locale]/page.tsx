@@ -11,16 +11,20 @@ import HomeStructuredData from '@/components/HomeStructuredData';
 import { getSEOMetadata } from '@/lib/seo';
 import type { Metadata } from 'next';
 import type { AppLocale } from '@/lib/guide-content';
+import { routing } from '@/i18n/routing';
+import { notFound } from 'next/navigation';
 
 type Props = { params: Promise<{ locale: string }> };
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { locale } = await params;
+  if (!routing.locales.includes(locale as AppLocale)) notFound();
   return getSEOMetadata(locale, '');
 }
 
 export default async function Home({ params }: Props) {
   const { locale } = await params;
+  if (!routing.locales.includes(locale as AppLocale)) notFound();
   setRequestLocale(locale);
   const t = await getTranslations({ locale, namespace: 'overview' });
 

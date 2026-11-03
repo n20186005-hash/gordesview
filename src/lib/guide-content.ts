@@ -36,61 +36,61 @@ export const homeIntentContent: Record<AppLocale, HomeIntentContent> = {
   en: {
     label: 'Photo & Parking',
     title: 'Where is the famous Gordes photo taken?',
-    intro: 'The classic postcard photo of Gordes is taken from Town View Point Gordes on the roadside belvedere along Route de Cavaillon. This is also the easiest panoramic stop for visitors who want the best photo spot, quick parking and a wide open view of the village.',
+    intro: 'The classic postcard photo of Gordes is taken from Town View Point Gordes on the roadside belvedere along Route de Cavaillon. It offers a wide view of the village near a small roadside parking area.',
     photoQuestion: 'Where is the famous Gordes photo taken?',
     photoAnswer: 'It is taken from the signed roadside lookout known as Town View Point Gordes. From here you get the full frontal panorama of the village, with the stone houses stacked above the valley exactly like the best-known Gordes photos online.',
     photoPoints: [
-      'Best light is usually in the morning, when the village facade is evenly lit.',
+      'Light changes with the season and weather; choose your time accordingly.',
       'Sunset can be beautiful too, especially for warmer tones and panoramic sky colors.',
       'Stay inside the parking and belvedere area when taking photos because the roadside can be busy.'
     ],
     parkingTitle: 'Need parking first?',
-    parkingText: 'We created a dedicated parking guide covering the viewpoint parking area, how early it fills up, what to expect in summer and how it differs from Gordes village parking.',
+    parkingText: 'Our parking guide explains the viewpoint parking area and how it differs from village parking.',
     parkingCta: 'Read the Gordes Viewpoint Parking Guide'
   },
   fr: {
     label: 'Photo et parking',
     title: 'Où prendre la célèbre photo de Gordes ?',
-    intro: 'La photo carte postale la plus connue de Gordes se prend depuis le Town View Point Gordes, le belvédère routier situé sur la route de Cavaillon. C’est le point de vue Gordes le plus pratique pour profiter d’une vue panoramique, faire des photos et se garer rapidement.',
+    intro: 'La photo carte postale la plus connue de Gordes se prend depuis le Town View Point Gordes, le belvédère routier situé sur la route de Cavaillon. Ce belvédère offre une vue panoramique près d’un petit parking routier.',
     photoQuestion: 'Où prendre la célèbre photo de Gordes ?',
     photoAnswer: 'La photo emblématique se prend depuis le belvédère signalé comme Town View Point Gordes. Depuis ce point de vue sur Gordes, on voit toute la façade du village perché avec les maisons en pierre dorée empilées au-dessus de la vallée.',
     photoPoints: [
-      'La meilleure lumière arrive souvent le matin, quand la façade du village est bien éclairée.',
+      'La lumière varie selon la saison et la météo.',
       'Le coucher du soleil fonctionne aussi très bien pour des tons plus chauds et une vue panoramique plus dramatique.',
       'Restez dans la zone de stationnement et sur le belvédère pour prendre vos photos, car la route peut être passante.'
     ],
     parkingTitle: 'Vous cherchez où vous garer ?',
-    parkingText: 'Notre guide parking explique où se trouve le parking du point de vue Gordes, quand il se remplit en haute saison et la différence avec les parkings du village de Gordes.',
+    parkingText: 'Notre guide présente le parking du point de vue et les différences avec le stationnement dans le village.',
     parkingCta: 'Lire le guide parking du point de vue Gordes'
   },
   de: {
     label: 'Foto und Parken',
     title: 'Wo entsteht das bekannte Foto von Gordes?',
-    intro: 'Das bekannte Postkartenfoto von Gordes entsteht am Town View Point Gordes, dem Aussichtspunkt an der Route de Cavaillon. Hier finden Besucher den einfachsten Fotospot mit Panoramablick, kurzem Halt und direktem Parkplatz.',
+    intro: 'Das bekannte Postkartenfoto von Gordes entsteht am Town View Point Gordes, dem Aussichtspunkt an der Route de Cavaillon. Der Aussichtspunkt liegt nahe einem kleinen Parkplatz und bietet einen Panoramablick.',
     photoQuestion: 'Wo entsteht das bekannte Foto von Gordes?',
     photoAnswer: 'Es wird am ausgeschilderten Aussichtspunkt Town View Point Gordes aufgenommen. Von hier sieht man das Dorf frontal und vollständig, genau aus der Perspektive, die auf den meisten bekannten Gordes-Fotos zu sehen ist.',
     photoPoints: [
-      'Am besten ist das Licht meist am Morgen, wenn die Dorfseite gleichmaessig beleuchtet ist.',
+      'Das Licht variiert mit Jahreszeit und Wetter.',
       'Auch zum Sonnenuntergang lohnt sich der Stopp, besonders fuer warme Farben und einen weiten Himmel.',
       'Bitte fuer Fotos im Parkplatz- und Aussichtspunktbereich bleiben, weil die Strasse stark befahren sein kann.'
     ],
     parkingTitle: 'Erst parken?',
-    parkingText: 'Unser Parkplatz-Guide erklaert, wo man am Aussichtspunkt parkt, wie schnell der Platz im Sommer voll ist und worin der Unterschied zum Parken im Dorf Gordes liegt.',
+    parkingText: 'Unser Parkplatz-Guide erklärt den Parkplatz am Aussichtspunkt und den Unterschied zu den Dorfparkplätzen.',
     parkingCta: 'Zum Parkplatz-Guide fuer Gordes'
   },
   'zh-Hant': {
     label: '拍照與停車',
     title: 'Gordes 最有名的照片在哪裡拍？',
-    intro: '大家最熟悉的 Gordes 明信片視角，就是在 Town View Point Gordes 這個路邊觀景台拍到的。這裡同時也是最方便的停車點之一，能快速拍到完整村景與全景視角。',
+    intro: '大家最熟悉的 Gordes 明信片視角，就是在 Town View Point Gordes 這個路邊觀景台拍到的。這裡靠近小型停車區，可以欣賞村莊全景。',
     photoQuestion: 'Gordes 最有名的照片在哪裡拍？',
     photoAnswer: '經典照片通常就是在標示為 Town View Point Gordes 的路邊觀景點拍攝。站在這裡可以正面看到整個山城輪廓，和網路上最常見的 Gordes 全景照片角度幾乎一致。',
     photoPoints: [
-      '早晨通常是最好的拍照時間，村莊正面受光更平均。',
+      '光線會隨季節和天氣變化。',
       '日落時段也很適合，色調更暖，天空層次更豐富。',
       '拍照時請留在停車區與觀景台範圍內，路邊車流有時會比較多。'
     ],
     parkingTitle: '想先確認停車？',
-    parkingText: '英文、法文與德文版都已新增停車指南，整理了觀景台停車位置、旺季停滿時間，以及與 Gordes 村內停車場的差異。',
+    parkingText: '英文、法文與德文停車指南介紹觀景台停車區及村內停車場的差異。',
     parkingCta: '查看觀景台停車資訊'
   }
 };
@@ -98,10 +98,10 @@ export const homeIntentContent: Record<AppLocale, HomeIntentContent> = {
 export const parkingGuideContent: Record<ParkingGuideLocale, ParkingGuideContent> = {
   en: {
     metadataTitle: 'Gordes Viewpoint Parking: Where to Park for the Famous Gordes View',
-    metadataDescription: 'Find where to park for Town View Point Gordes, how busy the viewpoint lot gets, summer timing tips, walking distance and the difference between viewpoint parking and Gordes village parking.',
+    metadataDescription: 'Find where to park for Town View Point Gordes, the roadside lot, a short walk and the difference between viewpoint parking and Gordes village parking.',
     eyebrow: 'Parking Guide',
     title: 'Gordes Viewpoint Parking: Where to Park for the Famous Gordes View',
-    intro: 'If you want the iconic panoramic view of Gordes without circling the village first, park at the small roadside lot next to Town View Point Gordes. This is the fastest way to reach the famous photo spot and it works especially well for sunrise, quick stops and first-time visitors.',
+    intro: 'If you want the iconic panoramic view of Gordes without circling the village first, park at the small roadside lot next to Town View Point Gordes. It provides a short walk to the viewpoint when a space is available.',
     quickFacts: [
       { label: 'Parking spot', value: 'Small roadside parking beside the viewpoint' },
       { label: 'Address', value: ADDRESS },
@@ -119,20 +119,20 @@ export const parkingGuideContent: Record<ParkingGuideLocale, ParkingGuideContent
       {
         title: 'Is the parking free?',
         paragraphs: [
-          'The viewpoint parking is generally described by visitors as a free roadside stop, but local conditions can change. Check Google Maps or local signage when you arrive.',
+          'The Luberon regional park describes a small free parking area beside the D15. Conditions may change; check local signs when you arrive.',
           'If the viewpoint lot is full, continue carefully toward Gordes village and compare with the official village parking areas rather than stopping unsafely on the roadside.'
         ]
       },
       {
         title: 'Best time to find a space',
         paragraphs: [
-          'In high season, the easiest times are early morning and later in the evening. Midday is usually the busiest because day-trippers combine the photo stop with village visits.',
-          'Arriving early also gives you better light for the classic front-facing photo of Gordes.'
+          'The small parking area can be occupied when you arrive. Allow time for an alternative and follow local signs.',
+          'Light varies with the season and weather.'
         ],
         bullets: [
-          'Summer: aim for before 9:00 if possible',
-          'Sunrise visits are usually calmer than midday',
-          'Weekend afternoons can fill faster than weekdays'
+          'Allow extra time if the small parking area is full',
+          'Check local signs before parking',
+          'Use village parking if needed'
         ]
       },
       {
@@ -146,7 +146,7 @@ export const parkingGuideContent: Record<ParkingGuideLocale, ParkingGuideContent
         title: 'Safety and photography tips',
         paragraphs: [
           'Only park in marked or obviously permitted areas. The road can be active and visibility matters.',
-          'For the best photos, stay near the belvedere and avoid stepping into the roadway. Morning light is usually the most flattering for the village facade.'
+          'For the best photos, stay near the belvedere and avoid stepping into the roadway. Light varies with the season and weather.'
         ]
       }
     ],
@@ -156,10 +156,10 @@ export const parkingGuideContent: Record<ParkingGuideLocale, ParkingGuideContent
   },
   fr: {
     metadataTitle: 'Parking point de vue Gordes : où se garer pour la vue la plus célèbre',
-    metadataDescription: 'Guide pratique du parking du point de vue sur Gordes : où se garer, quand venir, affluence en été, distance à pied et différence entre le parking du belvédère et le parking du village.',
+    metadataDescription: 'Guide pratique du parking du point de vue sur Gordes : où se garer, la courte marche et différence entre le parking du belvédère et le parking du village.',
     eyebrow: 'Guide parking',
     title: 'Parking point de vue Gordes : où se garer pour la vue la plus célèbre',
-    intro: 'Si vous voulez voir immédiatement la célèbre vue panoramique sur Gordes, le plus simple est de vous garer sur le petit parking routier juste à côté du Town View Point Gordes. C’est l’arrêt le plus pratique pour la photo emblématique, un passage rapide ou une arrivée tôt le matin.',
+    intro: 'Si vous voulez voir immédiatement la célèbre vue panoramique sur Gordes, le plus simple est de vous garer sur le petit parking routier juste à côté du Town View Point Gordes. Il permet de rejoindre le belvédère après une courte marche, si une place est disponible.',
     quickFacts: [
       { label: 'Parking', value: 'Petit parking au bord de la route, juste à côté du belvédère' },
       { label: 'Adresse', value: ADDRESS },
@@ -177,20 +177,20 @@ export const parkingGuideContent: Record<ParkingGuideLocale, ParkingGuideContent
       {
         title: 'Le parking est-il gratuit ?',
         paragraphs: [
-          'Les visiteurs décrivent généralement ce parking du point de vue comme un arrêt gratuit, mais les conditions locales peuvent évoluer. Vérifiez toujours la signalisation sur place et les dernières informations sur Google Maps.',
+          'Le Parc naturel régional du Luberon décrit un petit parking gratuit près de la D15. Les conditions peuvent évoluer : vérifiez la signalisation sur place.',
           'Si le parking est complet, avancez prudemment vers Gordes et utilisez les parkings officiels du village plutôt que de vous arrêter dans une zone dangereuse.'
         ]
       },
       {
         title: 'Quand est-il le plus facile de se garer ?',
         paragraphs: [
-          'En haute saison, le plus simple est d’arriver tôt le matin ou en fin de journée. Le milieu de journée est souvent plus chargé, surtout quand les visiteurs combinent photo et promenade dans le village.',
-          'Arriver tôt permet aussi de profiter de la meilleure lumière sur la façade du village.'
+          'Le petit parking peut être occupé à votre arrivée. Prévoyez une solution de repli et respectez la signalisation.',
+          'La lumière varie selon la saison et la météo.'
         ],
         bullets: [
-          'En été, essayez d’arriver avant 9h',
-          'Le lever du soleil est souvent plus calme que le milieu de journée',
-          'Les week-ends d’après-midi sont souvent plus fréquentés'
+          'Prévoyez du temps si le petit parking est complet',
+          'Vérifiez la signalisation avant de stationner',
+          'Utilisez un parking du village si nécessaire'
         ]
       },
       {
@@ -204,7 +204,7 @@ export const parkingGuideContent: Record<ParkingGuideLocale, ParkingGuideContent
         title: 'Conseils de sécurité et de photo',
         paragraphs: [
           'Garez-vous uniquement dans les zones autorisées ou clairement utilisées comme stationnement. La circulation peut être active sur cette route.',
-          'Pour les meilleures photos, restez près du belvédère et évitez de marcher sur la chaussée. La lumière du matin est généralement la plus flatteuse.'
+          'Pour les meilleures photos, restez près du belvédère et évitez de marcher sur la chaussée. La lumière varie selon la saison et la météo.'
         ]
       }
     ],
@@ -214,10 +214,10 @@ export const parkingGuideContent: Record<ParkingGuideLocale, ParkingGuideContent
   },
   de: {
     metadataTitle: 'Parken Gordes Aussichtspunkt: Wo man fuer den bekannten Blick parkt',
-    metadataDescription: 'Praktischer Guide zum Parken am Gordes Aussichtspunkt: Standort, beste Uhrzeit, Sommerandrang, kurzer Fussweg und Unterschied zwischen Aussichtspunkt-Parkplatz und Dorfparkplaetzen.',
+    metadataDescription: 'Praktischer Guide zum Parken am Gordes Aussichtspunkt: Standort, kurzer Fussweg und Unterschied zwischen Aussichtspunkt-Parkplatz und Dorfparkplaetzen.',
     eyebrow: 'Parkplatz-Guide',
     title: 'Parken Gordes Aussichtspunkt: Wo man fuer den bekannten Blick parkt',
-    intro: 'Wenn Sie die bekannte Panoramaaussicht auf Gordes moeglichst direkt sehen moechten, ist der kleine Parkplatz neben dem Town View Point Gordes der einfachste Startpunkt. Er eignet sich fuer den klassischen Fotostopp, fuer einen kurzen Besuch und fuer Anreisen am fruehen Morgen.',
+    intro: 'Wenn Sie die bekannte Panoramaaussicht auf Gordes moeglichst direkt sehen moechten, ist der kleine Parkplatz neben dem Town View Point Gordes ein möglicher Startpunkt. Er eignet sich fuer den klassischen Fotostopp, fuer einen kurzen Besuch und fuer Anreisen am fruehen Morgen.',
     quickFacts: [
       { label: 'Parkplatz', value: 'Kleiner Parkplatz direkt neben dem Aussichtspunkt' },
       { label: 'Adresse', value: '13 Rte de Cavaillon, 84220 Gordes, Frankreich' },
@@ -235,20 +235,20 @@ export const parkingGuideContent: Record<ParkingGuideLocale, ParkingGuideContent
       {
         title: 'Ist das Parken kostenlos?',
         paragraphs: [
-          'Viele Besucher beschreiben den Halt am Aussichtspunkt als kostenlosen Parkplatz, dennoch koennen sich lokale Regeln aendern. Vor Ort daher immer die Beschilderung und die neuesten Hinweise auf Google Maps pruefen.',
+          'Der regionale Naturpark Luberon beschreibt einen kleinen kostenlosen Parkplatz an der D15. Regeln können sich ändern; beachten Sie die Beschilderung vor Ort.',
           'Wenn der kleine Parkplatz voll ist, besser weiter Richtung Gordes fahren und die offiziellen Dorfparkplaetze nutzen, statt unsicher am Strassenrand zu halten.'
         ]
       },
       {
         title: 'Wann findet man am ehesten einen Platz?',
         paragraphs: [
-          'In der Hochsaison klappt es meist am besten frueh am Morgen oder spaeter am Abend. Zur Mittagszeit ist es haeufig am vollsten.',
-          'Fruehe Ankunft bringt ausserdem das beste Licht fuer das bekannte Frontfoto von Gordes.'
+          'Der kleine Parkplatz kann bei Ihrer Ankunft belegt sein. Planen Sie eine Alternative ein und beachten Sie die Beschilderung.',
+          'Das Licht hängt von Jahreszeit und Wetter ab.'
         ],
         bullets: [
-          'Im Sommer moeglichst vor 9:00 ankommen',
-          'Zum Sonnenaufgang ist es oft ruhiger als mittags',
-          'Am Wochenende sind Nachmittage haeufig voller'
+          'Zeit einplanen, falls der kleine Parkplatz voll ist',
+          'Beschilderung vor dem Parken beachten',
+          'Bei Bedarf einen Dorfparkplatz nutzen'
         ]
       },
       {
@@ -262,7 +262,7 @@ export const parkingGuideContent: Record<ParkingGuideLocale, ParkingGuideContent
         title: 'Sicherheit und Fototipps',
         paragraphs: [
           'Bitte nur in markierten oder klar erlaubten Bereichen parken. Die Strasse kann viel Verkehr haben.',
-          'Fuer die besten Bilder in der Naehe des Belvedere bleiben und nicht auf die Fahrbahn treten. Morgenlicht ist meist am besten.'
+          'Fuer die besten Bilder in der Naehe des Belvedere bleiben und nicht auf die Fahrbahn treten. Das Licht hängt von Jahreszeit und Wetter ab.'
         ]
       }
     ],

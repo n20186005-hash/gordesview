@@ -2,8 +2,6 @@ import { homeIntentContent, type AppLocale, getParkingGuidePath } from '@/lib/gu
 import {
   ADDRESS,
   GOOGLE_MAPS_LINK,
-  GOOGLE_RATING_VALUE,
-  GOOGLE_REVIEW_COUNT,
   PLACE_ALT_NAME,
   PLACE_NAME,
   SITE_URL,
@@ -37,14 +35,8 @@ export default function HomeStructuredData({ locale, description }: Props) {
       },
       geo: {
         '@type': 'GeoCoordinates',
-        latitude: 43.90816896620646,
-        longitude: 5.197331002098652,
-      },
-      aggregateRating: {
-        '@type': 'AggregateRating',
-        ratingValue: GOOGLE_RATING_VALUE,
-        reviewCount: GOOGLE_REVIEW_COUNT,
-        bestRating: 5,
+        latitude: 43.9080307,
+        longitude: 5.1978341,
       },
       sameAs: [GOOGLE_MAPS_LINK],
     },

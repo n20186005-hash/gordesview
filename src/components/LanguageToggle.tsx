@@ -51,6 +51,11 @@ export default function LanguageToggle() {
       }
     }
 
+    if (normalizedPath === "/fr/rejoindre-point-de-vue-gordes" && code !== "fr") {
+      router.push(`/${code}`);
+      return;
+    }
+
     // Remove current locale prefix from pathname
     let path = pathname;
     for (const l of locales) {
