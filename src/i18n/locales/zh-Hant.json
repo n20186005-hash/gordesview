@@ -107,7 +107,7 @@
     "lastUpdate": "最后更新：2026年3月",
     "section1_title": "1. 信息收集",
     "section1_text": "請求經過 Cloudflare，該服務可能處理技術資料和伺服器紀錄。",
-    "section2_title": "2. Cookie 的使用",
+    "section2_title": "2. Cookie 與瀏覽器儲存空間",
     "section2_text": "此頁沒有同意設定控制項。網站將主題選擇儲存在瀏覽器的本機儲存空間，您可透過瀏覽器清除。",
     "section3_title": "3. 第三方链接",
     "section3_text": "嵌入的 Google 地圖和 Google 字型由第三方載入，可能接收 IP 位址等技術資料；請參閱其隱私政策。",
@@ -131,13 +131,10 @@
     "lastUpdate": "最后更新：2026年3月",
     "intro": "此頁沒有同意設定控制項。網站將主題選擇儲存在瀏覽器的本機儲存空間，您可透過瀏覽器清除。",
     "necessary_title": "Cookie 與外部服務",
-    "necessary_status": "始终开启",
     "necessary_text": "嵌入的 Google 地圖和 Google 字型由第三方載入，可能接收 IP 位址等技術資料；請參閱其隱私政策。",
     "analytics_title": "Cloudflare",
-    "analytics_status": "接受分析 Cookie",
     "analytics_text": "請求經過 Cloudflare，該服務可能處理技術資料和伺服器紀錄。",
     "marketing_title": "Cookie 與外部服務",
-    "marketing_status": "接受营销 Cookie",
     "marketing_text": "本網站沒有管理第三方 Cookie 的按鈕；請使用瀏覽器設定。"
   },
   "theme": {

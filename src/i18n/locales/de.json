@@ -107,7 +107,7 @@
     "lastUpdate": "Zuletzt aktualisiert: März 2026",
     "section1_title": "1. Informationserfassung",
     "section1_text": "Anfragen laufen über Cloudflare, das technische Daten und Serverprotokolle verarbeiten kann.",
-    "section2_title": "2. Verwendung von Cookies",
+    "section2_title": "2. Cookies und Browserspeicher",
     "section2_text": "Diese Seite enthält keine Einwilligungssteuerung. Die Themenwahl wird im lokalen Browserspeicher abgelegt und kann dort gelöscht werden.",
     "section3_title": "3. Links von Drittanbietern",
     "section3_text": "Die eingebettete Google-Maps-Karte und Google Fonts werden von Drittanbietern geladen. Dabei können technische Daten wie Ihre IP-Adresse übermittelt werden; beachten Sie deren Datenschutzhinweise.",
@@ -131,13 +131,10 @@
     "lastUpdate": "Zuletzt aktualisiert: März 2026",
     "intro": "Diese Seite enthält keine Einwilligungssteuerung. Die Themenwahl wird im lokalen Browserspeicher abgelegt und kann dort gelöscht werden.",
     "necessary_title": "Cookies und externe Dienste",
-    "necessary_status": "Immer aktiv",
     "necessary_text": "Die eingebettete Google-Maps-Karte und Google Fonts werden von Drittanbietern geladen. Dabei können technische Daten wie Ihre IP-Adresse übermittelt werden; beachten Sie deren Datenschutzhinweise.",
     "analytics_title": "Cloudflare",
-    "analytics_status": "Analyse-Cookies akzeptieren",
     "analytics_text": "Anfragen laufen über Cloudflare, das technische Daten und Serverprotokolle verarbeiten kann.",
     "marketing_title": "Cookies und externe Dienste",
-    "marketing_status": "Marketing-Cookies akzeptieren",
     "marketing_text": "Diese Website bietet keine Schaltflächen zur Verwaltung von Drittanbieter-Cookies; nutzen Sie die Browsereinstellungen."
   },
   "theme": {

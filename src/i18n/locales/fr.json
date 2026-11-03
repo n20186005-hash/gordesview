@@ -107,7 +107,7 @@
     "lastUpdate": "Dernière mise à jour : Mars 2026",
     "section1_title": "1. Collecte d'informations",
     "section1_text": "Les requêtes passent par Cloudflare, qui peut traiter des données techniques et des journaux de serveur.",
-    "section2_title": "2. Utilisation des cookies",
+    "section2_title": "2. Cookies et stockage du navigateur",
     "section2_text": "Cette page ne comporte pas de commandes de consentement. Le choix du thème est enregistré dans le stockage local du navigateur. Vous pouvez effacer ce stockage dans votre navigateur.",
     "section3_title": "3. Liens tiers",
     "section3_text": "La carte intégrée Google Maps et les polices Google sont chargées depuis des services tiers. Ces services peuvent recevoir des données techniques telles que votre adresse IP ; consultez leurs politiques de confidentialité.",
@@ -131,13 +131,10 @@
     "lastUpdate": "Dernière mise à jour : Mars 2026",
     "intro": "Cette page ne comporte pas de commandes de consentement. Le choix du thème est enregistré dans le stockage local du navigateur. Vous pouvez effacer ce stockage dans votre navigateur.",
     "necessary_title": "Informations sur les cookies et services externes",
-    "necessary_status": "Toujours actifs",
     "necessary_text": "La carte intégrée Google Maps et les polices Google sont chargées depuis des services tiers. Ces services peuvent recevoir des données techniques telles que votre adresse IP ; consultez leurs politiques de confidentialité.",
     "analytics_title": "Cloudflare",
-    "analytics_status": "Accepter les cookies d'analyse",
     "analytics_text": "Les requêtes passent par Cloudflare, qui peut traiter des données techniques et des journaux de serveur.",
     "marketing_title": "Informations sur les cookies et services externes",
-    "marketing_status": "Accepter les cookies marketing",
     "marketing_text": "Ce site ne fournit pas de boutons permettant de gérer les cookies de tiers ; utilisez les réglages de votre navigateur."
   },
   "theme": {
