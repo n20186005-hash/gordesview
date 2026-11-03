@@ -104,7 +104,7 @@
   },
   "privacy": {
     "title": "隐私政策",
-    "lastUpdate": "最后更新：2026年3月",
+    "lastUpdate": "最後更新：2026 年 11 月 2 日",
     "section1_title": "1. 信息收集",
     "section1_text": "請求經過 Cloudflare，該服務可能處理技術資料和伺服器紀錄。",
     "section2_title": "2. Cookie 與瀏覽器儲存空間",
@@ -116,7 +116,7 @@
   },
   "terms": {
     "title": "使用条款",
-    "lastUpdate": "最后更新：2026年3月",
+    "lastUpdate": "最後更新：2026 年 11 月 2 日",
     "section1_title": "1. 接受条款",
     "section1_text": "访问和使用本网站，即表示您同意受这些使用条款的约束。如果您不同意这些条款的任何部分，请不要使用我们的网站。",
     "section2_title": "2. 内容使用",
@@ -128,13 +128,13 @@
   },
   "cookieSettings": {
     "title": "Cookie 與外部服務",
-    "lastUpdate": "最后更新：2026年3月",
+    "lastUpdate": "最後更新：2026 年 11 月 2 日",
     "intro": "此頁沒有同意設定控制項。網站將主題選擇儲存在瀏覽器的本機儲存空間，您可透過瀏覽器清除。",
-    "necessary_title": "Cookie 與外部服務",
+    "necessary_title": "第三方服務",
     "necessary_text": "嵌入的 Google 地圖和 Google 字型由第三方載入，可能接收 IP 位址等技術資料；請參閱其隱私政策。",
     "analytics_title": "Cloudflare",
     "analytics_text": "請求經過 Cloudflare，該服務可能處理技術資料和伺服器紀錄。",
-    "marketing_title": "Cookie 與外部服務",
+    "marketing_title": "瀏覽器設定",
     "marketing_text": "本網站沒有管理第三方 Cookie 的按鈕；請使用瀏覽器設定。"
   },
   "theme": {

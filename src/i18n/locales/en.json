@@ -104,7 +104,7 @@
   },
   "privacy": {
     "title": "Privacy Policy",
-    "lastUpdate": "Last updated: March 2026",
+    "lastUpdate": "Last updated: 2 November 2026",
     "section1_title": "1. Information Collection",
     "section1_text": "Requests pass through Cloudflare, which may process technical data and server logs.",
     "section2_title": "2. Cookies and browser storage",
@@ -116,7 +116,7 @@
   },
   "terms": {
     "title": "Terms of Service",
-    "lastUpdate": "Last updated: March 2026",
+    "lastUpdate": "Last updated: 2 November 2026",
     "section1_title": "1. Acceptance of Terms",
     "section1_text": "By accessing and using this website, you agree to be bound by these terms of service. If you do not agree to any part of these terms, please do not use our site.",
     "section2_title": "2. Use of Content",
@@ -128,13 +128,13 @@
   },
   "cookieSettings": {
     "title": "Cookies and external services",
-    "lastUpdate": "Last updated: March 2026",
+    "lastUpdate": "Last updated: 2 November 2026",
     "intro": "This page has no consent controls. The theme choice is stored in browser local storage. You can clear it in your browser.",
-    "necessary_title": "Cookies and external services",
+    "necessary_title": "Third-party services",
     "necessary_text": "The embedded Google Maps map and Google Fonts load from third-party services. Those services may receive technical data such as your IP address; consult their privacy policies.",
     "analytics_title": "Cloudflare",
     "analytics_text": "Requests pass through Cloudflare, which may process technical data and server logs.",
-    "marketing_title": "Cookies and external services",
+    "marketing_title": "Browser settings",
     "marketing_text": "This site provides no buttons to manage third-party cookies; use your browser settings."
   },
   "theme": {

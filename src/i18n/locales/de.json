@@ -104,7 +104,7 @@
   },
   "privacy": {
     "title": "Datenschutzrichtlinie",
-    "lastUpdate": "Zuletzt aktualisiert: März 2026",
+    "lastUpdate": "Zuletzt aktualisiert: 2. November 2026",
     "section1_title": "1. Informationserfassung",
     "section1_text": "Anfragen laufen über Cloudflare, das technische Daten und Serverprotokolle verarbeiten kann.",
     "section2_title": "2. Cookies und Browserspeicher",
@@ -116,7 +116,7 @@
   },
   "terms": {
     "title": "Nutzungsbedingungen",
-    "lastUpdate": "Zuletzt aktualisiert: März 2026",
+    "lastUpdate": "Zuletzt aktualisiert: 2. November 2026",
     "section1_title": "1. Annahme der Bedingungen",
     "section1_text": "Durch den Zugriff auf diese Website und deren Nutzung erklären Sie sich mit diesen Nutzungsbedingungen einverstanden. Wenn Sie mit einem Teil dieser Bedingungen nicht einverstanden sind, nutzen Sie unsere Website bitte nicht.",
     "section2_title": "2. Nutzung von Inhalten",
@@ -128,13 +128,13 @@
   },
   "cookieSettings": {
     "title": "Cookies und externe Dienste",
-    "lastUpdate": "Zuletzt aktualisiert: März 2026",
+    "lastUpdate": "Zuletzt aktualisiert: 2. November 2026",
     "intro": "Diese Seite enthält keine Einwilligungssteuerung. Die Themenwahl wird im lokalen Browserspeicher abgelegt und kann dort gelöscht werden.",
-    "necessary_title": "Cookies und externe Dienste",
+    "necessary_title": "Drittanbieter",
     "necessary_text": "Die eingebettete Google-Maps-Karte und Google Fonts werden von Drittanbietern geladen. Dabei können technische Daten wie Ihre IP-Adresse übermittelt werden; beachten Sie deren Datenschutzhinweise.",
     "analytics_title": "Cloudflare",
     "analytics_text": "Anfragen laufen über Cloudflare, das technische Daten und Serverprotokolle verarbeiten kann.",
-    "marketing_title": "Cookies und externe Dienste",
+    "marketing_title": "Browsereinstellungen",
     "marketing_text": "Diese Website bietet keine Schaltflächen zur Verwaltung von Drittanbieter-Cookies; nutzen Sie die Browsereinstellungen."
   },
   "theme": {

@@ -104,7 +104,7 @@
   },
   "privacy": {
     "title": "Politique de confidentialité",
-    "lastUpdate": "Dernière mise à jour : Mars 2026",
+    "lastUpdate": "Dernière mise à jour : 2 novembre 2026",
     "section1_title": "1. Collecte d'informations",
     "section1_text": "Les requêtes passent par Cloudflare, qui peut traiter des données techniques et des journaux de serveur.",
     "section2_title": "2. Cookies et stockage du navigateur",
@@ -116,7 +116,7 @@
   },
   "terms": {
     "title": "Conditions d'utilisation",
-    "lastUpdate": "Dernière mise à jour : Mars 2026",
+    "lastUpdate": "Dernière mise à jour : 2 novembre 2026",
     "section1_title": "1. Acceptation des conditions",
     "section1_text": "En accédant et en utilisant ce site Web, vous acceptez d'être lié par ces conditions d'utilisation. Si vous n'acceptez pas une partie quelconque de ces conditions, veuillez ne pas utiliser notre site.",
     "section2_title": "2. Utilisation du contenu",
@@ -128,13 +128,13 @@
   },
   "cookieSettings": {
     "title": "Informations sur les cookies et services externes",
-    "lastUpdate": "Dernière mise à jour : Mars 2026",
+    "lastUpdate": "Dernière mise à jour : 2 novembre 2026",
     "intro": "Cette page ne comporte pas de commandes de consentement. Le choix du thème est enregistré dans le stockage local du navigateur. Vous pouvez effacer ce stockage dans votre navigateur.",
-    "necessary_title": "Informations sur les cookies et services externes",
+    "necessary_title": "Services tiers",
     "necessary_text": "La carte intégrée Google Maps et les polices Google sont chargées depuis des services tiers. Ces services peuvent recevoir des données techniques telles que votre adresse IP ; consultez leurs politiques de confidentialité.",
     "analytics_title": "Cloudflare",
     "analytics_text": "Les requêtes passent par Cloudflare, qui peut traiter des données techniques et des journaux de serveur.",
-    "marketing_title": "Informations sur les cookies et services externes",
+    "marketing_title": "Réglages du navigateur",
     "marketing_text": "Ce site ne fournit pas de boutons permettant de gérer les cookies de tiers ; utilisez les réglages de votre navigateur."
   },
   "theme": {
