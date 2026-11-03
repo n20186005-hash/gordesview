@@ -10,6 +10,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   
   return {
     title: t('title'),
+    description: t('section2_text'),
     ...getSEOMetadata(locale, '/terms-of-service'),
   };
 }

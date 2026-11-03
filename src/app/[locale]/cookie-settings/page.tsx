@@ -10,6 +10,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   
   return {
     title: t('title'),
+    description: t('intro'),
     ...getSEOMetadata(locale, '/cookie-settings'),
   };
 }
@@ -35,21 +36,18 @@ export default async function CookieSettings({ params }: Props) {
           <div className="card">
             <div className="flex items-center justify-between mb-2">
               <h2 className="font-serif text-lg font-semibold" style={{ color: 'var(--text-primary)' }}>{t('necessary_title')}</h2>
-              <span className="text-xs px-2 py-1 rounded-full font-medium" style={{ background: 'var(--tag-bg-section)', color: 'var(--tag-text-section)' }}>{t('necessary_status')}</span>
             </div>
             <p className="text-sm" style={{ color: 'var(--text-secondary)' }}>{t('necessary_text')}</p>
           </div>
           <div className="card">
             <div className="flex items-center justify-between mb-2">
               <h2 className="font-serif text-lg font-semibold" style={{ color: 'var(--text-primary)' }}>{t('analytics_title')}</h2>
-              <span className="text-xs px-2 py-1 rounded-full font-medium" style={{ background: 'var(--border-color)', color: 'var(--text-muted)' }}>{t('analytics_status')}</span>
             </div>
             <p className="text-sm" style={{ color: 'var(--text-secondary)' }}>{t('analytics_text')}</p>
           </div>
           <div className="card">
             <div className="flex items-center justify-between mb-2">
               <h2 className="font-serif text-lg font-semibold" style={{ color: 'var(--text-primary)' }}>{t('marketing_title')}</h2>
-              <span className="text-xs px-2 py-1 rounded-full font-medium" style={{ background: 'var(--border-color)', color: 'var(--text-muted)' }}>{t('marketing_status')}</span>
             </div>
             <p className="text-sm" style={{ color: 'var(--text-secondary)' }}>{t('marketing_text')}</p>
           </div>
