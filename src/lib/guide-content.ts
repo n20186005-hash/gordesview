@@ -40,7 +40,7 @@ export const homeIntentContent: Record<AppLocale, HomeIntentContent> = {
     photoQuestion: 'Where is the famous Gordes photo taken?',
     photoAnswer: 'It is taken from the signed roadside lookout known as Town View Point Gordes. From here you get the full frontal panorama of the village, with the stone houses stacked above the valley exactly like the best-known Gordes photos online.',
     photoPoints: [
-      'Best light is usually in the morning, when the village facade is evenly lit.',
+      'Light changes with the season and weather; choose your time accordingly.',
       'Sunset can be beautiful too, especially for warmer tones and panoramic sky colors.',
       'Stay inside the parking and belvedere area when taking photos because the roadside can be busy.'
     ],
@@ -55,7 +55,7 @@ export const homeIntentContent: Record<AppLocale, HomeIntentContent> = {
     photoQuestion: 'Où prendre la célèbre photo de Gordes ?',
     photoAnswer: 'La photo emblématique se prend depuis le belvédère signalé comme Town View Point Gordes. Depuis ce point de vue sur Gordes, on voit toute la façade du village perché avec les maisons en pierre dorée empilées au-dessus de la vallée.',
     photoPoints: [
-      'La meilleure lumière arrive souvent le matin, quand la façade du village est bien éclairée.',
+      'La lumière varie selon la saison et la météo.',
       'Le coucher du soleil fonctionne aussi très bien pour des tons plus chauds et une vue panoramique plus dramatique.',
       'Restez dans la zone de stationnement et sur le belvédère pour prendre vos photos, car la route peut être passante.'
     ],
@@ -70,7 +70,7 @@ export const homeIntentContent: Record<AppLocale, HomeIntentContent> = {
     photoQuestion: 'Wo entsteht das bekannte Foto von Gordes?',
     photoAnswer: 'Es wird am ausgeschilderten Aussichtspunkt Town View Point Gordes aufgenommen. Von hier sieht man das Dorf frontal und vollständig, genau aus der Perspektive, die auf den meisten bekannten Gordes-Fotos zu sehen ist.',
     photoPoints: [
-      'Am besten ist das Licht meist am Morgen, wenn die Dorfseite gleichmaessig beleuchtet ist.',
+      'Das Licht variiert mit Jahreszeit und Wetter.',
       'Auch zum Sonnenuntergang lohnt sich der Stopp, besonders fuer warme Farben und einen weiten Himmel.',
       'Bitte fuer Fotos im Parkplatz- und Aussichtspunktbereich bleiben, weil die Strasse stark befahren sein kann.'
     ],
@@ -85,7 +85,7 @@ export const homeIntentContent: Record<AppLocale, HomeIntentContent> = {
     photoQuestion: 'Gordes 最有名的照片在哪裡拍？',
     photoAnswer: '經典照片通常就是在標示為 Town View Point Gordes 的路邊觀景點拍攝。站在這裡可以正面看到整個山城輪廓，和網路上最常見的 Gordes 全景照片角度幾乎一致。',
     photoPoints: [
-      '早晨通常是最好的拍照時間，村莊正面受光更平均。',
+      '光線會隨季節和天氣變化。',
       '日落時段也很適合，色調更暖，天空層次更豐富。',
       '拍照時請留在停車區與觀景台範圍內，路邊車流有時會比較多。'
     ],
@@ -127,12 +127,12 @@ export const parkingGuideContent: Record<ParkingGuideLocale, ParkingGuideContent
         title: 'Best time to find a space',
         paragraphs: [
           'In high season, the easiest times are early morning and later in the evening. Midday is usually the busiest because day-trippers combine the photo stop with village visits.',
-          'Arriving early also gives you better light for the classic front-facing photo of Gordes.'
+          'Light varies with the season and weather.'
         ],
         bullets: [
-          'Summer: aim for before 9:00 if possible',
-          'Sunrise visits are usually calmer than midday',
-          'Weekend afternoons can fill faster than weekdays'
+          'Allow extra time if the small parking area is full',
+          'Check local signs before parking',
+          'Use village parking if needed'
         ]
       },
       {
@@ -146,7 +146,7 @@ export const parkingGuideContent: Record<ParkingGuideLocale, ParkingGuideContent
         title: 'Safety and photography tips',
         paragraphs: [
           'Only park in marked or obviously permitted areas. The road can be active and visibility matters.',
-          'For the best photos, stay near the belvedere and avoid stepping into the roadway. Morning light is usually the most flattering for the village facade.'
+          'For the best photos, stay near the belvedere and avoid stepping into the roadway. Light varies with the season and weather.'
         ]
       }
     ],
@@ -185,12 +185,12 @@ export const parkingGuideContent: Record<ParkingGuideLocale, ParkingGuideContent
         title: 'Quand est-il le plus facile de se garer ?',
         paragraphs: [
           'En haute saison, le plus simple est d’arriver tôt le matin ou en fin de journée. Le milieu de journée est souvent plus chargé, surtout quand les visiteurs combinent photo et promenade dans le village.',
-          'Arriver tôt permet aussi de profiter de la meilleure lumière sur la façade du village.'
+          'La lumière varie selon la saison et la météo.'
         ],
         bullets: [
-          'En été, essayez d’arriver avant 9h',
-          'Le lever du soleil est souvent plus calme que le milieu de journée',
-          'Les week-ends d’après-midi sont souvent plus fréquentés'
+          'Prévoyez du temps si le petit parking est complet',
+          'Vérifiez la signalisation avant de stationner',
+          'Utilisez un parking du village si nécessaire'
         ]
       },
       {
@@ -204,7 +204,7 @@ export const parkingGuideContent: Record<ParkingGuideLocale, ParkingGuideContent
         title: 'Conseils de sécurité et de photo',
         paragraphs: [
           'Garez-vous uniquement dans les zones autorisées ou clairement utilisées comme stationnement. La circulation peut être active sur cette route.',
-          'Pour les meilleures photos, restez près du belvédère et évitez de marcher sur la chaussée. La lumière du matin est généralement la plus flatteuse.'
+          'Pour les meilleures photos, restez près du belvédère et évitez de marcher sur la chaussée. La lumière varie selon la saison et la météo.'
         ]
       }
     ],
@@ -243,12 +243,12 @@ export const parkingGuideContent: Record<ParkingGuideLocale, ParkingGuideContent
         title: 'Wann findet man am ehesten einen Platz?',
         paragraphs: [
           'In der Hochsaison klappt es meist am besten frueh am Morgen oder spaeter am Abend. Zur Mittagszeit ist es haeufig am vollsten.',
-          'Fruehe Ankunft bringt ausserdem das beste Licht fuer das bekannte Frontfoto von Gordes.'
+          'Das Licht hängt von Jahreszeit und Wetter ab.'
         ],
         bullets: [
-          'Im Sommer moeglichst vor 9:00 ankommen',
-          'Zum Sonnenaufgang ist es oft ruhiger als mittags',
-          'Am Wochenende sind Nachmittage haeufig voller'
+          'Zeit einplanen, falls der kleine Parkplatz voll ist',
+          'Beschilderung vor dem Parken beachten',
+          'Bei Bedarf einen Dorfparkplatz nutzen'
         ]
       },
       {
@@ -262,7 +262,7 @@ export const parkingGuideContent: Record<ParkingGuideLocale, ParkingGuideContent
         title: 'Sicherheit und Fototipps',
         paragraphs: [
           'Bitte nur in markierten oder klar erlaubten Bereichen parken. Die Strasse kann viel Verkehr haben.',
-          'Fuer die besten Bilder in der Naehe des Belvedere bleiben und nicht auf die Fahrbahn treten. Morgenlicht ist meist am besten.'
+          'Fuer die besten Bilder in der Naehe des Belvedere bleiben und nicht auf die Fahrbahn treten. Das Licht hängt von Jahreszeit und Wetter ab.'
         ]
       }
     ],

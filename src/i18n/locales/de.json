@@ -17,8 +17,8 @@
     "title": "Town View Point Gordes",
     "subtitle": "Besucherleitfaden - Gordes Viewpoint",
     "rating": "4,7/5",
-    "reviewCount": "3.510 Bewertungen",
-    "hours": "24/7 geöffnet",
+    "reviewCount": "3.532 Bewertungen",
+    "hours": "Zeiten laut Google Maps",
     "discover": "Entdecken",
     "seePhotos": "Fotos ansehen",
     "address": "13 Rte de Cavaillon, 84220 Gordes, Frankreich",
@@ -31,9 +31,9 @@
     "highlight1_title": "Ikonisches Panorama",
     "highlight1_icon": "🏔",
     "highlight1_desc": "Der berühmteste Frontalblick auf Gordes mit einer vollständigen Perspektive des Dorfes an der Kalksteinklippe des Luberon.",
-    "highlight2_title": "Freier Zugang 24/7",
+    "highlight2_title": "Zeiten laut Google Maps",
     "highlight2_icon": "☀️",
-    "highlight2_desc": "Jederzeit zugänglicher Aussichtspunkt mit Parkplatz. Ideal bei Sonnenaufgang und Sonnenuntergang für goldenes Licht auf dem Stein.",
+    "highlight2_desc": "Bedingungen und Beschilderung können sich ändern.",
     "highlight3_title": "Herz des Luberon",
     "highlight3_icon": "🌿",
     "highlight3_desc": "Tor zu den schönsten Dörfern des Luberon: Roussillon, Ménerbes, Bonnieux und die umliegenden Lavendelfelder."
@@ -75,8 +75,8 @@
     "label": "Tipps",
     "title": "Komfortabel besuchen",
     "intro": "Der Town View Point ist ein kurzer, aber unvergesslicher Halt. Kombinieren Sie ihn mit einem Besuch des Dorfes Gordes für einen halben Tag.",
-    "step1_title": "Kommen Sie früh morgens",
-    "step1_desc": "Goldenes Morgenlicht beleuchtet die Dorffassade. Weniger Besucher und bestes Licht zum Fotografieren — kommen Sie im Sommer vor 9 Uhr.",
+    "step1_title": "Besuch vorbereiten",
+    "step1_desc": "Das Licht hängt von Jahreszeit und Wetter ab. Planen Sie Zeit für einen erlaubten Parkplatz ein.",
     "step2_title": "Parken Sie am angrenzenden Parkplatz",
     "step2_desc": "Ein kleiner kostenloser Parkplatz befindet sich direkt neben dem Aussichtspunkt. In der Hauptsaison (Juli-August) füllt er sich schnell.",
     "step3_title": "Weiter zum Dorf",
@@ -84,76 +84,26 @@
     "safety_title": "Sicherheit",
     "safety_desc": "Der Straßenrand kann belebt sein. Bleiben Sie im Parkbereich und auf der Aussichtsplattform. Achten Sie auf Kinder in Straßennähe.",
     "terrain_title": "Gelände",
-    "terrain_desc": "Flaches und zugängliches Gelände am Aussichtspunkt. Das Dorf selbst ist sehr steil mit Kopfsteinpflaster — tragen Sie bequeme Schuhe."
+    "terrain_desc": "Auf dem Weg und beim Überqueren der D15 ist Vorsicht nötig. Das Dorf ist steil und gepflastert."
   },
   "reviews": {
     "label": "Bewertungen",
-    "title": "Echte Besucherbewertungen",
+    "title": "Google-Maps-Bewertung",
     "rating": "4,7",
-    "count": "3.510 Bewertungen",
-    "declaration": "Bewertungen und Rezensionen basieren auf den neuesten Google-Maps-Daten, die uns vorliegen. Wir zeigen hier nur eine Auswahl; fuer die aktuellste Anzahl und alle neuen Rezensionen bitte Google Maps oeffnen.",
-    "moreLink": "Mehr Bewertungen auf Google Maps ansehen",
-    "items": [
-      {
-        "name": "Jean-Marc P.",
-        "role": "Lokaler Guide",
-        "date": "Vor 1 Monat",
-        "text": "Der schönste Aussichtspunkt auf Gordes, ohne Zweifel. Bei Sonnenaufgang leuchten die goldenen Steine nach und nach auf — ein magisches Schauspiel. Einfaches Parken und freier Zugang."
-      },
-      {
-        "name": "Claire D.",
-        "role": "Fotografin",
-        "date": "Vor 2 Monaten",
-        "text": "DAS Postkartenfoto von Gordes. Kommen Sie früh morgens, um Gegenlicht zu vermeiden. Im Winter fügt der Morgennebel eine mystische Atmosphäre hinzu."
-      },
-      {
-        "name": "Thomas W.",
-        "role": "Reisender",
-        "date": "Vor 3 Wochen",
-        "text": "Pflichtstation auf der Straße von Cavaillon. Der Blick auf das Bergdorf ist atemberaubend. Kurz aber unvergesslich — jetzt verstehe ich, warum Gordes so berühmt ist."
-      },
-      {
-        "name": "Marie L.",
-        "role": "Touristin",
-        "date": "2025-11",
-        "text": "Wir hielten zufällig an und was für eine Entdeckung! Der Panoramablick auf Gordes ist außergewöhnlich. Ein perfekter Ort für Familienfotos."
-      },
-      {
-        "name": "Pierre R.",
-        "role": "Einheimischer",
-        "date": "2025-09",
-        "text": "Im Herbst, wenn goldene Blätter mit dem weißen Stein des Dorfes und dem blauen provenzalischen Himmel kontrastieren, ist es wie ein lebendes Gemälde."
-      },
-      {
-        "name": "Emma S.",
-        "role": "Unabhängige Reisende",
-        "date": "2025-10",
-        "text": "Kurzer Halt an der D15 — absolut lohnenswert. Der Blick auf Gordes, das an der Klippe klebt, ist atemberaubend. Kostenloser Parkplatz, einfacher Zugang."
-      },
-      {
-        "name": "Lucas M.",
-        "role": "Architektur-Liebhaber",
-        "date": "2025-08",
-        "text": "Das Dorflayout von hier ist faszinierend — man sieht deutlich, wie die Häuser die Kalksteinklippe hinabsteigen. Provenzalische Architektur in ihrer ganzen Pracht."
-      },
-      {
-        "name": "Sophie Chen",
-        "role": "Rucksacktouristin",
-        "date": "2025-07",
-        "text": "Vom Aussichtspunkt aus hängt das gesamte Steindorf an der Klippe, goldenes Sonnenlicht auf den Wänden — wunderschön. Kostenloser Parkplatz, kein Fußweg nötig!"
-      }
-    ]
+    "count": "3.532 Bewertungen",
+    "declaration": "Google Maps: 4,7/5 und 3.532 Bewertungen am 2. November 2026. Die aktuellen Angaben stehen im Eintrag.",
+    "moreLink": "Mehr Bewertungen auf Google Maps ansehen"
   },
   "map": {
     "label": "Karte",
     "title": "Karte",
     "openMaps": "Route in Google Maps planen",
     "hours_label": "Öffnungszeiten",
-    "hours_value": "24/7 geöffnet",
-    "hours_note": "Aussichtspunkt jederzeit zugänglich. Kostenloser Parkplatz nebenan.",
-    "light_label": "Bestes Licht",
-    "light_value": "Morgen & Sonnenuntergang",
-    "light_note": "Morgenlicht beleuchtet die Dorffassade; Sonnenuntergang bietet spektakuläre Goldtöne.",
+    "hours_value": "Zeiten laut Google Maps",
+    "hours_note": "Bedingungen und Beschilderung können sich ändern.",
+    "light_label": "Licht",
+    "light_value": "Je nach Jahreszeit",
+    "light_note": "Das Licht hängt von Jahreszeit und Wetter ab.",
     "rule_label": "Grundregel",
     "rule_value": "Respektieren Sie den Ort",
     "rule_note": "Keinen Müll hinterlassen. Auf ausgewiesenen Flächen bleiben. Auf den Straßenverkehr achten.",
@@ -175,7 +125,7 @@
     "privacy": "Datenschutzrichtlinie",
     "terms": "Nutzungsbedingungen",
     "cookies": "Cookie-Einstellungen",
-    "disclaimer": "Diese Website ist ein unabhängiger Reiseführer eines Drittanbieters, der Besuchern objektive historische Hintergründe und Reisetipps bieten soll und nicht mit der offiziellen Verwaltungsstelle von Town View Point Gordes verbunden ist. Für den Kauf offizieller Tickets besuchen Sie bitte die offiziellen Kanäle.",
+    "disclaimer": "Dies ist ein unabhängiger Reiseführer ohne Verbindung zur Verwaltung des Ortes.",
     "about": "Über Uns"
   },
   "privacy": {

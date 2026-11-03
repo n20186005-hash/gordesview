@@ -49,6 +49,7 @@ export default function SearchIntentSection({ locale }: Props) {
             </a>
           </div>
         </div>
+        {locale === "fr" && <p className="mt-6"><a href="/fr/rejoindre-point-de-vue-gordes/" className="btn-outline inline-flex">Rejoindre le point de vue : route et marche</a></p>}
       </div>
     </section>
   );

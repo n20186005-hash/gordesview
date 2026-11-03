@@ -5,7 +5,7 @@ export const GOOGLE_MAPS_LINK = 'https://maps.app.goo.gl/wnuddYxyYNwaXRPd6';
 export const ADDRESS = '13 Rte de Cavaillon, 84220 Gordes, France';
 export const PLUS_CODE = 'W55X+64 Gordes, France';
 export const GOOGLE_RATING_VALUE = 4.7;
-export const GOOGLE_REVIEW_COUNT = 3510;
+export const GOOGLE_REVIEW_COUNT = 3532;
 
 export const PARKING_GUIDE_PATHS = {
   en: '/en/gordes-viewpoint-parking',

@@ -85,5 +85,6 @@ export default function sitemap(): MetadataRoute.Sitemap {
     });
   });
 
+  sitemapEntries.push({ url: `${baseUrl}/fr/rejoindre-point-de-vue-gordes/`, alternates: { languages: { fr: `${baseUrl}/fr/rejoindre-point-de-vue-gordes/`, "x-default": `${baseUrl}/fr/rejoindre-point-de-vue-gordes/` } } });
   return sitemapEntries;
 }
