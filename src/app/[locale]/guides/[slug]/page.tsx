@@ -40,6 +40,45 @@ const mapDestinations:Record<string,string>={
  'gordes-accessibilite':'Place du Château, Gordes, France',
  'gordes-par-temps-de-pluie':'Caves du Palais Saint-Firmin, Gordes, France',
 };
+type Management = { title:string; body:string; source:string; sourceLabel:string };
+const publicManagement:Management={
+ title:'À propos des espaces publics de Gordes',
+ body:'Gordes est une commune du Vaucluse dont les rues, places et parcs de stationnement publics relèvent de la municipalité pour les questions de voirie et de stationnement. Le village perché s’est développé sur un éperon de molasse calcaire : son château, son église et ses maisons de pierre composent le paysage que l’on découvre depuis le Rocher Bel-Air. Les sites visitables situés dans et autour du village conservent chacun leurs propres conditions d’accueil et leur propre responsable.',
+ source:'https://www.gordes-village.com/en/stationnement%2Cstationner-a-gordes%2C1028.html',sourceLabel:'Commune de Gordes — stationnement'
+};
+const managementBySlug:Record<string,Management>={
+ 'journee-gordes-senanque':{
+  title:'À propos de l’abbaye Notre-Dame de Sénanque',
+  body:'L’abbaye Notre-Dame de Sénanque abrite encore une communauté de moines cisterciens qui y vit selon la règle de saint Benoît. Fondée en 1148 dans le vallon de la Sénancole, elle conserve sa vocation religieuse tout en accueillant des visiteurs dans les espaces et créneaux prévus. La communauté monastique est donc l’interlocuteur de référence pour les offices, l’accueil spirituel et les modalités de visite, tandis que la commune de Gordes gère ses propres espaces publics.',
+  source:'https://www.senanque.fr/',sourceLabel:'Abbaye de Sénanque — communauté et visites'
+ },
+ 'gordes-les-bories':{
+  title:'À propos du Village des Bories',
+  body:'Le Village des Bories appartient à la commune de Gordes, qui en est devenue gestionnaire dans les années 1980. Ce musée d’habitat rural conserve un ensemble de cabanes, murets et constructions en pierre sèche qui témoignent de la vie agricole des plateaux du Luberon. Le parcours permet de comprendre les techniques de construction traditionnelles et les usages des espaces ; les horaires et les règles de visite sont communiqués par le site et la commune.',
+  source:'https://www.levillagedesbories.com/la-restauration.php',sourceLabel:'Village des Bories — histoire de la restauration'
+ },
+ 'chateau-de-gordes-guide':{
+  title:'À propos du château de Gordes',
+  body:'Au centre du village, le château de Gordes constitue l’un des principaux repères historiques et architecturaux de la commune. La mairie de Gordes est installée place du Château et le monument figure parmi les éléments protégés de son patrimoine. La commune est le contact de référence pour les informations municipales et l’usage des espaces publics autour du château ; pour une exposition ou un accès intérieur, consultez l’organisateur de la visite annoncée.',
+  source:'https://www.chateaudegordes.com/mentions-legales.php',sourceLabel:'Château de Gordes — mentions légales'
+ },
+ 'eglise-saint-firmin-gordes':{
+  title:'À propos de l’église Saint-Firmin',
+  body:'L’église Saint-Firmin est propriété de la commune de Gordes, selon la notice patrimoniale du ministère de la Culture. Le monument a fait l’objet de restaurations conduites avec la commune ; l’association des Amis de l’église contribue à la sauvegarde du patrimoine, tandis que la vie liturgique relève de la paroisse. Il faut donc distinguer entretien patrimonial, activités associatives et célébrations religieuses. Le bâtiment actuel date principalement du XVIIIe siècle.',
+  source:'https://pop.culture.gouv.fr/notice/merimee/PA84000091',sourceLabel:'Ministère de la Culture — église Saint-Firmin'
+ },
+ 'caves-du-palais-saint-firmin':{
+  title:'À propos des Caves du Palais Saint-Firmin',
+  body:'Les Caves du Palais Saint-Firmin sont un site patrimonial privé situé sous une demeure de la Renaissance, au cœur de Gordes. La famille Morand a contribué pendant plusieurs décennies au dégagement et à la restauration de cet ensemble semi-troglodytique, où l’on découvre des traces d’activités artisanales anciennes. Les modalités de visite et l’accueil relèvent des responsables du site privé, et non du service municipal de stationnement.',
+  source:'https://rendezvousauxjardins.culture.gouv.fr/w/386955/evenement/19510564/decouvrez-les-jardins-prives-du-palais-saint-firmin',sourceLabel:'Ministère de la Culture — Palais Saint-Firmin'
+ },
+ 'gordes-roussillon-itineraire':{
+  title:'À propos des communes de Gordes et de Roussillon',
+  body:'Cet itinéraire relie deux communes distinctes du Luberon : Gordes, célèbre pour ses maisons de pierre claire sur un éperon, et Roussillon, caractérisé par ses paysages d’ocre. Chacune assure ses propres services et espaces publics ; le Sentier des Ocres possède ses propres règles d’accès et d’accueil. Il ne faut donc pas attribuer la gestion de Roussillon à la mairie de Gordes, même dans le cadre d’une excursion commune.',
+  source:'https://www.destinationluberon.com/decouvrir/villes-et-villages/gordes',sourceLabel:'Destination Luberon — Gordes et alentours'
+ }
+};
+
 const travelOrigins:Record<string,string>={
  'avignon-gordes':'Avignon, France','apt-gordes':'Apt, Vaucluse, France','cavaillon-gordes':'Cavaillon, Vaucluse, France'
 };
@@ -74,6 +113,12 @@ export default async function GuidePage({params}:Props){
     <p className="text-lg mb-8 max-w-3xl" style={{color:'var(--text-secondary)'}}>{g.intro}</p>
     {photo && <figure className="mb-10"><img src={`/gallery/images%20(${photo[0]}).jpg`} alt={photo[1]} width="900" height="600" loading="lazy" className="w-full rounded-xl object-cover max-h-[520px]"/><figcaption className="mt-2 text-sm" style={{color:'var(--text-muted)'}}>{photo[1]} · Photographie de la galerie existante</figcaption></figure>}
     {additional.length>0 && <div className="grid md:grid-cols-2 gap-5 mb-10">{additional.map(p=><figure key={p.file}><img src={`/guide-photos/${p.file}`} alt={p.alt} width="720" height="480" loading="lazy" className="w-full rounded-xl object-cover h-72"/><figcaption className="text-sm mt-2" style={{color:'var(--text-muted)'}}>{p.alt} · <a href={p.source} className="underline" target="_blank" rel="noopener noreferrer">Photo : Wikimedia Commons</a></figcaption></figure>)}</div>}
+    <section className="card mb-10" aria-labelledby="management-title">
+      <p className="section-label">Patrimoine et accueil</p>
+      <h2 id="management-title" className="text-2xl md:text-3xl font-semibold mb-4">{(managementBySlug[slug]??publicManagement).title}</h2>
+      <p>{(managementBySlug[slug]??publicManagement).body}</p>
+      <p className="text-sm mt-4" style={{color:'var(--text-secondary)'}}>Référence : <a className="underline" target="_blank" rel="noopener noreferrer" href={(managementBySlug[slug]??publicManagement).source}>{(managementBySlug[slug]??publicManagement).sourceLabel}</a></p>
+    </section>
     <div className="grid md:grid-cols-3 gap-8"><div className="md:col-span-2 space-y-8">
       <section className="card"><h2 className="text-2xl font-semibold mb-4">Découvrir et comprendre</h2><p>{g.context}</p><p className="mt-4">{d.heritage}</p></section>
       <section className="card"><h2 className="text-2xl font-semibold mb-4">Architecture, paysage et points d’observation</h2><p>{d.look}</p></section>
