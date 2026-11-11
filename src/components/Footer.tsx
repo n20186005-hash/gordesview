@@ -12,6 +12,7 @@ export default function Footer() {
       <div className="max-w-6xl mx-auto px-4">
         {/* Links */}
         <div className="flex flex-wrap gap-6 mb-6 text-sm">
+          {locale === 'fr' && <a href="/fr/guides/" style={{ color: 'var(--text-muted)' }} className="hover:underline">Guides de Gordes</a>}
           <a href={`${prefix}/privacy-policy`} style={{ color: 'var(--text-muted)' }} className="hover:underline">
             {t('privacy')}
           </a>

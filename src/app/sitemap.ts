@@ -1,5 +1,6 @@
 import { MetadataRoute } from 'next';
 import { PARKING_GUIDE_PATHS } from '@/lib/site-data';
+import { guides } from '@/lib/fr-guides';
 
 const baseUrl = 'https://www.gordesview.com';
 const locales = ['fr', 'en', 'de', 'zh-Hant'];
@@ -86,5 +87,8 @@ export default function sitemap(): MetadataRoute.Sitemap {
   });
 
   sitemapEntries.push({ url: `${baseUrl}/fr/rejoindre-point-de-vue-gordes/`, alternates: { languages: { fr: `${baseUrl}/fr/rejoindre-point-de-vue-gordes/`, "x-default": `${baseUrl}/fr/rejoindre-point-de-vue-gordes/` } } });
+  for (const path of ['/fr/guides/', ...guides.map(g=>`/fr/guides/${g.slug}/`)]) {
+    sitemapEntries.push({url:`${baseUrl}${path}`,changeFrequency:'monthly',priority:0.7});
+  }
   return sitemapEntries;
 }
